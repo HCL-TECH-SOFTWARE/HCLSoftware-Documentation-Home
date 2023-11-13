@@ -1,0 +1,28 @@
+#__next :is(.w-full) {
+    width: 50%;
+}
+
+.gsc-comment-box-tabs .gsc-comment-box-textarea-extras {
+	background-color: #ECF2F9;
+}
+
+.gsc-comment-box-textarea .gsc-comment-box-bottom {
+	background-color: #e0e0e0;
+}
+
+
+.gsc-comment .gsc-reply {
+	background-color: #f8f8f8
+}
+
+.color-border-primary {
+	background-color: #17707F;
+}
+
+button {
+	font-weight: bold;
+}
+
+.gsc-tl-line {
+	background-color: #17707F !important;
+}
