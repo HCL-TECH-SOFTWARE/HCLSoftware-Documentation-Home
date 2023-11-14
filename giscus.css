@@ -3,7 +3,7 @@
 }
 
 .gsc-comment-box-tabs .gsc-comment-box-textarea-extras {
-	background-color: #ECF2F9;
+	background-color: #f8f8f8;
 }
 
 .gsc-comment-box-textarea .gsc-comment-box-bottom {
@@ -13,11 +13,11 @@
 
 
 .gsc-comment .gsc-reply {
-	background-color: #f8f8f8
+	background-color: #f8f8f8;
 }
 
 .color-border-primary {
-	#background-color: #17707F;
+	border-color: #17707F;
 }
 
 button {
