@@ -12,7 +12,11 @@
 
 
 
-.gsc-comment .gsc-reply {
+.gsc-comment {
+	background-color: #f8f8f8;
+}
+
+.gsc-reply {
 	background-color: #f8f8f8;
 }
 
