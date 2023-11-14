@@ -2,7 +2,7 @@
     width: 100%;
 }
 
-.gsc-comment-box-tabs .gsc-comment-box-textarea-extras {
+.gsc-comment-box-tabs {
 	background-color: #f8f8f8;
 }
 
@@ -21,6 +21,14 @@
 }
 
 .color-border-primary {
+	border-color: #17707F;
+}
+
+.gsc-comment-box-textarea {
+	border-color: #17707F;
+}
+
+.gsc-comment-box-textarea-extras {
 	border-color: #17707F;
 }
 
