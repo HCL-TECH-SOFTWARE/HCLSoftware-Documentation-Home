@@ -43,3 +43,25 @@ button {
 .gsc-tl-line {
 	background-color: #17707F !important;
 }
+
+a.btn {
+    background-color: var(--color-btn-bg);
+    border-color: var(--color-btn-border);
+    border-radius: .375rem;
+    border-width: 1px;
+    box-shadow: var(--color-btn-shadow),var(--color-btn-inset-shadow);
+    color: var(--color-btn-text);
+    display: inline-block;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    padding-inline-end: 1rem;
+    padding-bottom: 5px;
+    padding-inline-start: 1rem;
+    padding-top: 5px;
+    position: relative;
+    transition: .2s cubic-bezier(.3,0,.5,1);
+    transition-delay: 0s;
+    transition-property: color,background-color,border-color;
+    white-space: nowrap;
+	cursor: not-allowed;
+}
