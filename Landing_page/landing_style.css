@@ -175,7 +175,7 @@ html {
   z-index: 1;
   margin-left: 22%;
   display: inline-block;
-  transform: translate(-176%, -176%);
+/*   transform: translate(150%, 150%); */
   padding-bottom: 25%;
 }
 .search_container {
