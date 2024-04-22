@@ -179,7 +179,8 @@ html {
 .img-right {
   height: 180px;
   float: right;
-  top: 80px;
+  padding-top: 50px;
+  position: relative;
 
  }
 
