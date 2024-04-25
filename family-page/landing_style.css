@@ -67,10 +67,11 @@ html {
   border-left: 2px solid gray;
   height: 30px;
   position: absolute;
-  left: 12%;
+  left: 170px;
   margin-left: -3px;
   top: 9px;
 }
+
   .docTitle {
     float: left;
     text-decoration: none;
@@ -78,6 +79,7 @@ html {
     margin-left: 1%;
     font-size: 14px;
 }
+
 .navbar {
   background: black;
   position: fixed;
@@ -152,7 +154,6 @@ html {
     z-index: 1;
     top: 45px;
     background-color: #121212;
-	#position: relative;
 }
 
 .home-image {
@@ -198,9 +199,8 @@ html {
   float: right;
   padding-left: 5px;
   position: absolute;
-  #margin-left: 75%;
   top: 95%;
-  left: 75%;
+  left: 1070px;
   padding-bottom: 30px;
 }
 
@@ -214,11 +214,10 @@ padding:0;
   color: #FFFFFF;
   font-size: 24px;
 	font-family: "HCLTech Roobert";
-  top: 15%;
-  left: 19%;
-  transform: translate(-50%, -50%);
+  top: 100px;
+  left: 6%;
+  transform: translate(-0.50em, -0.50em);
   z-index: 1;
-  font-size: 30px;
   
 }
 
@@ -227,9 +226,9 @@ padding:0;
   color: #FFFFFF;
   font-size: 34px;
 	font-family: "Arial";
-  top: 120px;
-  left: 13%;
-  transform: translate(-50%, -50%);
+  top: 125px;
+  left: 6%;
+  transform: translate(-0.50em, -0.50em);
   z-index: 1;
   font-size: 12px;
   padding-top: 10px;
@@ -256,7 +255,6 @@ padding:0;
 }
  .card:hover{
   box-shadow: 0px 10px 20px 5px rgba(0, 128, 128, 0.2);
-  #transform: translateY(-5px);
 }
 
 .card-body {
@@ -351,25 +349,23 @@ a:active {
 }
 
 #root {
-  width: 75%;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 1px;
-  grid-gap: 30px; 
-  padding-left: 5%;
-  padding-right: 5%;   
+  grid-gap: 30px;
+  padding-left: 10%;
 }
 
 .rightsidebar {
-	width: 30px;
+	width: 300px;
   background-color: #fafafa;
-  padding: 5px;
+  #padding: 5px;
   font-family: "Arial";
   position: absolute;
-  top: 32%;
-  margin-left: 75%;
+  top: 197px;
+  margin-left: 1070px;
   background-color: #f2f2f2;
-  #float: right;
 }
 
 
@@ -377,8 +373,8 @@ a:active {
 .mainContent {
   background-color: #f2f2f2;
   padding: 20px;
-  margin-left: 0px; 
-  width: 100%;
+  margin-left: 0;
+  width: 970px;
   margin-bottom: 5%;
 
 }
@@ -482,7 +478,6 @@ a:active {
   float: right;
   padding-left: 5px;
   position: absolute;
-  #margin-left: 75%;
   top: 450%;
   left: 110px;
   padding-bottom: 30px;
@@ -551,7 +546,6 @@ a:active {
   float: right;
   padding-left: 5px;
   position: absolute;
-  #margin-left: 75%;
   top: 450%;
   left: 110px;
   padding-bottom: 30px;
@@ -570,7 +564,6 @@ a:active {
 
 #root {
   width: 100%;
-  #display:flex;
   align-items: center;
   flex-direction: column;
   padding: 10px;
