@@ -67,8 +67,7 @@ html {
   border-left: 2px solid gray;
   height: 30px;
   position: absolute;
-  left: 170px;
-  margin-left: -3px;
+  left: 162px;
   top: 9px;
 }
 
@@ -147,7 +146,6 @@ html {
 
 
 .brand_banner {
-	
     text-decoration: none;
     width: 100%;
     height: 180px;
@@ -166,14 +164,12 @@ html {
   padding-right: 8px;
 }
 
-
-
 .greater {
 	position: absolute;
-  top: 52px; /* Adjust top position as needed */
+  top: 50px; /* Adjust top position as needed */
   left: 45px;
   color: white;
-  font-size: 8px;
+  font-size: 12px;
   font-family: "HCLTech Roobert";
 }
 
@@ -199,8 +195,8 @@ html {
   float: right;
   padding-left: 5px;
   position: absolute;
-  top: 95%;
-  left: 1070px;
+  top: 85%;
+  left: 75%;
   padding-bottom: 30px;
 }
 
@@ -217,8 +213,7 @@ padding:0;
   top: 100px;
   left: 6%;
   transform: translate(-0.50em, -0.50em);
-  z-index: 1;
-  
+  z-index: 1;  
 }
 
 .subTitle {
@@ -247,11 +242,11 @@ padding:0;
 
 .card-right {
   background-color: #FFFFFF;
-  width: 14rem;
-  height: auto;
+  width: 17rem;
+  height: 17rem;
   border-color:#ece9e9;
   border-radius: 6px;
- align-items: left;
+  align-items: left;
 }
  .card:hover{
   box-shadow: 0px 10px 20px 5px rgba(0, 128, 128, 0.2);
@@ -342,30 +337,35 @@ a:active {
   text-decoration: none;
 }
 .learnButton {
-
   padding: 5px 8px;
   width: 50%;
   height: 30px;
 }
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
 
 #root {
-  width: 100%;
+  width: 68%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 1px;
   grid-gap: 30px;
-  padding-left: 10%;
+  padding-left: 5%;
 }
 
 .rightsidebar {
 	width: 300px;
   background-color: #fafafa;
-  #padding: 5px;
+  padding: 5px;
   font-family: "Arial";
   position: absolute;
   top: 197px;
-  margin-left: 1070px;
+  margin-left: 75%;
   background-color: #f2f2f2;
+  
 }
 
 
@@ -374,9 +374,8 @@ a:active {
   background-color: #f2f2f2;
   padding: 20px;
   margin-left: 0;
-  width: 970px;
+  width: 100%;
   margin-bottom: 5%;
-
 }
 
 .link-launch::after {
