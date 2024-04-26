@@ -169,10 +169,10 @@ html {
 
 .greater {
 	position: absolute;
-  top: 52px; /* Adjust top position as needed */
+  top: 50px; /* Adjust top position as needed */
   left: 45px;
   color: white;
-  font-size: 8px;
+  font-size: 12px;
   font-family: "HCLTech Roobert";
 }
 
@@ -200,8 +200,8 @@ html {
   padding-left: 5px;
   position: absolute;
   #margin-left: 75%;
-  top: 95%;
-  left: 75%;
+  top: 85%;
+  left: 76%;
   padding-bottom: 50px;
 }
 
@@ -210,9 +210,9 @@ html {
   color: #FFFFFF;
   font-size: 24px;
 	font-family: "HCLTech Roobert";
-  top: 15%;
-  left: 22%;
-  transform: translate(-50%, -50%);
+  top: 90px;
+  left: 6%;
+  transform: translate(-0.50em, -0.50em);
   z-index: 1;
   font-size: 30px;
   
@@ -224,10 +224,10 @@ html {
   font-size: 34px;
 	font-family: "Arial";
   top: 120px;
-  left: 14%;
+  left: 15%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  font-size: 12px;
+  font-size: 14px;
   padding-top: 10px;
 }
 /* Cards design */
@@ -354,7 +354,7 @@ a:active {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 1px;
-  grid-gap: 30px;
+  grid-gap: 20px;
   padding-left: 5%;
 }
 
@@ -364,7 +364,7 @@ a:active {
   padding: 5px;
   font-family: "Arial";
   position: absolute;
-  top: 297px;
+  top: 43%;
   margin-left: 77%;
   background-color: #f2f2f2;
   #float: right;
@@ -393,7 +393,7 @@ a:active {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 1px;
-  grid-gap: 30px;
+  grid-gap: 20px;
   padding-left: 5%;	
   padding-top: 3%;
 	
