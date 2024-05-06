@@ -67,17 +67,18 @@ html {
   border-left: 2px solid gray;
   height: 30px;
   position: absolute;
-  left: 12%;
+  left: 180px;
   margin-left: -3px;
-  top: 9px;
+  top: 10px;
 }
-  .docTitle {
+.docTitle {
     float: left;
     text-decoration: none;
     color: white;
     margin-left: 3%;
     font-size: 14px;
 }
+
 .navbar {
   background: black;
   position: fixed;
@@ -156,8 +157,7 @@ html {
 
 .img-right {
   height: 180px;
-  float: right;
-  
+  float: right; 
  }
 
 .brand_banner a {
@@ -168,16 +168,16 @@ html {
 }
 
 .headerTitle {
-  position: relative;
+  position: absolute;
   color: #FFFFFF;
   font-size: 34px;
 	font-family: 'HCLTech Roobert';
   z-index: 1;
   margin-left: 22%;
   display: inline-block;
-/*   transform: translate(150%, 150%); */
-  padding-bottom: 25%;
+  transform: translate(-0.50em, -0.50em);
 }
+
 .search_container {
     display: inline-block;
     text-align: center;
