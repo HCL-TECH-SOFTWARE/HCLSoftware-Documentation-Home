@@ -169,13 +169,14 @@ html {
   top: 52px; /* Adjust top position as needed */
   left: 45px;
   color: white;
-  font-size: 8px;
+  font-size: 10px;
   font-family: "HCLTech Roobert";
 }
 
   .img-right {
     height: 180px;
     float: right;
+    padding-top: 50px;
   }
 
   .img-logo {
@@ -239,7 +240,8 @@ html {
   height: 250px;
   background-color: #FFFFFF;
   padding: 20px; 
-  margin-top: 95px;
+  border-radius: 6px;
+  margin-top: 55px;
   margin-right: 50px;
 }
 
@@ -371,6 +373,23 @@ a:active {
   vertical-align: text-bottom;
 }
 
+#root {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1px;
+  gap: 20px;
+  padding-left: 1%;
+}
+
+.sechead {
+  padding-left: 5px;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  text-align: left;
+  font-family: "HCLTech Roobert";
+}
+
 /* Footer Styles*/
 .footer-container {
   padding: 1px;
@@ -466,6 +485,15 @@ a:active {
   padding-bottom: 30px;
 }
 
+.sechead {
+  padding-left: 45px;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  text-align: left;
+  font-family: "HCLTech Roobert";
+}
+
+
 .mainContent {
     display: flex;
     flex-direction:column;
@@ -486,15 +514,7 @@ a:active {
   display: none;
 }
 
-#root {
-  width: 100%;
-  display:flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 10px;
-  grid-gap: 20px;
-}
-  
+
 }
 
 /*Tablet style*/
