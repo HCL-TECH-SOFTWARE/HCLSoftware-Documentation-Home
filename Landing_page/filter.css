@@ -41,7 +41,7 @@
 /* Create two unequal columns that sits next to each other */
   /* Sidebar/left column */
   .sidebar {
-    width: 300px;
+    width: 275px;
     background-color: #fafafa;
     padding: 20px;
     font-family: 'HCLTech Roobert';
