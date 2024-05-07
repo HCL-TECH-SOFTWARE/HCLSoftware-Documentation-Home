@@ -93,7 +93,7 @@
         },
         {
             id: 3,
-            image:"images/dd-2.jpg",
+            image:"images/HCL_Actian.png",
             title: 'Avalanche Cloud Data Platform',
             description: 'Intro',
             category: 'Data, Analytics and Insights',
@@ -101,7 +101,7 @@
         },
         {
             id: 3,
-            image:"images/dd-2.jpg",
+            image:"images/HCL_Actian.png",
             title: 'Vector',
             description: 'Intro',
             category: 'Data, Analytics and Insights',
@@ -109,7 +109,7 @@
         },
         {
             id: 3,
-            image:"image/dd-2.jpg",
+            image:"images/HCL_Actian.png",
             title: 'DataConnect',
             description: 'Intro',
             category: 'Data, Analytics and Insights',
@@ -125,7 +125,7 @@
         },
         {
             id: 3,
-            image:"images/dd-2.jpg",
+            image:"images/HCL_Actian.png",
             title: 'Integration Manager',
             description: 'Intro',
             category: 'Data, Analytics and Insights',
@@ -133,7 +133,7 @@
         },
         {
             id: 3,
-            image:"image/dd-2.jpg",
+            image:"images/HCL_Actian.png",
             title: 'DataFlow',
             description: 'Intro',
             category: 'Data, Analytics and Insights',
@@ -141,7 +141,7 @@
         },
         {
             id: 3,
-            image:"image/dd-2.jpg",
+            image:"images/HCL_Actian.png",
             title: 'Actian X',
             description: 'Intro',
             category: 'Data, Analytics and Insights',
@@ -149,7 +149,7 @@
         },
         {
             id: 3,
-            image:"image/dd-2.jpg",
+            image:"images/HCL_Actian.png",
             title: 'Ingres',
             description: 'Intro',
             category: 'Data, Analytics and Insights',
@@ -157,7 +157,7 @@
         },
         {
             id: 3,
-            image:"image/dd-2.jpg",
+            image:"images/HCL_Actian.png",
             title: 'OpenROAD',
             description: 'Intro',
             category: 'Data, Analytics and Insights',
@@ -165,7 +165,7 @@
         },
         {
             id: 3,
-            image:"image/dd-2.jpg",
+            image:"images/HCL_Actian.png",
             title: 'Enterprise Access',
             description: 'Intro',
             category: 'Data, Analytics and Insights',
@@ -173,7 +173,7 @@
         },
         {
             id: 3,
-            image:"images/dd-2.jpg",
+            image:"images/HCL_Informix.png",
             title: 'HCL Informix',
             description: 'Intro',
             category: 'Data, Analytics and Insights',
@@ -189,7 +189,7 @@
         },
         {
             id: 3,
-            image:"images/dd-2.jpg",
+            image:"images/HCL_Actian.png",
             title: 'NoSQL Database',
             description: 'Intro',
             category: 'Data, Analytics and Insights',
@@ -197,7 +197,7 @@
         },
         {
             id: 3,
-            image:"images/dd-2.jpg",
+            image:"images/HCL_Actian.png",
             title: 'NoSQL FastObjects',
             description: 'Intro',
             category: 'Data, Analytics and Insights',
@@ -205,7 +205,7 @@
         },
         {
             id: 3,
-            image:"images/dd-2.jpg",
+            image:"images/HCL_Actian.png",
             title: 'Zen',
             description: 'Intro',
             category: 'Data, Analytics and Insights',
@@ -229,7 +229,7 @@
         },
         {
             id: 4,
-            image:"images/dd-2.jpg",
+            image:"images/DevOps_ClearCase.svg",
             title: 'DevOps Code ClearCase',
             description: 'Intro',
             category: 'Secure DevOps',
@@ -358,7 +358,7 @@
         },
         {
             id: 5,
-            image:"images/dd-2.jpg",
+            image:"images/Traveler.svg",
             title: 'Traveler',
             description: 'Intro',
             category: 'Digital Solutions',
@@ -462,7 +462,7 @@
         },
         {
             id: 7,
-            image:"images/dd-2.jpg",
+            image:"images/HCL_Mainframe_ZCC.png",
             title: 'Z License Verification (ZLV)',
             description: 'Intro',
             category: 'Mainframe Solutions',
