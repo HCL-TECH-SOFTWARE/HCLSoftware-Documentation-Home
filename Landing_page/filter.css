@@ -1,3 +1,4 @@
+/*This style sheet contains styles of the body and filter parts*/
 
 .fil-p {
     padding: 10px 10px;
@@ -26,11 +27,10 @@
 	  font-family: 'HCLTech Roobert';
 }
 
-.learnButton {
-    padding: 5px 8px;
-    width: 50%;
-    height: 30px;
+.sidebarbutton:focus {
+  background-color: #d3d3d3;
 }
+
 
 /* Column container */
 .container {
