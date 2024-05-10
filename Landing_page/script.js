@@ -3,24 +3,17 @@
  const btns = [
     {
         id: 1,
-        name: 'Automation'
+        name: 'AI and Automation'
     },
-    {
-        id: 2,
-        name: 'Commerce and Marketing'
-    },
-    
+        
     {
         id: 3,
         name: 'Data, Analytics and Insights'
     },
-    {
-        id: 4,
-        name: 'Secure DevOps'
-    },
+    
     {
         id: 5,
-        name: 'Digital Solutions'
+        name: 'Digital Transformation'
     },
     {
         id: 6,
@@ -30,114 +23,21 @@
         id: 7,
         name: 'Mainframe Solutions'
     },
+    {
+        id: 4,
+        name: 'Secure DevOps'
+    },
     ];
 
 
  const products = [
         {
-            id: 1,
-            image:"images/HCL_BigFix_Color_Icon.svg",
-            title: 'BigFix',
-            description: 'Welcome to the BigFix Platform documentation, where you can find information about how to install, maintain, and use BigFix.',
-            category: 'Automation',
-            link: 'https://help.hcltechsw.com/bigfix/landing/index.html'
-        },
-
-        {
-            id: 1,
-            image:"images/HCL_WorkloadAutomation_Color_Icon.svg",
-            title: 'Workload Automation',
+            id: 4,
+            image:"images/HCL_AppScan_Color_Icon.svg",
+            title: 'AppScan',
             description: 'Intro',
-            category: 'Automation',
-            link: 'https://help.hcltechsw.com/workloadautomation/welcome/index.html'
-        },
-        {
-            id: 1,
-            image:"images/HCL_UniversalOrchestrator_Color_Icon.svg",
-            title: 'Universal Orchestrator',
-            description: 'Intro',
-            category: 'Automation',
-            link: 'https://help.hcltechsw.com/UnO/v1.1/index.html'
-        },
-        {
-            id: 2,
-            image:"images/HCL_Commerce_Color_Icon.svg",
-            title: 'Commerce',
-            description: 'Intro',
-            category: 'Commerce and Marketing',
-            link: 'https://help.hcltechsw.com/commerce/index.html'
-        },
-        {
-            id: 2,
-            image:"images/Intelliservice_Logo.png",
-            title: 'IntelliService',
-            description: 'Intro',
-            category: 'Commerce and Marketing',
-            link: 'https://help.hcltechsw.com/Intelliservice/home/index.html'
-        },
-        {
-            id: 2,
-            image:"images/HCL_Unica_Color_Icon.svg",
-            title: 'Unica',
-            description: 'Intro',
-            category: 'Commerce and Marketing',
-            link: 'https://help.hcltechsw.com/unica/uc/unica_welcome_portal.html'
-        },
-        {
-            id: 2,
-            image:"images/HCL_Discover_Color_Icon.svg",
-            title: 'Unica Discover',
-            description: 'Intro',
-            category: 'Commerce and Marketing',
-            link: 'https://help.hcltechsw.com/UnicaDiscover/UD/index.html'
-        },
-        {
-            id: 3,
-            image:"images/Actian.png",
-            title: 'Avalanche Cloud Data Platform',
-            description: 'Intro',
-            category: 'Data, Analytics and Insights',
-            link: "https://docs.actian.com/avalanche/index.html#page/Welcome/What's_New_in_Actian_Warehouses.html"
-        },
-        {
-            id: 3,
-            image:"images/Actian.png",
-            title: 'Vector',
-            description: 'Intro',
-            category: 'Data, Analytics and Insights',
-            link: 'https://docs.actian.com/vector/#page/Welcome/Welcome_to_Vector_Documentation.htm'
-        },
-        {
-            id: 3,
-            image:"images/Actian.png",
-            title: 'DataConnect',
-            description: 'Intro',
-            category: 'Data, Analytics and Insights',
-            link: 'https://docs.actian.com/dataconnect/#page/Welcome/Welcome_to_DataConnect_Documentation.htm'
-        },
-        {
-            id: 3,
-            image:"images/HCL_Link_Color_Icon.svg",
-            title: 'Link',
-            description: 'Intro',
-            category: 'Data, Analytics and Insights',
-            link: 'https://help.hcltechsw.com/hcllink/index.html'
-        },
-        {
-            id: 3,
-            image:"images/Actian.png",
-            title: 'Integration Manager',
-            description: 'Intro',
-            category: 'Data, Analytics and Insights',
-            link: 'https://docs.actian.com/integrationmanager/#page/Welcome/Welcome_to_Integration_Manager_Documentation.htm'
-        },
-        {
-            id: 3,
-            image:"images/Actian.png",
-            title: 'DataFlow',
-            description: 'Intro',
-            category: 'Data, Analytics and Insights',
-            link: 'https://docs.actian.com/dataflow/#page/Welcome/Welcome_to_DataFlow_Documentation.htm'
+            category: 'Secure DevOps',
+            link: 'https://help.hcltechsw.com/appscan/Welcome.html'
         },
         {
             id: 3,
@@ -150,74 +50,35 @@
         {
             id: 3,
             image:"images/Actian.png",
-            title: 'Ingres',
+            title: 'Avalanche Cloud Data Platform',
             description: 'Intro',
             category: 'Data, Analytics and Insights',
-            link: 'https://docs.actian.com/ingres/#page/Welcome/Welcome_to_Ingres_Documentation.htm'
+            link: "https://docs.actian.com/avalanche/index.html#page/Welcome/What's_New_in_Actian_Warehouses.html"
         },
         {
-            id: 3,
-            image:"images/Actian.png",
-            title: 'OpenROAD',
-            description: 'Intro',
-            category: 'Data, Analytics and Insights',
-            link: 'https://docs.actian.com/openroad/index.html#page/Welcome/Welcome_to_OpenROAD_Documentation.htm'
+            id: 1,
+            image:"images/HCL_BigFix_Color_Icon.svg",
+            title: 'BigFix',
+            description: 'Welcome to the BigFix Platform documentation, where you can find information about how to install, maintain, and use BigFix.',
+            category: 'Automation',
+            link: 'https://help.hcltechsw.com/bigfix/landing/index.html'
         },
         {
-            id: 3,
-            image:"images/Actian.png",
-            title: 'Enterprise Access',
+            id: 6,
+            image:"images/HCL_Clara_Color_Icon.svg",
+            title: 'Clara',
             description: 'Intro',
-            category: 'Data, Analytics and Insights',
-            link: 'https://docs.actian.com/entaccess/index.html#page/Welcome/Welcome_to_Enterprise_Access_Documentation.htm'
+            category: 'Innovations',
+            link: 'https://help.hcltechsw.com/solutions/clara/index.html'
         },
+        
         {
-            id: 3,
-            image:"images/HCL_Informix.png",
-            title: 'HCL Informix',
+            id: 5,
+            image:"images/HCL_Commerce_Color_Icon.svg",
+            title: 'Commerce',
             description: 'Intro',
-            category: 'Data, Analytics and Insights',
-            link: 'https://help.hcltechsw.com/hclinformix/index.html'
-        },
-        {
-            id: 3,
-            image:"images/HCL_OneDB_Color_Icon.svg",
-            title: 'OneDB',
-            description: 'Intro',
-            category: 'Data, Analytics and Insights',
-            link: 'https://help.hcltechsw.com/onedb/index.html'
-        },
-        {
-            id: 3,
-            image:"images/Actian.png",
-            title: 'NoSQL Database',
-            description: 'Intro',
-            category: 'Data, Analytics and Insights',
-            link: 'https://esd.actian.com/product/Versant_Object_Database/10/docs/Actian_NoSQL_Database_10_Documentation'
-        },
-        {
-            id: 3,
-            image:"images/Actian.png",
-            title: 'NoSQL FastObjects',
-            description: 'Intro',
-            category: 'Data, Analytics and Insights',
-            link: 'https://esd.actian.com/product/Versant_FastObjects/14.0/docs/NoSQL_FastObjects_14.0_Documentation'
-        },
-        {
-            id: 3,
-            image:"images/Actian.png",
-            title: 'Zen',
-            description: 'Intro',
-            category: 'Data, Analytics and Insights',
-            link: 'https://docs.actian.com/zen/#page/Welcome/Welcome_to_Zen_2fPSQL_Documentation.htm'
-        },
-        {
-            id: 4,
-            image:"images/HCL_AppScan_Color_Icon.svg",
-            title: 'AppScan',
-            description: 'Intro',
-            category: 'Secure DevOps',
-            link: 'https://help.hcltechsw.com/appscan/Welcome.html'
+            category: 'Commerce and Marketing',
+            link: 'https://help.hcltechsw.com/commerce/index.html'
         },
         {
             id: 4,
@@ -226,6 +87,23 @@
             description: 'Intro',
             category: 'Secure DevOps',
             link: 'https://help.hcltechsw.com/compass/index.html'
+        },
+        
+        {
+            id: 3,
+            image:"images/Actian.png",
+            title: 'DataConnect',
+            description: 'Intro',
+            category: 'Data, Analytics and Insights',
+            link: 'https://docs.actian.com/dataconnect/#page/Welcome/Welcome_to_DataConnect_Documentation.htm'
+        },
+        {
+            id: 3,
+            image:"images/Actian.png",
+            title: 'DataFlow',
+            description: 'Intro',
+            category: 'Data, Analytics and Insights',
+            link: 'https://docs.actian.com/dataflow/#page/Welcome/Welcome_to_DataFlow_Documentation.htm'
         },
         {
             id: 4,
@@ -277,14 +155,6 @@
             link: 'https://help.hcltechsw.com/devops/velocity/index.html'
         },
         {
-            id: 4,
-            image:"images/HCL_VersionVault_Color_Icon.svg",
-            title: 'VersionVault',
-            description: 'Intro',
-            category: 'Secure DevOps',
-            link: ''
-        },
-        {
             id: 5,
             image:"images/HCL_Digital_Experience_Color_Icon.svg",
             title: 'Digital Experience',
@@ -317,12 +187,84 @@
             link: 'https://help.hcltechsw.com/domino_volt/welcome/index.html'
         },
         {
+            id: 3,
+            image:"images/Actian.png",
+            title: 'Enterprise Access',
+            description: 'Intro',
+            category: 'Data, Analytics and Insights',
+            link: 'https://docs.actian.com/entaccess/index.html#page/Welcome/Welcome_to_Enterprise_Access_Documentation.htm'
+        },
+        {
+            id: 3,
+            image:"images/HCL_Informix.png",
+            title: 'HCL Informix',
+            description: 'Intro',
+            category: 'Data, Analytics and Insights',
+            link: 'https://help.hcltechsw.com/hclinformix/index.html'
+        },
+        {
+            id: 6,
+            image:"images/HCL_HERO_Color_Icon.svg",
+            title: 'HERO',
+            description: 'Intro',
+            category: 'Innovations',
+            link: 'https://help.hcltechsw.com/solutions/hero/index.html'
+        },
+        {
+            id: 5,
+            image:"images/Intelliservice_Logo.png",
+            title: 'IntelliService',
+            description: 'Intro',
+            category: 'Commerce and Marketing',
+            link: 'https://help.hcltechsw.com/Intelliservice/home/index.html'
+        },
+        {
+            id: 3,
+            image:"images/Actian.png",
+            title: 'Integration Manager',
+            description: 'Intro',
+            category: 'Data, Analytics and Insights',
+            link: 'https://docs.actian.com/integrationmanager/#page/Welcome/Welcome_to_Integration_Manager_Documentation.htm'
+        },
+        {
+            id: 3,
+            image:"images/Actian.png",
+            title: 'Ingres',
+            description: 'Intro',
+            category: 'Data, Analytics and Insights',
+            link: 'https://docs.actian.com/ingres/#page/Welcome/Welcome_to_Ingres_Documentation.htm'
+        },
+        {
             id: 5,
             image:"images/HCL_Leap_Color_Icon.svg",
             title: 'Leap',
             description: 'Intro',
             category: 'Digital Solutions',
             link: 'https://help.hcltechsw.com/Leap/welcome/index.html'
+        },
+        {
+            id: 3,
+            image:"images/HCL_Link_Color_Icon.svg",
+            title: 'Link',
+            description: 'Intro',
+            category: 'Data, Analytics and Insights',
+            link: 'https://help.hcltechsw.com/hcllink/index.html'
+        },
+        {
+            id: 3,
+            image:"images/Actian.png",
+            title: 'NoSQL Database',
+            description: 'Intro',
+            category: 'Data, Analytics and Insights',
+            link: 'https://esd.actian.com/product/Versant_Object_Database/10/docs/Actian_NoSQL_Database_10_Documentation'
+        },
+        {
+            id: 3,
+            image:"images/Actian.png",
+            title: 'NoSQL FastObjects',
+            description: 'Intro',
+            category: 'Data, Analytics and Insights',
+            link: 'https://esd.actian.com/product/Versant_FastObjects/14.0/docs/NoSQL_FastObjects_14.0_Documentation'
         },
         {
             id: 5,
@@ -340,6 +282,25 @@
             category: 'Digital Solutions',
             link: 'https://help.hcltechsw.com/notes/welcome/index.html'
         },
+        
+        {
+            id: 3,
+            image:"images/Actian.png",
+            title: 'OpenROAD',
+            description: 'Intro',
+            category: 'Data, Analytics and Insights',
+            link: 'https://docs.actian.com/openroad/index.html#page/Welcome/Welcome_to_OpenROAD_Documentation.htm'
+        },
+        
+        {
+            id: 3,
+            image:"images/HCL_OneDB_Color_Icon.svg",
+            title: 'OneDB',
+            description: 'Intro',
+            category: 'Data, Analytics and Insights',
+            link: 'https://help.hcltechsw.com/onedb/index.html'
+        },
+                                   
         {
             id: 5,
             image:"images/HCL_SafeLinx_Color_Icon.svg",
@@ -365,6 +326,55 @@
             link: 'https://help.hcltechsw.com/traveler/welcome/index.html'
         },
         {
+            id: 6,
+            image:"images/HCL_T-VREX_Color_Icon.svg",
+            title: 'T-VREX',
+            description: 'Intro',
+            category: 'Innovations',
+            link: 'https://help.hcltechsw.com/solutions/tvrex/index.html'
+        },
+        {
+            id: 1,
+            image:"images/HCL_UniversalOrchestrator_Color_Icon.svg",
+            title: 'Universal Orchestrator',
+            description: 'Intro',
+            category: 'Automation',
+            link: 'https://help.hcltechsw.com/UnO/v1.1/index.html'
+        },
+        {
+            id: 5,
+            image:"images/HCL_Unica_Color_Icon.svg",
+            title: 'Unica',
+            description: 'Intro',
+            category: 'Commerce and Marketing',
+            link: 'https://help.hcltechsw.com/unica/uc/unica_welcome_portal.html'
+        },
+        {
+            id: 5,
+            image:"images/HCL_Discover_Color_Icon.svg",
+            title: 'Unica Discover',
+            description: 'Intro',
+            category: 'Commerce and Marketing',
+            link: 'https://help.hcltechsw.com/UnicaDiscover/UD/index.html'
+        },
+        
+        {
+            id: 3,
+            image:"images/Actian.png",
+            title: 'Vector',
+            description: 'Intro',
+            category: 'Data, Analytics and Insights',
+            link: 'https://docs.actian.com/vector/#page/Welcome/Welcome_to_Vector_Documentation.htm'
+        },
+        {
+            id: 4,
+            image:"images/HCL_VersionVault_Color_Icon.svg",
+            title: 'VersionVault',
+            description: 'Intro',
+            category: 'Secure DevOps',
+            link: ''
+        },
+        {
             id: 5,
             image:"images/HCL_Verse_Color_Icon.svg",
             title: 'Verse',
@@ -381,28 +391,20 @@
             link: 'https://help.hcltechsw.com/docs/voltmx-prod-doc-landing-page/index.html'
         },
         {
-            id: 6,
-            image:"images/HCL_Clara_Color_Icon.svg",
-            title: 'Clara',
+            id: 1,
+            image:"images/HCL_WorkloadAutomation_Color_Icon.svg",
+            title: 'Workload Automation',
             description: 'Intro',
-            category: 'Innovations',
-            link: 'https://help.hcltechsw.com/solutions/clara/index.html'
+            category: 'Automation',
+            link: 'https://help.hcltechsw.com/workloadautomation/welcome/index.html'
         },
         {
-            id: 6,
-            image:"images/HCL_HERO_Color_Icon.svg",
-            title: 'HERO',
+            id: 3,
+            image:"images/Actian.png",
+            title: 'Zen',
             description: 'Intro',
-            category: 'Innovations',
-            link: 'https://help.hcltechsw.com/solutions/hero/index.html'
-        },
-        {
-            id: 6,
-            image:"images/HCL_T-VREX_Color_Icon.svg",
-            title: 'T-VREX',
-            description: 'Intro',
-            category: 'Innovations',
-            link: 'https://help.hcltechsw.com/solutions/tvrex/index.html'
+            category: 'Data, Analytics and Insights',
+            link: 'https://docs.actian.com/zen/#page/Welcome/Welcome_to_Zen_2fPSQL_Documentation.htm'
         },
         {
             id: 7,
@@ -478,7 +480,7 @@ const filters = [...new Set(btns.map((btn)=>
     document.getElementById('btns').innerHTML=filters.map((btn)=>{
         var {name, id} = btn;
         return(
-            "<button class='fil-p sidebarbutton' onclick='filterItems("+(id)+`)'>${name}</button>`)
+            "<button id='clkid' class='fil-p sidebarbutton' onclick='filterItems("+(id)+`)'>${name}</button>`)
     }).join('');
 
 
@@ -495,6 +497,7 @@ const filters = [...new Set(btns.map((btn)=>
             displayItem(flterCategories);
         }
 
+        
         const displayItem = (items) => { 
             document.getElementById('root').innerHTML = items.map((item)=>{
                 var{image, title, description, link} = item;
