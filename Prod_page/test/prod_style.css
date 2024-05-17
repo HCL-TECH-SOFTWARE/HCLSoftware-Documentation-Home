@@ -157,8 +157,8 @@ html {
   .home-image {
     position: absolute;
     top: 50px; /* Adjust top position as needed */
-    left: 25px; /* Adjust left position as needed */
-    width: 20px; /* Adjust width as needed */
+    left: 35px; /* Adjust left position as needed */
+    width: 25px; /* Adjust width as needed */
     height: 15px; /* Maintain aspect ratio */
     z-index: 2; /* Ensure it's above the background color */
     padding-right: 8px;
@@ -167,9 +167,9 @@ html {
 .greater {
 	position: absolute;
   top: 52px; /* Adjust top position as needed */
-  left: 45px;
+  left: 60px;
   color: white;
-  font-size: 10px;
+  font-size: 12px;
   font-family: "HCLTech Roobert";
 }
 
@@ -210,8 +210,8 @@ html {
     color: #FFFFFF;
     font-size: 24px;
     font-family: "HCLTech Roobert";
-    top: 100px;
-    left: 6%;
+    top: 90px;
+    left: 5%;
     transform: translate(-0.50em, -0.50em);
     z-index: 1;  
   }
@@ -221,8 +221,8 @@ html {
     color: #FFFFFF;
     font-size: 34px;
     font-family: "Arial";
-    top: 125px;
-    left: 6%;
+    top: 110px;
+    left: 5%;
     transform: translate(-0.50em, -0.50em);
     z-index: 1;
     font-size: 12px;
@@ -247,9 +247,9 @@ html {
 
 .main-content {
   flex: 1; /* Allow main content to expand to fill remaining space */
-  padding: 10px;
+ 
   /*margin-top: 10px;*/
-  margin-left: 5px;
+  
 }
 
 .container {
@@ -264,7 +264,7 @@ html {
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: minmax(120px, auto);
   gap: 1px;
-  margin-left: 20px;
+  margin-left: 0px;
 }
 
 .card {
@@ -381,10 +381,11 @@ a:active {
     margin-top: 10px;
     text-align: left;
     padding-bottom: 10px;
+	font-size: 42px;
 }
 
 #root {
-  width: 70%;
+  width: 80%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 10px;

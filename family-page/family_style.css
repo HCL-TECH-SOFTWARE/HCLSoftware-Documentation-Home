@@ -44,6 +44,12 @@
   src: url(./fonts/Courier.ttf);
 }
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.opensans {
+  font-family: "Open Sans", sans-serif;
+}
+
 
 /*Header and body styles*/
 html {
@@ -61,15 +67,15 @@ html {
   
   .brand_logo {
     background-color: black;
-}
+  }
 
-.verticline {
-  border-left: 2px solid gray;
-  height: 30px;
-  position: absolute;
-  left: 162px;
-  top: 9px;
-}
+  .verticline {
+    border-left: 2px solid gray;
+    height: 30px;
+    position: absolute;
+    left: 162px;
+    top: 9px;
+  }
 
   .docTitle {
     float: left;
@@ -77,115 +83,115 @@ html {
     color: white;
     margin-left: 1%;
     font-size: 14px;
-}
+  }
 
-.navbar {
-  background: black;
-  position: fixed;
-  width: 100%;
-  z-index: 1000;
-}
-
-.navbar>.container-fluid {
-    display: flex;
-    flex-wrap: inherit;
-    justify-content: left;
-}
-
-/*Resources dropdown menu*/
-
-.dropdnmenu {
-    position: relative;
-    display: inline-block;
-    padding: 2px 22px;
-    margin-left: auto;
-    justify-content: right;   
-}
-
-.dropdbtnmenu {
-    background-color: #0a0a0a;
-    color: white;
-    font-size: 14px;
-    border: none;
-    cursor: pointer;
-    padding: 4px 14px;
-    display: block;
-    z-index: 9999;
-    font-family: "HCLTech Roobert";
-}
-
-.dropdnmenu-content {
-    display: none;
-    position: absolute;
-    background-color: #fcfcfc;
-    min-width: 160px;
-    box-shadow: 0 0 25px rgba(0,0,0,0.25);
-    font-size: 13px;
-    top: 30px;
-    right: 10px;
-	  font-family: "HCLTech Roobert";
-    z-index: 9999;
-}
-
-.dropdnmenu-content a {
-    color: black;
-    padding: 8px 24px;
-    text-decoration: none;
-    display: block;
-    float: none;
-    align-content: center;
-}
-
-.dropdnmenu-content a:hover {
-    background-color: #dddada;
-}
-
-.dropdnmenu:hover .dropdnmenu-content {
-    display: block;
-}
-
-
-.brand_banner {
-    text-decoration: none;
+  .navbar {
+    background: black;
+    position: fixed;
     width: 100%;
-    height: 180px;
-    z-index: 1;
-    top: 45px;
-    background-color: #121212;
-}
+    z-index: 1000;
+  }
 
-.home-image {
-  position: absolute;
-  top: 50px; /* Adjust top position as needed */
-  left: 25px; /* Adjust left position as needed */
-  width: 20px; /* Adjust width as needed */
-  height: 15px; /* Maintain aspect ratio */
-  z-index: 2; /* Ensure it's above the background color */
-  padding-right: 8px;
-}
+  .navbar>.container-fluid {
+      display: flex;
+      flex-wrap: inherit;
+      justify-content: left;
+  }
+
+  /*Resources dropdown menu*/
+
+  .dropdnmenu {
+      position: relative;
+      display: inline-block;
+      padding: 2px 22px;
+      margin-left: auto;
+      justify-content: right;   
+  }
+
+  .dropdbtnmenu {
+      background-color: #0a0a0a;
+      color: white;
+      font-size: 14px;
+      border: none;
+      cursor: pointer;
+      padding: 4px 14px;
+      display: block;
+      z-index: 9999;
+      font-family: "HCLTech Roobert";
+  }
+
+  .dropdnmenu-content {
+      display: none;
+      position: absolute;
+      background-color: #fcfcfc;
+      min-width: 160px;
+      box-shadow: 0 0 25px rgba(0,0,0,0.25);
+      font-size: 13px;
+      top: 30px;
+      right: 10px;
+      font-family: "HCLTech Roobert";
+      z-index: 9999;
+  }
+
+  .dropdnmenu-content a {
+      color: black;
+      padding: 8px 24px;
+      text-decoration: none;
+      display: block;
+      float: none;
+      align-content: center;
+  }
+
+  .dropdnmenu-content a:hover {
+      background-color: #dddada;
+  }
+
+  .dropdnmenu:hover .dropdnmenu-content {
+      display: block;
+  }
+
+
+  .brand_banner {
+      text-decoration: none;
+      width: 100%;
+      height: 180px;
+      z-index: 1;
+      top: 45px;
+      background-color: #121212;
+  }
+
+  .home-image {
+    position: absolute;
+    top: 50px; /* Adjust top position as needed */
+    left: 35px; /* Adjust left position as needed */
+    width: 20px; /* Adjust width as needed */
+    height: 15px; /* Maintain aspect ratio */
+    z-index: 2; /* Ensure it's above the background color */
+    padding-right: 8px;
+  }
 
 .greater {
 	position: absolute;
   top: 50px; /* Adjust top position as needed */
-  left: 45px;
+  left: 55px;
   color: white;
   font-size: 12px;
-  font-family: "HCLTech Roobert";
+  font-family: "Open Sans", sans-serif;
 }
 
-.img-right {
-  height: 180px;
-  float: right;
+  .img-right {
+    height: 180px;
+    float: right;
+    padding-top: 10px;
+  }
 
- }
-
-.img-logo {
-	position: absolute;
-	width: 50px;
-	height: 40px;
-	top: 75px;
-	left: 15px;
-}
+  .img-logo {
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    top: 75px;
+    left: 15px;
+  }
 
 .playlist{
   width: 20%;
@@ -201,70 +207,114 @@ html {
 }
 
 #video1 {
-margin:0;
-padding:0;
+  margin:0;
+  padding:0;
+  margin-top: auto;
 }
 
-.headerTitle {
-  position: absolute;
-  color: #FFFFFF;
-  font-size: 24px;
-	font-family: "HCLTech Roobert";
-  top: 100px;
-  left: 6%;
-  transform: translate(-0.50em, -0.50em);
-  z-index: 1;  
+  .headerTitle {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: "HCLTech Roobert";
+    top: 90px;
+    left: 5%;
+    transform: translate(-0.50em, -0.50em);
+    z-index: 1;  
+  }
+
+  .subTitle {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 34px;
+    font-family: "Open Sans", sans-serif;
+    top: 110px;
+    left: 5%;
+    transform: translate(-0.50em, -0.50em);
+    z-index: 1;
+    font-size: 12px;
+    padding-top: 10px;
+  }
+
+/*Main Content*/
+
+.container {
+  display: flex; /* Use flexbox for layout */
 }
 
-.subTitle {
-  position: absolute;
-  color: #FFFFFF;
-  font-size: 34px;
-	font-family: "Arial";
-  top: 125px;
-  left: 6%;
-  transform: translate(-0.50em, -0.50em);
-  z-index: 1;
-  font-size: 12px;
-  padding-top: 10px;
+.sidebar {
+  width: 250px; /*Set the width of the sidebar */
+  height: 280px;
+  background-color: #FFFFFF;
+  padding: 10px; 
+  border-radius: 6px;
+  margin-top: 45px;
+  
 }
+
+.main-content {
+  flex: 1; /* Allow main content to expand to fill remaining space */
+  padding-top: 42px;
+  /*margin-top: 10px;*/
+  
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /* Cards design */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(160px, auto);
+  column-gap: 0px;
+  row-gap: 35px;
+}
 
 .card {
   background-color: #FFFFFF;
-  width: 17rem;
-  height: 12rem;
-  border-color:#ece9e9;
-  border-radius: 6px;
- align-items: left;
- 
-}
-
-.card-right {
-  background-color: #FFFFFF;
-  width: 17rem;
-  height: 17rem;
+  height: 184px;
+  width: 312px;
   border-color:#ece9e9;
   border-radius: 6px;
   align-items: left;
+  border: none;
 }
- .card:hover{
+
+.card:hover .card-body > a {
+  padding-top: 28px;
+  transform: translateX(8px);
+  color: cadetblue;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.card-body > a {
+  text-decoration: none;
+  color: #FFFFFF;
+  position: absolute;
+  top: 145px;
+  font-size: 14px;
+  font-family: sans-serif;
+  bottom: 0;
+  padding-left: 25px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover{
   box-shadow: 0px 10px 20px 5px rgba(0, 128, 128, 0.2);
 }
 
 .card-body {
 	background-color: #FFFFFF;
-    width: 17rem;
-    height: 12rem;
-    align-items: left;
+  width: 17rem;
+  height: 12rem;
+  align-items: left;
 	border-radius: 6px;
-}
-
-.card-body-right {
-    width: 17rem;
-    height: auto;
-    align-items: center;
-	padding: 15px;
 }
 
 .card-title {
@@ -275,7 +325,7 @@ padding:0;
 .card-text {
   font-size: 13px;
   padding-top: 15px;
-	font-family: "Arial";
+	font-family: "HCLTech Roobert";
   line-height: 20px;
 }
 /*.card:hover {
@@ -306,21 +356,6 @@ padding:0;
   align-items: center;
 }
 
-.arrow-icon {
-  position: absolute;
-  left: 0;
-  transition: transform 0.3s ease;
-  display: inline-block;
-  font-size: 14px;
-}
-
-.card:hover .arrow-icon {
-  transform: translateX(8px); /* Adjust the value to change the distance of the animation */
-}
-.card:hover .card-body > a {
-  padding-top: 28px;
-  transform: translateX(8px);
-}
 a:link {
   text-decoration: none;
 }
@@ -336,47 +371,6 @@ a:hover {
 a:active {
   text-decoration: none;
 }
-.learnButton {
-  padding: 5px 8px;
-  width: 50%;
-  height: 30px;
-}
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-#root {
-  width: 68%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 1px;
-  grid-gap: 30px;
-  padding-left: 5%;
-}
-
-.rightsidebar {
-	width: 300px;
-  background-color: #fafafa;
-  padding: 5px;
-  font-family: "Arial";
-  position: absolute;
-  top: 197px;
-  margin-left: 75%;
-  background-color: #f2f2f2;
-  
-}
-
-
-/* Main column */
-.mainContent {
-  background-color: #f2f2f2;
-  padding: 20px;
-  margin-left: 0;
-  width: 100%;
-  margin-bottom: 5%;
-}
 
 .link-launch::after {
   content: url("images/launch-grey.svg");
@@ -387,6 +381,30 @@ a:active {
   display: inline-block;
   vertical-align: text-bottom;
 }
+
+#root {
+  /* width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-bottom: 50px;
+  gap: 40px; */
+  display: flex;
+  flex-direction: column;
+  float: right;
+  position: absolute;
+  margin-top: 30px;
+  padding-bottom: 40px;
+ 
+}
+
+.sechead {
+  #padding-left: 5px;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  text-align: left;
+  font-family: "HCLTech Roobert";
+}
+
 /* Footer Styles*/
 .footer-container {
   padding: 1px;
@@ -465,7 +483,7 @@ a:active {
     background-color: #f1f1f1;
     padding: 25px;
     position: relative;
-   top: 132%;
+   top: 130%;
   margin-left: 80px;
   }
   
@@ -481,6 +499,15 @@ a:active {
   left: 110px;
   padding-bottom: 30px;
 }
+
+.sechead {
+  padding-left: 45px;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  text-align: left;
+  font-family: "HCLTech Roobert";
+}
+
 
 .mainContent {
     display: flex;
@@ -502,15 +529,7 @@ a:active {
   display: none;
 }
 
-#root {
-  width: 100%;
-  display:flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 10px;
-  grid-gap: 20px;
-}
-  
+
 }
 
 /*Tablet style*/
