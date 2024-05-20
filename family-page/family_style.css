@@ -244,8 +244,8 @@ html {
 }
 
 .sidebar {
-  width: 250px; /*Set the width of the sidebar */
-  height: 295px;
+  width: 265px; /*Set the width of the sidebar */
+  height: 300px;
   background-color: #FFFFFF;
   border-radius: 6px;
   margin-top: 45px;
@@ -326,7 +326,7 @@ html {
 .card-text {
   font-size: 13px;
   padding-top: 15px;
-	font-family: "HCLTech Roobert";
+	font-family: "Open Sans", sans-serif;
   line-height: 20px;
 }
 /*.card:hover {
