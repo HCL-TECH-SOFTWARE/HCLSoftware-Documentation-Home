@@ -140,7 +140,7 @@
         },
         {
             id: 4,
-            image:"images/HCL_OneTest_Color_Icon.svg",
+            image:"images/DevOps_test_black.svg",
             title: 'DevOps Test',
             description: 'Intro',
             category: 'Secure DevOps',
@@ -148,7 +148,7 @@
         },
         {
             id: 4,
-            image:"images/HCL_DevOps_Color_Vertical.svg",
+            image:"images/DevOps_velocity_black.svg",
             title: 'DevOps Velocity',
             description: 'Intro',
             category: 'Secure DevOps',
