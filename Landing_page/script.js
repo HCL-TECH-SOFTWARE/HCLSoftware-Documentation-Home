@@ -29,7 +29,6 @@
     },
     ];
 
-
  const products = [
         {
             id: 4,
@@ -471,11 +470,10 @@
             link: 'https://help.hcltechsw.com/ZLicenseVerification/welcome/index.html'
         },
 
-
     ];
 
-const filters = [...new Set(btns.map((btn)=>
-    {return btn}))]
+    const filters = [...new Set(btns.map((btn)=>
+        {return btn}))]
 
     document.getElementById('btns').innerHTML=filters.map((btn)=>{
         var {name, id} = btn;
@@ -483,15 +481,14 @@ const filters = [...new Set(btns.map((btn)=>
             "<button id='clkid' class='fil-p sidebarbutton' onclick='filterItems("+(id)+`)'>${name}</button>`)
     }).join('');
 
-
+    
     const categories = [...new Set(products.map((item)=>{
         return item }))]
-
         const filterItems = (a) => {
             const flterCategories = categories.filter(item);
             function item(value) {
                 if(value.id==a) {
-                    return(value.id)
+                    return(value.id);
                 }
             }
             displayItem(flterCategories);
@@ -516,7 +513,7 @@ const filters = [...new Set(btns.map((btn)=>
                                 <div class="card-body">
                                 <img class='images' src=${image}></img>
                                 <h5 class="card-title">${title}</h5>
-                                <p class="card-text"></p>
+                                <p class="card-text">${description}</p>
                                 <a href="${link}" target="_blank" ></a>
                             </div>
                             </div>
@@ -542,4 +539,24 @@ const filters = [...new Set(btns.map((btn)=>
                     cardlist[i].style.display = "none"
                 }
             }           
+        }
+
+    /*Category button will get highlighted, when user clicks on it*/
+
+        var sidebarBtns = document.getElementById("catid");
+        var btnsclass = sidebarBtns.getElementsByClassName("sidebarbutton");
+        for(i=0; i<btnsclass.length; i++) {
+
+            btnsclass[i].addEventListener('click', function() {
+                //current = document.getElementById("clkid");
+                var current = document.getElementsByClassName("active");
+
+                // If there's no active class
+                if (current.length > 0) {
+                current[0].className = current[0].className.replace(" active", "");
+                }
+            
+                // Add the active class to the current/clicked button
+                this.className += " active";
+            })
         }
