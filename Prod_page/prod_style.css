@@ -482,18 +482,20 @@ a:active {
   .cards {
     display: grid;
    grid-template-columns: repeat(1, 1fr);
-   width: 90%;
+   column-gap: 0px;
+  row-gap: 35px;
    grid-auto-rows: minmax(130px, auto);
    padding-top: 80px;
-   margin-left: 85px;
+   margin-left: 30px;
  }
 
  #secroot {
   display: grid;
    grid-template-columns: repeat(1, 1fr);
-   width: 90%;
+   column-gap: 0px;
+  row-gap: 35px;
    grid-auto-rows: minmax(130px, auto);
-   margin-left: 80px;
+   margin-left: 30px;
  }
 
  .sidebar {
@@ -502,7 +504,7 @@ a:active {
   background-color: #FFFFFF;
   border-radius: 6px;
   margin-top: 15%;
-  margin-left: 18%;
+  margin-left: 30px;
 }
 .sidebar>h5 {
   padding:10px;
@@ -556,6 +558,24 @@ a:active {
     flex-direction: column;
     align-items: center;
   }
+
+  .cards {
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   column-gap: 0px;
+  row-gap: 35px;
+   grid-auto-rows: minmax(130px, auto);
+  
+ }
+
+ #secroot {
+  display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   column-gap: 0px;
+  row-gap: 35px;
+   grid-auto-rows: minmax(130px, auto);
+  
+ }
 
 .verticline{
 
@@ -628,7 +648,7 @@ a:active {
 .img-right {
   height: 180px;
   float: right;
-
+  margin-left: 130px;
  }
 
 .img-logo {
@@ -644,11 +664,11 @@ a:active {
   color: #FFFFFF;
   
 	font-family: "HCLTech Roobert";
-  top: 7%;
+  top: 8%;
   left: 22%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  font-size: 20px;
+  font-size: 15px;
   
 }
 
@@ -657,11 +677,11 @@ a:active {
   color: #FFFFFF;
   
 	font-family: "Arial";
-  top: 120px;
+  top: 110px;
   left: 20%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  font-size: 11px;
+  font-size: 10px;
   padding-top: 10px;
 }
 
