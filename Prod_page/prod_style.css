@@ -192,18 +192,7 @@ html {
     left: 78px;
   }
 
-.playlist{
-  width: 20%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  float: right;
-  padding-left: 5px;
-  position: absolute;
-  top: 85%;
-  left: 75%;
-  padding-bottom: 30px;
-}
+
 
 #video1 {
   margin:0;
@@ -239,6 +228,7 @@ html {
 
 .container {
   display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap;
 }
 
 
@@ -255,15 +245,16 @@ html {
 .cards {
    display: grid;
   grid-template-columns: repeat(3, 1fr);
-  width: 90%;
+  column-gap: 0px;
+  row-gap: 35px;
   grid-auto-rows: minmax(130px, auto);
   
 }
 
 .card {
   background-color: #FFFFFF;
-   width: 282px;
-  height: 80px;
+  height: 184px;
+  width: 312px;
   border-color:#ece9e9;
   border-radius: 6px;
   
@@ -308,11 +299,12 @@ html {
   font-size: 16px;
   font-weight: bold;
 	font-family: "HCLTech Roobert";
+  padding-bottom: 10px;
 }
 .card-text {
   font-size: 13px;
   padding-top: 15px;
-	font-family: "HCLTech Roobert";
+	font-family: "Open Sans", sans-serif;
   #line-height: 20px;
 }
 /*.card:hover {
@@ -405,7 +397,8 @@ a:active {
 #secroot {
  display: grid;
   grid-template-columns: repeat(3, 1fr);
-  width: 90%;
+  column-gap: 0px;
+  row-gap: 35px;
   grid-auto-rows: minmax(130px, auto);
 }
 
@@ -486,51 +479,60 @@ a:active {
     align-items: center;
   }
 
+  .cards {
+    display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   width: 90%;
+   grid-auto-rows: minmax(130px, auto);
+   padding-top: 80px;
+   margin-left: 85px;
+ }
+
+ #secroot {
+  display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   width: 90%;
+   grid-auto-rows: minmax(130px, auto);
+   margin-left: 80px;
+ }
+
+ .sidebar {
+  width: 265px; /*Set the width of the sidebar */
+  height: 300px;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  margin-top: 15%;
+  margin-left: 18%;
+}
+.sidebar>h5 {
+  padding:10px;
+  font-size: 16px;
+  font-family: "HCLTech Roobert";
+}
+
 .verticline{
 
   display: none;
 }
-.rightsidebar {
-    width: 100%;
-    height: auto;
-    background-color: #f1f1f1;
-    padding: 25px;
-    position: relative;
-   top: 132%;
-  margin-left: 80px;
-  }
-  
-  .playlist{
-  width: 70%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  float: right;
-  padding-left: 5px;
-  position: absolute;
-  top: 450%;
-  left: 110px;
-  padding-bottom: 30px;
-}
+
+
 
 .sechead {
-  padding-left: 45px;
+  padding-left: 140px;
   padding-top: 35px;
   padding-bottom: 20px;
   text-align: left;
   font-family: "HCLTech Roobert";
 }
 
-
-.mainContent {
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-    width: 100%;
-    position: relative;
-    margin-left: 50px;
-	padding-top: 90px;
+#root {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  padding-bottom: 60px;
 }
+
+
 
 .brand_banner {
   display: none;
