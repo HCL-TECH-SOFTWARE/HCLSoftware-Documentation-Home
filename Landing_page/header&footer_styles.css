@@ -114,7 +114,6 @@ html {
     display: block;
     z-index: 9999;
     font-family: 'HCLTech Roobert';
-
 }
 
 .dropdnmenu-content {
@@ -173,7 +172,7 @@ html {
   position: absolute;
   color: #FFFFFF;
   font-size: 34px;
-	font-family: 'HCLTech Roobert';
+  font-family: 'HCLTech Roobert';
   z-index: 1;
   margin-left: 22%;
   display: inline-block;
@@ -200,9 +199,9 @@ html {
 
 #searchProd {
   background-image: url('images/icons8-search-25.svg'); /* Add a search icon to input */
-  background-position: 10px 12px; /* Position the search icon */
+  background-position: 8px 10px; /* Position the search icon */
   background-repeat: no-repeat; /* Do not repeat the icon image */
-  font-size: 14px;
+  font-size: 12px;
   /* border: 0.5px solid #ddd; */
   border: none;
 }
@@ -272,74 +271,67 @@ html {
   width: 100%;
 }
 
-@media only screen and (max-width: 760px) {
-  .row {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+/*Mobile devices*/
+@media only screen and (max-width: 300px) {
 
-.verticline {
-  display: none;
-}
-
-.brand_banner {
-  display: none;
-}
-.brand_banner .headerTitle {
-  display: none;
-}
-.brand_banner img {
-  display: none;
-}
-  
-}
-  /* For mobile phones: */
-@media only screen and (max-width: 620px) {
-  .row, .sidebar, .mainContent {
-    width: 100%;
-  }
-}
-
-@media only screen and (max-width: 760px) {
-  
-}
-/*iPad pro*/
-@media only screen and (min-width: 961px) {
-
-  .row, .sidebar, .mainContent #root {
-    width: 100%;
-    overflow: hidden;
-  }
-  
-  
-  .headerTitle {
-      transform: translate(-50%, -50%);
-      top: 120px;
+    .searchProdclass {
+      position: relative;
+      color: black;
+      font-size: 14px;
+      font-family: 'HCLTech Roobert';
+    /*   transform: translate(-176%, -176%); */
       z-index: 1;
+      width: 110%;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-align: center;
     }
-
-  }
-  /*iPad Mini*/
-  @media only screen and (min-width: 764px) and (max-width:960px) {
-
-    .row, .sidebar, .mainContent, #root {
-      width: 100%;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      flex-wrap: nowrap;
+    .verticline {
+      display: none;
     }
     
-    .verticline {
-      margin-left: 80px;
+    .brand_banner {
+      display: none;
     }
-  
-    .headerTitle {
-        transform: translate(-50%, -50%);
-        top: 120px;
-        z-index: 1;
-      }
+    .brand_banner .headerTitle {
+      display: none;
+    }
+    .brand_banner img {
+      display: none;
+    }
+  }
 
+
+  /*Mobile devices*/
+  @media only screen and (min-width: 301px) and (max-width:768px) {
+
+      .searchProdclass {
+        position: relative;
+        color: black;
+        font-size: 14px;
+        font-family: 'HCLTech Roobert';
+      /*   transform: translate(-176%, -176%); */
+        z-index: 1;
+        width: 110%;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-align: center;
+      }
+      .verticline {
+        display: none;
+      }
+      
+      .brand_banner {
+        display: none;
+      }
+      .brand_banner .headerTitle {
+        display: none;
+      }
+      .brand_banner img {
+        display: none;
+      }
     }
-  
+@media only screen and (min-width: 769px) {
+    
+    
+}

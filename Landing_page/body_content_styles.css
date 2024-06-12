@@ -15,9 +15,9 @@
 	  font-family: 'HCLTech Roobert';
 }
 
-.fil-p:hover {
+/* .fil-p:hover {
     box-shadow: rgba(4, 216, 244, 0.35) 0px 5px 15px;
-}
+} */
 
 .sidebarbutton {
     width: 100%;
@@ -46,8 +46,6 @@
   padding-right: 0;
   width: 100%;
   float: left;
-  margin-left: 84px;
-  margin-right: 84px;
 }
 
 
@@ -68,15 +66,14 @@
     background-color: #F2F2F2;
     padding: 40px;
     margin-bottom: 5%;
-    margin-left: 320px;
+    margin-left: 375px;
   }
 
   #root {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
       grid-row-gap: 32px;
-      grid-column-gap: 32px;
-      
+      grid-column-gap: 80px;
     }
   
  /* Cards design */
@@ -85,7 +82,7 @@
   width:34px;
   height: 34px;
   top: 6px;
-  left: 6px;
+  left: 10px;
   position: absolute;
 }
 
@@ -93,30 +90,30 @@
     background-color: #FFFFFF;
     border-radius: 6px;
     width: 286px;
-    height: 115px;
+    height: 118px;
     border: none;
   }
   
   .card-body {
-      width: 280px;
+      width: 250px;
       height: 80px;
-      align-items: center;
+      /* align-items: center; */
   }
   
   .card-title {
     font-size: 16px;
     font-family: 'HCLTech Roobert';
     position: relative;
-    left: 34px;
+    left: 38px;
   }
 
   .card-text {
     font-size: 13px;
-    padding-left: 35px;
-    padding-top: 0px;
+    padding-top: 5px;
     font-family: sans-serif;
     line-height: 15px;
-    text-wrap: wrap;
+    text-align: justify;
+    margin-left: 10px;
   }
 
   .card:hover {
@@ -172,69 +169,37 @@
   
 
 /*Mobile devices*/
-@media only screen and (max-width: 760px) {
+@media (min-width: 301px) and (max-width: 768px) {
 
-    .fil-p {
-        padding: 10px 10px;
-        background-color:  #FFFFFF;
-        margin: 7px 0;
-        cursor: pointer;
-        color: #333;
-        text-align: justify;
-        top: 20px;
-    }
-    .fil-p:hover {
-        color: rgb(153, 12, 247);
-        background-color: hsl(223, 37%, 91%);
-    }
     
-    .sidebarbutton {
-        width: 100%;
-        position: relative;
-        border: none;
-        border-radius: 10px;
-        background-color:  #FFFFFF;
-        padding: 5px 10px;
-        cursor: pointer;
-        color: black;
-        font-size: 14px;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    }
-
     .container {
-      display: flex;
-      flex-wrap: wrap;
-    }
-    
-    #root {
-        width: 100%;
-        height: auto;
-        display:flex;
-        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
-        padding: 10px;
-        grid-gap: 20px;
+        align-items:center;
+        justify-content: center;
+        margin: 0 auto;
+        
     }
 
     .sidebar {
-        width: 100%;
-        height: auto;
-        background-color: #f1f1f1;
-        padding: 20px;
+        display: block;
         position: relative;
-        top:70px;
-      }
+        top: 140px;
+        align-items:center;
+        justify-content: center;
     
-    .mainContent {
-        display: flex;
-        flex-direction:column;
-        align-items: center;
-        width: 100%;
-        position: relative;
-        margin-left: 0;
-        top:80px;
-        margin-bottom: 15%;
     }
-    
+
+    .mainContent {
+        display: flex; 
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        position: absolute;
+        top:80%;
+        margin-left: 0;
+    }
+
 }
 
