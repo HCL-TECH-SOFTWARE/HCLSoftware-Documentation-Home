@@ -174,9 +174,9 @@ html {
   font-size: 34px;
   font-family: 'HCLTech Roobert';
   z-index: 1;
-  margin-left: 22%;
+  margin-left: 12%;
   display: inline-block;
-  transform: translate(-0.50em, -0.50em);
+  top: 10%;
 }
 
 .search_container {
