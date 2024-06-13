@@ -463,7 +463,7 @@
         },
         {
             id: 7,
-            image:"images/HCL_Mainframe_ZCC.png",
+            image:"images/HCL_Mainframe_ZLV.png",
             title: 'Z License Verification (ZLV)',
             description: 'Intro',
             category: 'Mainframe Solutions',
