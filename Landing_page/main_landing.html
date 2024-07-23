@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head><link rel="icon" href="favicon.png"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- OneTrust Cookies Consent Notice start -->
+    <script type="text/javascript" src="https://cdn.cookielaw.org/consent/99b8d579-c52a-43c9-ab7b-a35e60de7103/OtAutoBlock.js"></script>
+    <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="99b8d579-c52a-43c9-ab7b-a35e60de7103"></script>
+    <script type="text/javascript">
+        function OptanonWrapper() { }
+    </script>
+    <!-- OneTrust Cookies Consent Notice end -->
+    
+    <!-- Global site tag (gtag.js) - Google Analytics start-->
+   
+    <script src="https://www.googletagmanager.com/gtag/js?id=UA-169645537-2" class="optanon-category-C0002-C0003-C0004-C0005"></script>
+    <script type="text/javascript" class="optanon-category-C0002-C0003-C0004-C0005">
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-169645537-2');
+    gtag('config', 'G-7LF0XY95M1');
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TNNFCCM');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics end-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="header&footer_styles.css"/>
+    <link rel="stylesheet" href="body_content_styles.css">
+    <link rel="icon"  href="./images/favicon.png"/>
+    <title>HCL Product Documentation</title>
+
+</head>
+  <body> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    
+    <div class="navbar">
+        <div class="container-fluid brand_logo">
+            <a href="https://www.hcltechsw.com/wps/portal/hclsw-home">
+                <img width="150" height="30" src="https://help.hcltechsw.com/assets/images/HCL_Software_Logo_White.svg" alt="HCL Logo" target="_blank" rel = "noopener noreferrer"/>
+            </a>
+            <a href="https://help.hcltechsw.com/" class="docTitle">Product Documentation</a>
+            <div class="verticline"></div>
+            <div class="search_container">
+              <input class="searchProdclass" type="text" id="searchProd" onkeyup="searchProduct()" placeholder="Search for products..">
+            </div>
+
+            <div id="navbarSupportedContent" class="dropdnmenu justify-content-end brandFont">
+                <button id="rscdropdown" type="button" class="dropdbtnmenu  dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Resources</button>
+                <div id="resourceSupport" class="dropdnmenu-content">
+                  <a id="customerSupport" href="https://support.hcltechsw.com" target="_blank" rel = "noopener noreferrer">Customer Support</a>
+                  <a id="learningAcademy" href="https://hclsoftwareu.hcltechsw.com/" target="_blank" rel = "noopener noreferrer">HCLSoftware U</a>
+                  <a id="communitySupport" href="https://support.hcltechsw.com/community" target="_blank" rel = "noopener noreferrer">Community Forums</a>
+                </div>
+            </div>
+        </div>
+    </div>
+     
+    <div class="brand_banner">
+      <span class="headerTitle">Explore HCLSoftware Docs</span>
+      <img class="img-right" src="./images/brand_image_right_180px.png" alt="" width="900"/>
+
+    </div>
+   
+<div class="container">
+  <div class="sidebar">
+    <h6>Categories</h6>
+    <div id="catid" class="list-group">
+        
+        <button id="showAllID" class='fil-p sidebarbutton active' onclick='showAll()'>All Products</button>
+        <div id="btns"></div>
+    </div>
+  </div>
+
+  <div class="mainContent">
+    <div id="root"></div>
+  </div>
+</div>
+
+  <!-- Footer -->
+  <div class="footer-container">
+    <div class="footer brandFont">
+      <div class="footer-left">
+        <ul class="nav share-content">
+          <li class="nav-item">
+                    <a id="footerMailLink" class="nav-link footer-mail" style="color:white;" target="_blank" rel = "noopener noreferrer" href="#" onclick="gtag('event', 'EmailShare', {'event_category': 'share', 'event_label':'labelemail'});" title="Share by Email">Share: Email</a>
+          </li>
+                <li>
+                    <a id="footerTwitterLink" class="nav-link footer-twitter" href="https://twitter.com/intent/tweet" style="color:white;" onclick="gtag('event', 'TwitterShare', {'event_category': 'share', 'event_label':'labeltweet'});" title="Share by Twitter">Twitter</a>
+                </li>
+        </ul>
+      </div>
+        <div class="footer-right">
+            <ul class="nav legal-content">
+                <li class="nav-item">
+                    <a id="disclaimerLabel" class="nav-link footer-launch" style="color:white;" target="_blank" rel = "noopener noreferrer" href="https://www.hcltechsw.com/wps/portal/legal/disclaimer">Disclaimer</a>
+                </li>
+                <li class="nav-item">
+                    <a id="privacyLabel" class="nav-link footer-launch" style="color:white;" target="_blank" rel = "noopener noreferrer" href="https://www.hcltechsw.com/wps/portal/legal/privacy">Privacy</a>
+                </li>
+                <li class="nav-item">
+                    <a id="termsLabel" class="nav-link footer-launch" style="color:white;" target="_blank" rel = "noopener noreferrer" href="https://www.hcltechsw.com/wps/portal/legal/terms-use">Terms of use</a>
+                </li>
+                <li class="nav-item">
+                    <a id="cookieLabel" class="nav-link footer-launch ot-sdk-show-settings" style="color:white;" href="#">Cookie Preferences</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+  </div>
+
+  <script>
+    var showAll = () => {
+        location.reload();
+    }
+
+    
+  </script>
+  <script src="script.js"></script>
+
+  </body>
+</html>

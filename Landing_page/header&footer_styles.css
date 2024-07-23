@@ -1,0 +1,337 @@
+/*This style sheet contains only header part and footer part styles*/
+/*Fonts*/
+@font-face {
+  font-family: 'HCLTech Roobert';
+  font-style: normal;
+  font-weight: 100;
+  src: url(./fonts/HCLTechRoobert-Light.ttf);
+}
+
+@font-face {
+  font-family: 'HCLTech Roobert';
+  font-style: normal;
+  font-weight: 300;
+  src: url(./fonts/HCLTechRoobert-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'HCLTech Roobert';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./fonts/HCLTechRoobert-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'HCLTech Roobert';
+  font-style: normal;
+  font-weight: 700;
+  src: url(./fonts/HCLTechRoobert-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'GothamBold';
+  src: url("./fonts/Gotham-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'HCLTech Roobert';
+  src: url("./fonts/HCLTechRoobert-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'Courier';
+  font-style: normal;
+  font-weight: 700;
+  src: url(./fonts/Courier.ttf);
+}
+
+
+/*Header and body styles*/
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body { 
+    margin: 0;
+    background-color:  #F2F2F2;
+  }
+  
+  .brand_logo {
+    background-color: black;
+}
+
+.verticline {
+  border-left: 2px solid gray;
+  height: 30px;
+  position: absolute;
+  left: 180px;
+  margin-left: -3px;
+  top: 10px;
+}
+.docTitle {
+    float: left;
+    text-decoration: none;
+    color: white;
+    margin-left: 3%;
+    font-size: 14px;
+    font-family: 'HCLTech Roobert';
+}
+
+.navbar {
+  background: black;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar>.container-fluid {
+    display: flex;
+    flex-wrap: inherit;
+    justify-content: left;
+}
+
+/*Resources dropdown menu*/
+
+.dropdnmenu {
+    position: relative;
+    display: inline-block;
+    padding: 2px 22px;
+    margin-left: auto;
+    justify-content: right;   
+}
+
+.dropdbtnmenu {
+    background-color: #0a0a0a;
+    color: white;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    padding: 4px 14px;
+    display: block;
+    z-index: 9999;
+    font-family: 'HCLTech Roobert';
+}
+
+.dropdnmenu-content {
+    display: none;
+    position: absolute;
+    background-color: #fcfcfc;
+    min-width: 160px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+    font-size: 13px;
+    top: 30px;
+    right: 10px;
+	  font-family: 'HCLTech Roobert';
+    z-index: 9999;
+}
+
+.dropdnmenu-content a {
+    color: black;
+    padding: 8px 24px;
+    text-decoration: none;
+    display: block;
+    float: none;
+    align-content: center;
+}
+
+.dropdnmenu-content a:hover {
+    background-color: #dddada;
+}
+
+.dropdnmenu:hover .dropdnmenu-content {
+    display: block;
+}
+
+.brand_banner {
+	  /* background: linear-gradient(to bottom, #e0e5e7 40%, #74b4cb 100%); */
+    /* background: linear-gradient(90deg, rgba(104,97,222,1) 1%, rgba(104,97,222,1) 3%, rgba(104,97,222,1) 3%, rgba(104,97,222,1) 3%, rgba(104,97,222,1) 3%, rgba(81,250,240,1) 50%, rgba(71,9,121,0.9893207282913166) 100%);  */
+    text-decoration: none;
+    width: 100%;
+    height: 180px;
+    z-index: 1;
+    background-color: #121212;
+}
+
+.img-right {
+  height: 180px;
+  float: right; 
+ }
+
+.brand_banner a {
+    text-decoration:none;
+    color: white;
+    font-size: 14px;
+    padding: 25px;
+}
+
+.headerTitle {
+  position: absolute;
+  color: #FFFFFF;
+  font-size: 34px;
+  font-family: 'HCLTech Roobert';
+  z-index: 1;
+  margin-left: 12%;
+  display: inline-block;
+  top: 10%;
+}
+
+.search_container {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+}
+.searchProdclass {
+  position: relative;
+  color: black;
+  font-size: 14px;
+  font-family: 'HCLTech Roobert';
+/*   transform: translate(-176%, -176%); */
+  z-index: 1;
+  width: 150%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#searchProd {
+  background-image: url('images/icons8-search-25.svg'); /* Add a search icon to input */
+  background-position: 8px 10px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  font-size: 12px;
+  /* border: 0.5px solid #ddd; */
+  border: none;
+}
+
+/* Footer Styles*/
+.footer-container {
+  padding: 1px;
+  text-align: center;
+  background: black;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  font-size: 14px;
+	font-family: 'HCLTech Roobert';
+  
+}
+
+.footer-launch::after {
+  content: url("images/launch.svg");
+  width: 20px;
+  height: 20px;
+  margin: auto 5px;
+  padding-top: 3px;
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+
+.footer-mail::after {
+  content: url("images/email.svg");
+  width: 20px;
+  height: 20px;
+  margin: auto 5px;
+  padding-top: 3px;
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+
+.footer-twitter::after {
+  content: url("https://help.hcltechsw.com/images/twitter.png");
+  width: 20px;
+  height: 20px;
+  margin: auto 5px;
+  padding-top: 3px;
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-right {
+  float: right;
+}
+
+.share-content {
+  text-align: left;
+}
+
+.legal-content {
+  text-align: right;
+}
+
+
+/*Mobile View styles*/
+[class*="col-"] {
+  width: 100%;
+}
+
+/*Mobile devices*/
+@media only screen and (max-width: 300px) {
+
+    .searchProdclass {
+      position: relative;
+      color: black;
+      font-size: 14px;
+      font-family: 'HCLTech Roobert';
+    /*   transform: translate(-176%, -176%); */
+      z-index: 1;
+      width: 110%;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-align: center;
+    }
+    .verticline {
+      display: none;
+    }
+    
+    .brand_banner {
+      display: none;
+    }
+    .brand_banner .headerTitle {
+      display: none;
+    }
+    .brand_banner img {
+      display: none;
+    }
+  }
+
+
+  /*Mobile devices*/
+  @media only screen and (min-width: 301px) and (max-width:768px) {
+
+      .searchProdclass {
+        position: relative;
+        color: black;
+        font-size: 14px;
+        font-family: 'HCLTech Roobert';
+      /*   transform: translate(-176%, -176%); */
+        z-index: 1;
+        width: 110%;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-align: center;
+      }
+      .verticline {
+        display: none;
+      }
+      
+      .brand_banner {
+        display: none;
+      }
+      .brand_banner .headerTitle {
+        display: none;
+      }
+      .brand_banner img {
+        display: none;
+      }
+    }
+@media only screen and (min-width: 769px) {
+    
+    
+}

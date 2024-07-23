@@ -1,0 +1,205 @@
+/*This style sheet contains styles of the body and filter parts*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fil-p {
+    padding: 10px 10px;
+    background-color:  #FFFFFF;
+    margin: 7px 0;
+    cursor: pointer;
+    color: #333;
+    text-align: justify;
+	  font-family: 'HCLTech Roobert';
+}
+
+/* .fil-p:hover {
+    box-shadow: rgba(4, 216, 244, 0.35) 0px 5px 15px;
+} */
+
+.sidebarbutton {
+    width: 100%;
+    position: relative;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 5px 15px;
+    cursor: pointer;
+    color:cadetblue;
+    font-size: 14px;
+	  font-family: 'HCLTech Roobert';
+}
+
+.active {
+  background-color: #d3d3d3;
+  color: #0a0a0a;
+}
+
+/* Column container */
+.container {
+  /* display: flex;
+  flex-wrap: wrap;
+  float: left; */
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  float: left;
+}
+
+
+/* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .sidebar {
+    max-width: 275px;
+    min-width: 275px;
+    background-color: #fafafa;
+    padding: 20px;
+    font-family: 'HCLTech Roobert';
+    position: fixed;
+    top: 220px;
+  }
+  
+  /* Main column */
+  .mainContent {
+    background-color: #F2F2F2;
+    padding: 40px;
+    margin-bottom: 5%;
+    margin-left: 400px;
+  }
+
+  #root {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      grid-row-gap: 32px;
+      grid-column-gap: 110px;
+    }
+  
+ /* Cards design */
+
+.images {
+  width:34px;
+  height: 34px;
+  top: 6px;
+  left: 10px;
+  position: absolute;
+}
+
+.card {
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    width: 286px;
+    height: 118px;
+    border: none;
+  }
+  
+  .card-body {
+      width: 250px;
+      height: 80px;
+      /* align-items: center; */
+  }
+  
+  .card-title {
+    font-size: 16px;
+    font-family: 'HCLTech Roobert';
+    position: relative;
+    left: 38px;
+  }
+
+  .card-text {
+    font-size: 13px;
+    padding-top: 5px;
+    font-family: sans-serif;
+    line-height: 15px;
+    text-align: justify;
+    margin-left: 10px;
+  }
+
+  .card:hover {
+    /* background: linear-gradient(90deg, rgba(104,97,222,1) 1%, rgba(104,97,222,1) 3%, rgba(104,97,222,1) 3%, rgba(104,97,222,1) 3%, rgba(104,97,222,1) 3%, rgba(81,250,240,1) 50%, rgba(71,9,121,0.9893207282913166) 100%); */
+    /* background: linear-gradient(90deg, rgb(94, 178, 220) 13%, rgb(90, 193, 188) 54%, rgba(110, 195, 198, 0.989) 150%); */
+    color: black;
+    /* height: 14rem; */
+    box-shadow: 0px 5px 15px  rgba(4, 216, 244, 0.35);
+  }
+  
+  .card-body > a {
+    text-decoration: none;
+    color: #FFFFFF;
+    position: absolute;
+    top: 145px;
+    font-size: 14px;
+    font-family: 'HCLTech Roobert';
+    bottom: 0;
+    padding-left: 25px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card-body a.link-wrapper {
+    position: relative;
+    color: #0a0a0a;
+    text-decoration: none;
+    left: 0;
+    top: 0;
+    align-items: center;
+  }
+  
+  /* .arrow-icon {
+    position: absolute;
+    left: 0;
+    transition: transform 0.3s ease;
+    display: inline-block;
+    font-size: 14px;
+  } */
+  
+  /* .card:hover .arrow-icon {
+   transform: translateX(8px);
+   color:cadetblue;
+  } */
+  .card:hover .card-body > a {
+    padding-top: 28px;
+    transform: translateX(8px);
+    color: cadetblue;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+
+/*Mobile devices*/
+@media (min-width: 301px) and (max-width: 768px) {
+
+    
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        margin: 0 auto;
+        
+    }
+
+    .sidebar {
+        display: block;
+        position: relative;
+        top: 140px;
+        align-items:center;
+        justify-content: center;
+    
+    }
+
+    .mainContent {
+        display: flex; 
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        position: absolute;
+        top:80%;
+        margin-left: 0;
+    }
+
+}
+
