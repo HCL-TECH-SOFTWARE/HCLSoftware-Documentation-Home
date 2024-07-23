@@ -15,9 +15,9 @@
 	  font-family: 'HCLTech Roobert';
 }
 
-/* .fil-p:hover {
+.fil-p:hover {
     box-shadow: rgba(4, 216, 244, 0.35) 0px 5px 15px;
-} */
+}
 
 .sidebarbutton {
     width: 100%;
@@ -46,6 +46,8 @@
   padding-right: 0;
   width: 100%;
   float: left;
+  margin-left: 84px;
+  margin-right: 84px;
 }
 
 
@@ -58,7 +60,7 @@
     padding: 20px;
     font-family: 'HCLTech Roobert';
     position: fixed;
-    top: 200px;
+    top: 220px;
   }
   
   /* Main column */
@@ -66,55 +68,54 @@
     background-color: #F2F2F2;
     padding: 40px;
     margin-bottom: 5%;
-    margin-left: 400px;
+    margin-left: 320px;
   }
 
   #root {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
       grid-row-gap: 32px;
-      grid-column-gap: 110px;
+      grid-column-gap: 32px;
+      
     }
   
  /* Cards design */
 
 .images {
-  width:34px;
-  height: 34px;
-  top: 6px;
-  left: 10px;
-  position: absolute;
+  width:35px;
+  height: 35px;
+  position: relative;
+  bottom: 10px;
+  left: -8px;
 }
 
 .card {
     background-color: #FFFFFF;
     border-radius: 6px;
     width: 286px;
-    height: 118px;
+    height: 80px;
     border: none;
   }
   
   .card-body {
-      width: 250px;
+      width: 280px;
       height: 80px;
-      /* align-items: center; */
+      align-items: center;
   }
-  
   .card-title {
     font-size: 16px;
     font-family: 'HCLTech Roobert';
     position: relative;
-    left: 38px;
+    bottom: 33px;
+    left: 34px;
   }
 
   .card-text {
-    width: 260px;
     font-size: 13px;
-    padding-top: 5px;
-    font-family: sans-serif;
-    line-height: 15px;
+    margin-top: 0px;
+    font-family: 'HCLTech Roobert';
+    line-height: 20px;
   }
-
   .card:hover {
     /* background: linear-gradient(90deg, rgba(104,97,222,1) 1%, rgba(104,97,222,1) 3%, rgba(104,97,222,1) 3%, rgba(104,97,222,1) 3%, rgba(104,97,222,1) 3%, rgba(81,250,240,1) 50%, rgba(71,9,121,0.9893207282913166) 100%); */
     /* background: linear-gradient(90deg, rgb(94, 178, 220) 13%, rgb(90, 193, 188) 54%, rgba(110, 195, 198, 0.989) 150%); */
@@ -168,59 +169,69 @@
   
 
 /*Mobile devices*/
-@media (min-width: 300px) and (max-width: 367px) {
+@media only screen and (max-width: 760px) {
 
-  .sidebar {
-    display: block;
-    position: relative;
-    top: 40px;
-    align-items:center;
-    justify-content: center;
-    margin-left: 10px;
-
-}
-
-.mainContent {
-    display: flex; 
-    flex-direction: column;
-    align-items:center;
-    justify-content: center;
-    position: absolute;
-    top:80%;
-    margin-left: -33px;
-}
-}
-
-@media (min-width: 368px) and (max-width: 768px) {
-
+    .fil-p {
+        padding: 10px 10px;
+        background-color:  #FFFFFF;
+        margin: 7px 0;
+        cursor: pointer;
+        color: #333;
+        text-align: justify;
+        top: 20px;
+    }
+    .fil-p:hover {
+        color: rgb(153, 12, 247);
+        background-color: hsl(223, 37%, 91%);
+    }
     
+    .sidebarbutton {
+        width: 100%;
+        position: relative;
+        border: none;
+        border-radius: 10px;
+        background-color:  #FFFFFF;
+        padding: 5px 10px;
+        cursor: pointer;
+        color: black;
+        font-size: 14px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
     .container {
-        display: flex;
-        flex-wrap: wrap;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    #root {
+        width: 100%;
+        height: auto;
+        display:flex;
+        align-items: center;
         flex-direction: column;
-        align-items:center;
-        justify-content: center;
-        margin: 0 auto; 
+        padding: 10px;
+        grid-gap: 20px;
     }
 
     .sidebar {
-        display: block;
+        width: 100%;
+        height: auto;
+        background-color: #f1f1f1;
+        padding: 20px;
         position: relative;
-        top: 40px;
-        align-items:center;
-        justify-content: center;
+        top:70px;
+      }
     
-    }
-
     .mainContent {
-        display: flex; 
-        flex-direction: column;
-        align-items:center;
-        justify-content: center;
-        position: absolute;
-        top:80%;
-        margin-left: 0px;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        margin-left: 0;
+        top:80px;
+        margin-bottom: 15%;
     }
-
+    
 }
 
