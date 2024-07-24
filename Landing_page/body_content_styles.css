@@ -15,9 +15,10 @@
 	  font-family: 'HCLTech Roobert';
 }
 
-/* .fil-p:hover {
-    box-shadow: rgba(4, 216, 244, 0.35) 0px 5px 15px;
-} */
+.fil-p:hover {
+    /* box-shadow: rgba(4, 216, 244, 0.35) 0px 5px 15px; */
+    color: #006075;
+}
 
 .sidebarbutton {
     width: 100%;
@@ -27,14 +28,14 @@
     background-color: #FFFFFF;
     padding: 5px 15px;
     cursor: pointer;
-    color:cadetblue;
+    color: #0a0a0a;
     font-size: 14px;
 	  font-family: 'HCLTech Roobert';
 }
 
 .active {
-  background-color: #d3d3d3;
-  color: #0a0a0a;
+  color: #007A87;
+  border: 1px, solid #007A87;
 }
 
 /* Column container */
@@ -54,7 +55,7 @@
   .sidebar {
     max-width: 275px;
     min-width: 275px;
-    background-color: #fafafa;
+    background-color: #FFFFFF;
     padding: 20px;
     font-family: 'HCLTech Roobert';
     position: fixed;

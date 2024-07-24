@@ -225,7 +225,7 @@ font-family: 'HCLTechRoobert-Medium', sans-serif;
   color: black;
   font-size: 14px;
   font-family: 'HCLTech Roobert';
-/*   transform: translate(-176%, -176%); */
+/*transform: translate(-176%, -176%); */
   z-index: 1;
   width: 28%;
   padding: 10px 20px;
@@ -245,16 +245,18 @@ font-family: 'HCLTechRoobert-Medium', sans-serif;
 }
 
 /* Footer Styles*/
+
 .footer-container {
+  z-index: 9999;
   padding: 1px;
   text-align: center;
-  background: black;
+  color: #ffffff;
+  background:  #272727;
   bottom: 0;
   width: 100%;
-  position: fixed;
   font-size: 14px;
 	font-family: 'HCLTech Roobert';
-  
+  position: fixed;
 }
 
 .footer-launch::after {

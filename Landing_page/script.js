@@ -71,6 +71,15 @@
             link: 'https://help.hcl-software.com/solutions/clara/index.html'
         },
         {
+            id: 5,
+            image:"images/HCL_Unica_Color_Icon.svg",
+            title: 'HCL CDP',
+            description: 'Foundational platform to transform customer interactions. Unifies  customer data across touchpoints to create enriched real-time, and personalized customer engagement.',
+            category: 'Digital Solutions',
+            link: 'https://help.hcltechsw.com/hclcdp/cdp/index.html'
+        },
+        
+        {
             id: 6,
             image:"images/HCL_Clara_Color_Icon.svg",
             title: 'HCL Clara',
@@ -83,7 +92,7 @@
             id: 5,
             image:"images/HCL_Commerce_Color_Icon.svg",
             title: 'Commerce',
-            description: 'Intro',
+            description: 'Provides a powerful and unified customer interaction platform for omni-channel commerce. It is customizable and scalable to do business directly with customers (B2C) and directly with businesses (B2B).',
             category: 'Commerce and Marketing',
             link: 'https://help.hcl-software.com/commerce/index.html'
         },
@@ -91,13 +100,13 @@
             id: 4,
             image:"images/HCL_Compass_Color_Icon.svg",
             title: 'Compass',
-            description: 'Intro',
+            description: 'It is a comprehensive change tracking system for software development environments. Organizations can use it to automate and enforce development processes and to manage issues throughout the project life cycle.',
             category: 'Secure DevOps',
             link: 'https://help.hcl-software.com/compass/index.html'
         },
         {
             id: 5,
-            image:"images/",
+            image:"images/HCL_Connections_Color_Icon.svg",
             title: 'Connections',
             description: 'People power your business. HCL Connections powers your people.',
             category: 'Digital Solutions',
@@ -212,7 +221,7 @@
             id: 5,
             image:"images/HCL_Domino_Volt_Color_Icon.svg",
             title: 'HCL Enterprise Integrator (HEI)',
-            description: 'Domino add-on product for high-volume data transfers, synchronizing disparate data sources, and providing real-time integration between Domino and back-end data sources such as DB2, SQL, and Oracle.',
+            description: 'Domino add-on product for high-volume data transfers, synchronizing disparate data sources, and providing real-time integration between Domino and back-end data sources.',
             category: 'Digital Solutions',
             link: 'https://help.hcl-software.com/domino_volt/welcome/index.html'
         },
@@ -260,7 +269,7 @@
             id: 5,
             image:"images/Intelliservice_Logo.png",
             title: 'IntelliService',
-            description: 'Intro',
+            description: 'AI-Powered platform to unleash your marketing, sales and service excellence.',
             category: 'Commerce and Marketing',
             link: 'https://help.hcl-software.com/Intelliservice/home/index.html'
         },
@@ -276,7 +285,7 @@
             id: 3,
             image:"images/Actian.png",
             title: 'Ingres',
-            description: 'Transform faster using the world’s most trusted transactional database that has been delivering ground-breaking insights for decades—it was in the room when data happened. It has run billions of OLTP operations for thousands of enterprises, and it can help you too.',
+            description: 'Transform faster using the world’s most trusted transactional database that has been delivering ground-breaking insights for decades.',
             category: 'Data, Analytics and Insights',
             link: 'https://docs.actian.com/ingres/#page/Welcome/Welcome_to_Ingres_Documentation.htm'
         },
@@ -415,7 +424,7 @@
             id: 5,
             image:"images/HCL_Unica_Color_Icon.svg",
             title: 'Unica',
-            description: 'Intro',
+            description: 'An advanced enterprise automated marketing platform to handle routine marketing tasks without human action & capture maximum efficient leads.',
             category: 'Commerce and Marketing',
             link: 'https://help.hcl-software.com/unica/uc/unica_welcome_portal.html'
         },
@@ -423,7 +432,7 @@
             id: 5,
             image:"images/HCL_Discover_Color_Icon.svg",
             title: 'Unica Discover',
-            description: 'Intro',
+            description: 'An enterprise class digital customer experience analytics platform that delivers behavioural insights for your web and mobile web applications.',
             category: 'Commerce and Marketing',
             link: 'https://help.hcl-software.com/UnicaDiscover/UD/index.html'
         },
@@ -488,7 +497,7 @@
             id: 7,
             image:"images/HCL_ZIE_Transformation_Color_Icon.svg",
             title: 'Z and I Emulator for Transformation',
-            description: 'Intro',
+            description: 'Extend mission critical terminal applications to the web, mobile or as APIs without touching the existing application.',
             category: 'Mainframe Solutions',
             link: 'https://help.hcl-software.com/zie/zietrans/welcome/index.html'
         },
@@ -504,7 +513,7 @@
             id: 7,
             image:"images/HCL_ZIE_Windows_Color_Icon.svg",
             title: 'Z and I Emulator for Windows (ZIEWin)',
-            description: 'HCL ZIE for Windows is a highly reliable emulator explicitly designed for Windows operating system users to connect with mainframe or host system. HCL ZIE for Windows is the best choice for mainframe customers worldwide who demand the highest level of reliability, security and performance.',
+            description: 'It is a highly reliable emulator explicitly designed for Windows operating system users to connect with mainframe or host system. It provides highest level of reliability, security and performance.',
             category: 'Mainframe Solutions',
             link: 'https://help.hcl-software.com/zie/ziewin/welcome/index.html'
         },
@@ -528,23 +537,16 @@
             id: 7,
             image:"images/HCL_Z_Data_Tools_Color_Icon.svg",
             title: 'Z Data Tools (ZDT)',
-            description: 'Intro',
+            description: 'Manage data stored on z/OS systems interactively and in batch processing with a simple, intuitive user interface and remote systems support.',
             category: 'Mainframe Solutions',
             link: 'https://help.hcl-software.com/zdt/welcome/index.html'
         },
-        {
-            id: 7,
-            image:"images/HCL_Mainframe_ZCC.png",
-            title: 'Z Common Components (ZCC)',
-            description: 'Intro',
-            category: 'Mainframe Solutions',
-            link: 'https://help.hcl-software.com/zcc/welcome/index.html'
-        },
+        
         {
             id: 7,
             image:"images/HCL_Mainframe_ZLV.png",
             title: 'Z License Verification (ZLV)',
-            description: 'Intro',
+            description: 'Empowers enterprises to identify software audit exposures quickly. It also creates actionable license verification insights and helps optimize costs.',
             category: 'Mainframe Solutions',
             link: 'https://help.hcl-software.com/ZLicenseVerification/welcome/index.html'
         },
