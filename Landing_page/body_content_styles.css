@@ -58,7 +58,7 @@
     padding: 20px;
     font-family: 'HCLTech Roobert';
     position: fixed;
-    top: 220px;
+    top: 200px;
   }
   
   /* Main column */
@@ -90,13 +90,13 @@
     background-color: #FFFFFF;
     border-radius: 6px;
     width: 286px;
-    height: 118px;
+    height: 160px;
     border: none;
   }
   
   .card-body {
       width: 250px;
-      height: 80px;
+      height: 120px;
       /* align-items: center; */
   }
   
@@ -108,12 +108,11 @@
   }
 
   .card-text {
+    width: 260px;
     font-size: 13px;
     padding-top: 5px;
     font-family: sans-serif;
-    line-height: 15px;
-    text-align: justify;
-    margin-left: 10px;
+    line-height: 20px;
   }
 
   .card:hover {
@@ -169,7 +168,30 @@
   
 
 /*Mobile devices*/
-@media (min-width: 301px) and (max-width: 768px) {
+@media (min-width: 300px) and (max-width: 367px) {
+
+  .sidebar {
+    display: block;
+    position: relative;
+    top: 40px;
+    align-items:center;
+    justify-content: center;
+    margin-left: 10px;
+
+}
+
+.mainContent {
+    display: flex; 
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    position: absolute;
+    top:80%;
+    margin-left: -33px;
+}
+}
+
+@media (min-width: 368px) and (max-width: 768px) {
 
     
     .container {
@@ -178,14 +200,13 @@
         flex-direction: column;
         align-items:center;
         justify-content: center;
-        margin: 0 auto;
-        
+        margin: 0 auto; 
     }
 
     .sidebar {
         display: block;
         position: relative;
-        top: 140px;
+        top: 40px;
         align-items:center;
         justify-content: center;
     
@@ -198,7 +219,7 @@
         justify-content: center;
         position: absolute;
         top:80%;
-        margin-left: 0;
+        margin-left: 0px;
     }
 
 }

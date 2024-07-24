@@ -34,9 +34,9 @@
             id: 4,
             image:"images/HCL_AppScan_Color_Icon.svg",
             title: 'AppScan',
-            description: 'Intro',
+            description: 'Comprehensive application security solutions with best-in-class testing tools and centralized platforms for oversight and visibility, available on-cloud, cloud-native, and on-premises',
             category: 'Secure DevOps',
-            link: 'https://help.hcltechsw.com/appscan/Welcome.html'
+            link: 'https://help.hcl-software.com/appscan/Welcome.html'
         },
         {
             id: 3,
@@ -50,7 +50,7 @@
             id: 3,
             image:"images/Actian.png",
             title: 'Avalanche Cloud Data Platform',
-            description: 'Intro',
+            description: 'A unified experience for ingesting, transforming, analyzing, and storing data. Flexible deployment options include public cloud, hybrid or on-premises environments.',
             category: 'Data, Analytics and Insights',
             link: "https://docs.actian.com/avalanche/index.html#page/Welcome/What's_New_in_Actian_Warehouses.html"
         },
@@ -58,17 +58,25 @@
             id: 1,
             image:"images/HCL_BigFix_Color_Icon.svg",
             title: 'BigFix',
-            description: 'Welcome to the BigFix Platform documentation, where you can find information about how to install, maintain, and use BigFix.',
+            description: 'Automate discovery, management and remediation of all on-premise, virtual, and cloud endpoints regardless of operating system, location, or connectivity.',
             category: 'Automation',
-            link: 'https://help.hcltechsw.com/bigfix/landing/index.html'
+            link: 'https://help.hcl-software.com/bigfix/landing/index.html'
         },
         {
             id: 6,
             image:"images/HCL_Clara_Color_Icon.svg",
-            title: 'Clara',
-            description: 'Intro',
+            title: 'HCL AIDA',
+            description: 'AI & ML built-in patterns to capture and control process execution. Enables fast troubleshooting and data-driven decision-making to guarantee stability through risk assessment.',
             category: 'Innovations',
-            link: 'https://help.hcltechsw.com/solutions/clara/index.html'
+            link: 'https://help.hcl-software.com/solutions/clara/index.html'
+        },
+        {
+            id: 6,
+            image:"images/HCL_Clara_Color_Icon.svg",
+            title: 'HCL Clara',
+            description: 'Conversational UI enabling democratization and Self-Service automation with natural language processing interactions.',
+            category: 'Innovations',
+            link: 'https://help.hcl-software.com/solutions/clara/index.html'
         },
         
         {
@@ -77,7 +85,7 @@
             title: 'Commerce',
             description: 'Intro',
             category: 'Commerce and Marketing',
-            link: 'https://help.hcltechsw.com/commerce/index.html'
+            link: 'https://help.hcl-software.com/commerce/index.html'
         },
         {
             id: 4,
@@ -85,14 +93,21 @@
             title: 'Compass',
             description: 'Intro',
             category: 'Secure DevOps',
-            link: 'https://help.hcltechsw.com/compass/index.html'
+            link: 'https://help.hcl-software.com/compass/index.html'
         },
-        
+        {
+            id: 5,
+            image:"images/",
+            title: 'Connections',
+            description: 'People power your business. HCL Connections powers your people.',
+            category: 'Digital Solutions',
+            link: 'https://help.hcl-software.com/connections/welcome/index.html'
+        },
         {
             id: 3,
             image:"images/Actian.png",
             title: 'DataConnect',
-            description: 'Intro',
+            description: 'Use this intelligent, low-code integration platform to address your most complex use cases with automated, intuitive, and reusable integrations.',
             category: 'Data, Analytics and Insights',
             link: 'https://docs.actian.com/dataconnect/#page/Welcome/Welcome_to_DataConnect_Documentation.htm'
         },
@@ -100,7 +115,7 @@
             id: 3,
             image:"images/Actian.png",
             title: 'DataFlow',
-            description: 'Intro',
+            description: 'Actian DataFlow enables easy-to-use, high-performance data extraction, analysis, transformation, and loading.',
             category: 'Data, Analytics and Insights',
             link: 'https://docs.actian.com/dataflow/#page/Welcome/Welcome_to_DataFlow_Documentation.htm'
         },
@@ -110,13 +125,13 @@
             title: 'DevOps Code ClearCase',
             description: 'Intro',
             category: 'Secure DevOps',
-            link: 'https://help.hcltechsw.com/devops/code/clearcase/index.html'
+            link: 'https://help.hcl-software.com/devops/code/clearcase/index.html'
         },
         {
             id: 4,
             image:"images/DevOps_CodeRT.svg",
             title: 'DevOps Code RealTime',
-            description: 'Intro',
+            description: 'Create stateful, event-driven realtime applications in C++. It supports the Art language and runs as an extension of Visual Studio Code and Eclipse Theia.',
             category: 'Secure DevOps',
             link: 'https://secure-dev-ops.github.io/code-realtime/'
         },
@@ -125,15 +140,15 @@
             id: 4,
             image:"images/DevOps_deploy_black.svg",
             title: 'DevOps Deploy',
-            description: 'Intro',
+            description: 'Learn to automate your deployment process across dev, test, and production environments for faster and reliable software delivery.',
             category: 'Secure DevOps',
-            link: 'https://help.hcltechsw.com/devops/deploy/index.html'
+            link: 'https://help.hcl-software.com/devops/deploy/index.html'
         },
         {
             id: 4,
             image:"images/DevOps_ModelRT.svg",
             title: 'DevOps Model RealTime',
-            description: 'Intro',
+            description: 'An Eclipse-based modeling and development environment for creating stateful, event-driven realtime applications in C++. It supports UML and its realtime profile UML-RT.',
             category: 'Secure DevOps',
             link: 'https://model-realtime.hcldoc.com/help/index.jsp'
         },
@@ -143,7 +158,7 @@
             title: 'DevOps Test',
             description: 'Intro',
             category: 'Secure DevOps',
-            link: 'https://help.hcltechsw.com/devops/test/index.html'
+            link: 'https://help.hcl-software.com/devops/test/index.html'
         },
         {
             id: 4,
@@ -151,39 +166,71 @@
             title: 'DevOps Velocity',
             description: 'Intro',
             category: 'Secure DevOps',
-            link: 'https://help.hcltechsw.com/devops/velocity/index.html'
+            link: 'https://help.hcl-software.com/devops/velocity/index.html'
         },
         {
             id: 5,
             image:"images/HCL_Digital_Experience_Color_Icon.svg",
             title: 'Digital Experience',
-            description: 'Intro',
+            description: 'The world’s most trusted digital experience platform.',
             category: 'Digital Solutions',
-            link: 'https://help.hcltechsw.com/digital-experience/index.html'
+            link: 'https://help.hcl-software.com/digital-experience/index.html'
         },
         {
             id: 5,
             image:"images/HCL_Domino_Color_Icon.svg",
             title: 'Domino',
-            description: 'Intro',
+            description: 'Your secure rapid application development server and secure email platform.',
             category: 'Digital Solutions',
-            link: 'https://help.hcltechsw.com/domino/welcome/index.html'
+            link: 'https://help.hcl-software.com/domino/welcome/index.html'
         },
         {
             id: 5,
             image:"images/HCL_Domino_Leap_Color_Icon.svg",
             title: 'Domino Leap',
-            description: 'Intro',
+            description: 'Provides no-code application building for business users with IT governance and control.',
             category: 'Digital Solutions',
-            link: 'https://help.hcltechsw.com/domino-leap/welcome/index.html'
+            link: 'https://help.hcl-software.com/domino-leap/welcome/index.html'
         },
         {
             id: 5,
             image:"images/HCL_Domino_Volt_Color_Icon.svg",
-            title: 'Domino Volt',
-            description: 'Intro',
+            title: 'Domino C API',
+            description: 'Set of subroutines and data structures that allow you to write programs in C that access Domino applications.',
             category: 'Digital Solutions',
-            link: 'https://help.hcltechsw.com/domino_volt/welcome/index.html'
+            link: 'https://help.hcl-software.com/domino_volt/welcome/index.html'
+        },
+        {
+            id: 5,
+            image:"images/HCL_Domino_Volt_Color_Icon.svg",
+            title: 'Domino Designer',
+            description: 'Client for rapid application development and administration of Domino.',
+            category: 'Digital Solutions',
+            link: 'https://help.hcl-software.com/domino_volt/welcome/index.html'
+        },
+        {
+            id: 5,
+            image:"images/HCL_Domino_Volt_Color_Icon.svg",
+            title: 'HCL Enterprise Integrator (HEI)',
+            description: 'Domino add-on product for high-volume data transfers, synchronizing disparate data sources, and providing real-time integration between Domino and back-end data sources such as DB2, SQL, and Oracle.',
+            category: 'Digital Solutions',
+            link: 'https://help.hcl-software.com/domino_volt/welcome/index.html'
+        },
+        {
+            id: 5,
+            image:"images/HCL_Domino_Volt_Color_Icon.svg",
+            title: 'Domino REST API',
+            description: 'Contemporary REST API capability for Domino applications, enabling a modern programming experience.',
+            category: 'Digital Solutions',
+            link: 'https://help.hcl-software.com/domino_volt/welcome/index.html'
+        },
+        {
+            id: 5,
+            image:"images/HCL_Domino_Volt_Color_Icon.svg",
+            title: 'Domino Connector for SAP Solutions 2.0.2',
+            description: 'Add-on product for access to the SAP ERP system, working in conjunction with the HCL Enterprise Integrator and Connector LotusScript Extension classes.',
+            category: 'Digital Solutions',
+            link: 'https://help.hcl-software.com/domino_volt/welcome/index.html'
         },
         {
             id: 3,
@@ -197,17 +244,17 @@
             id: 3,
             image:"images/HCL_Informix.png",
             title: 'HCL Informix',
-            description: 'Intro',
+            description: 'Tap into the speed, reliability, and security you need in a database, along with cost-optimized high performance across thousands of users.',
             category: 'Data, Analytics and Insights',
-            link: 'https://help.hcltechsw.com/hclinformix/index.html'
+            link: 'https://help.hcl-software.com/hclinformix/index.html'
         },
         {
             id: 6,
             image:"images/HCL_HERO_Color_Icon.svg",
-            title: 'HERO',
-            description: 'Intro',
+            title: 'HCL HERO',
+            description: 'Allows IT administrators monitor the health of product infrastructure and perform actions with a specialized runbook.',
             category: 'Innovations',
-            link: 'https://help.hcltechsw.com/solutions/hero/index.html'
+            link: 'https://help.hcl-software.com/solutions/hero/index.html'
         },
         {
             id: 5,
@@ -215,7 +262,7 @@
             title: 'IntelliService',
             description: 'Intro',
             category: 'Commerce and Marketing',
-            link: 'https://help.hcltechsw.com/Intelliservice/home/index.html'
+            link: 'https://help.hcl-software.com/Intelliservice/home/index.html'
         },
         {
             id: 3,
@@ -229,7 +276,7 @@
             id: 3,
             image:"images/Actian.png",
             title: 'Ingres',
-            description: 'Intro',
+            description: 'Transform faster using the world’s most trusted transactional database that has been delivering ground-breaking insights for decades—it was in the room when data happened. It has run billions of OLTP operations for thousands of enterprises, and it can help you too.',
             category: 'Data, Analytics and Insights',
             link: 'https://docs.actian.com/ingres/#page/Welcome/Welcome_to_Ingres_Documentation.htm'
         },
@@ -237,9 +284,9 @@
             id: 5,
             image:"images/HCL_Leap_Color_Icon.svg",
             title: 'Leap',
-            description: 'Intro',
+            description: 'Provides no-code application building for business users with IT governance and control.',
             category: 'Digital Solutions',
-            link: 'https://help.hcltechsw.com/Leap/welcome/index.html'
+            link: 'https://help.hcl-software.com/Leap/welcome/index.html'
         },
         {
             id: 3,
@@ -247,13 +294,13 @@
             title: 'Link',
             description: 'Intro',
             category: 'Data, Analytics and Insights',
-            link: 'https://help.hcltechsw.com/hcllink/index.html'
+            link: 'https://help.hcl-software.com/hcllink/index.html'
         },
         {
             id: 3,
             image:"images/Actian.png",
             title: 'NoSQL Database',
-            description: 'Intro',
+            description: 'Make application development fast and easy with our NoSQL Object Database. Benefit from agile development, high availability, synchronous and asynchronous replication, and more.',
             category: 'Data, Analytics and Insights',
             link: 'https://esd.actian.com/product/Versant_Object_Database/10/docs/Actian_NoSQL_Database_10_Documentation'
         },
@@ -269,24 +316,40 @@
             id: 5,
             image:"images/HCL_Nomad_Color_Icon.svg",
             title: 'Nomad, including Mobile',
-            description: 'Intro',
+            description: 'Domino application access from your desktop web browser or a mobile device.',
             category: 'Digital Solutions',
-            link: 'https://help.hcltechsw.com/nomad/welcome/index.html'
+            link: 'https://help.hcl-software.com/nomad/welcome/index.html'
+        },
+        {
+            id: 5,
+            image:"images/HCL_Notes_Color_Icon.svg",
+            title: 'Client Application Access',
+            description: 'A stand-alone application for Domino applications, integrated with the Verse web-mail client.',
+            category: 'Digital Solutions',
+            link: 'https://help.hcl-software.com/notes/welcome/index.html'
         },
         {
             id: 5,
             image:"images/HCL_Notes_Color_Icon.svg",
             title: 'Notes',
-            description: 'Intro',
+            description: 'Client software that integrates email, social collaboration, messaging, and business applications into a single workspace.',
             category: 'Digital Solutions',
-            link: 'https://help.hcltechsw.com/notes/welcome/index.html'
+            link: 'https://help.hcl-software.com/notes/welcome/index.html'
+        },
+        {
+            id: 5,
+            image:"images/HCL_Notes_Color_Icon.svg",
+            title: 'iNotes',
+            description: 'Browser client for access to Domino mail, contacts, calendar, scheduling, and collaboration features.',
+            category: 'Digital Solutions',
+            link: 'https://help.hcl-software.com/notes/welcome/index.html'
         },
         
         {
             id: 3,
             image:"images/Actian.png",
             title: 'OpenROAD',
-            description: 'Intro',
+            description: 'OpenROAD gives you the ability to develop and deploy mission-critical, n-tier business applications on a variety of platforms.',
             category: 'Data, Analytics and Insights',
             link: 'https://docs.actian.com/openroad/index.html#page/Welcome/Welcome_to_OpenROAD_Documentation.htm'
         },
@@ -295,50 +358,58 @@
             id: 3,
             image:"images/HCL_OneDB_Color_Icon.svg",
             title: 'OneDB',
-            description: 'Intro',
+            description: 'It gives you a fast, affordable path to the cloud with minimal risk. You gain versatility, reliability, and ease of use to address data management and application development challenges.',
             category: 'Data, Analytics and Insights',
-            link: 'https://help.hcltechsw.com/onedb/index.html'
+            link: 'https://help.hcl-software.com/onedb/index.html'
         },
                                    
         {
             id: 5,
             image:"images/HCL_SafeLinx_Color_Icon.svg",
             title: 'SafeLinx',
-            description: 'Intro',
+            description: 'Provides secure web-based and client-based access to enterprise applications.',
             category: 'Digital Solutions',
-            link: 'https://help.hcltechsw.com/safelinx/welcome/index.html'
+            link: 'https://help.hcl-software.com/safelinx/welcome/index.html'
         },
         {
             id: 5,
             image:"images/HCL_Sametime_Color_Icon.svg",
             title: 'Sametime',
-            description: 'Intro',
+            description: 'Secure video meetings and chat for the enterprise.',
             category: 'Digital Solutions',
-            link: 'https://help.hcltechsw.com/sametime/welcome/index.html'
+            link: 'https://help.hcl-software.com/sametime/welcome/index.html'
         },
         {
             id: 5,
             image:"images/Traveler.svg",
-            title: 'Traveler',
-            description: 'Intro',
+            title: 'Traveler, including Verse mobile',
+            description: 'Provides enterprise-level Domino email, calendar, and contacts synchronization for mobile devices.',
             category: 'Digital Solutions',
-            link: 'https://help.hcltechsw.com/traveler/welcome/index.html'
+            link: 'https://help.hcl-software.com/traveler/welcome/index.html'
+        },
+        {
+            id: 5,
+            image:"images/Traveler.svg",
+            title: 'HCL Traveler for Microsoft Office (HTMO)',
+            description: 'Allows users to connect to the Domino mail server to access their mail, calendar, and contacts through the Outlook client.',
+            category: 'Digital Solutions',
+            link: 'https://help.hcl-software.com/traveler/welcome/index.html'
         },
         {
             id: 6,
             image:"images/HCL_T-VREX_Color_Icon.svg",
             title: 'T-VREX',
-            description: 'Intro',
+            description: 'A leap into the future. This innovative and versatile solution is integrated into HCL Workload Automation, enabling a complete and immersive troubleshooting and collaboration experience.',
             category: 'Innovations',
-            link: 'https://help.hcltechsw.com/solutions/tvrex/index.html'
+            link: 'https://help.hcl-software.com/solutions/tvrex/index.html'
         },
         {
             id: 1,
             image:"images/HCL_UniversalOrchestrator_Color_Icon.svg",
             title: 'Universal Orchestrator',
-            description: 'Intro',
+            description: 'Discover HCL Universal Orchestrator and learn how to manage both multi-cloud and hybrid environments from a single point of control.',
             category: 'Automation',
-            link: 'https://help.hcltechsw.com/UnO/v1.1/index.html'
+            link: 'https://help.hcl-software.com/UnO/v1.1/index.html'
         },
         {
             id: 5,
@@ -346,7 +417,7 @@
             title: 'Unica',
             description: 'Intro',
             category: 'Commerce and Marketing',
-            link: 'https://help.hcltechsw.com/unica/uc/unica_welcome_portal.html'
+            link: 'https://help.hcl-software.com/unica/uc/unica_welcome_portal.html'
         },
         {
             id: 5,
@@ -354,14 +425,14 @@
             title: 'Unica Discover',
             description: 'Intro',
             category: 'Commerce and Marketing',
-            link: 'https://help.hcltechsw.com/UnicaDiscover/UD/index.html'
+            link: 'https://help.hcl-software.com/UnicaDiscover/UD/index.html'
         },
         
         {
             id: 3,
             image:"images/Actian.png",
             title: 'Vector',
-            description: 'Intro',
+            description: 'Discover how easy business users can access the latest data for fast analytics across your data centers and clouds.',
             category: 'Data, Analytics and Insights',
             link: 'https://docs.actian.com/vector/#page/Welcome/Welcome_to_Vector_Documentation.htm'
         },
@@ -377,31 +448,39 @@
             id: 5,
             image:"images/HCL_Verse_Color_Icon.svg",
             title: 'Verse',
-            description: 'Intro',
+            description: 'User-centric email and messaging experience including social analytics and advanced search capabilities.',
             category: 'Digital Solutions',
-            link: 'https://help.hcltechsw.com/verse_onprem/welcome/index.html'
+            link: 'https://help.hcl-software.com/verse_onprem/welcome/index.html'
         },
         {
             id: 5,
             image:"images/HCL_Volt_MX_Color_Icon.svg",
             title: 'Volt MX',
-            description: 'Intro',
+            description: 'Low-code application development platform for both professional and citizen developers.',
             category: 'Digital Solutions',
-            link: 'https://help.hcltechsw.com/docs/voltmx-prod-doc-landing-page/index.html'
+            link: 'https://help.hcl-software.com/docs/voltmx-prod-doc-landing-page/index.html'
+        },
+        {
+            id: 5,
+            image:"images/HCL_Volt_MX_Color_Icon.svg",
+            title: 'Volt MX Go',
+            description: 'Extends the value of Domino applications with the Volt MX platform.',
+            category: 'Digital Solutions',
+            link: 'https://help.hcl-software.com/docs/voltmx-prod-doc-landing-page/index.html'
         },
         {
             id: 1,
             image:"images/HCL_WorkloadAutomation_Color_Icon.svg",
             title: 'Workload Automation',
-            description: 'Intro',
+            description: ' Discover the potential of HCL Workload Automation, a platform designed to efficiently automate all your enterprise processes across diverse environments.',
             category: 'Automation',
-            link: 'https://help.hcltechsw.com/workloadautomation/welcome/index.html'
+            link: 'https://help.hcl-software.com/workloadautomation/welcome/index.html'
         },
         {
             id: 3,
             image:"images/Actian.png",
             title: 'Zen',
-            description: 'Intro',
+            description: 'Trust the Zen family of databases—Zen Core, Zen Edge, Zen Enterprise, and Zen Cloud Server—for a small footprint, low maintenance, high-performance database management system.',
             category: 'Data, Analytics and Insights',
             link: 'https://docs.actian.com/zen/#page/Welcome/Welcome_to_Zen_2fPSQL_Documentation.htm'
         },
@@ -411,39 +490,39 @@
             title: 'Z and I Emulator for Transformation',
             description: 'Intro',
             category: 'Mainframe Solutions',
-            link: 'https://help.hcltechsw.com/zie/zietrans/welcome/index.html'
+            link: 'https://help.hcl-software.com/zie/zietrans/welcome/index.html'
         },
         {
             id: 7,
             image:"images/HCL_ZIE_Web_Color_Icon.svg",
             title: 'Z and I Emulator for Web (ZIEWeb)',
-            description: 'Intro',
+            description: 'HCL ZIE for Web is a security-rich browser emulator solution that simplifies access to business critical applications & data.',
             category: 'Mainframe Solutions',
-            link: 'https://help.hcltechsw.com/zie/zieweb/welcome/index.html'
+            link: 'https://help.hcl-software.com/zie/zieweb/welcome/index.html'
         },
         {
             id: 7,
             image:"images/HCL_ZIE_Windows_Color_Icon.svg",
             title: 'Z and I Emulator for Windows (ZIEWin)',
-            description: 'Intro',
+            description: 'HCL ZIE for Windows is a highly reliable emulator explicitly designed for Windows operating system users to connect with mainframe or host system. HCL ZIE for Windows is the best choice for mainframe customers worldwide who demand the highest level of reliability, security and performance.',
             category: 'Mainframe Solutions',
-            link: 'https://help.hcltechsw.com/zie/ziewin/welcome/index.html'
+            link: 'https://help.hcl-software.com/zie/ziewin/welcome/index.html'
         },
         {
             id: 7,
             image:"images/HCL_Z_Abend_Investigator_Color_Icon.svg",
             title: 'Z Abend Investigator (ZAI)',
-            description: 'Intro',
+            description: 'Efficiently diagnose root-cause of application failures (abends).',
             category: 'Mainframe Solutions',
-            link: 'https://help.hcltechsw.com/zai/welcome/index.html'
+            link: 'https://help.hcl-software.com/zai/welcome/index.html'
         },
         {
             id: 7,
             image:"images/HCL_Z_Asset_Optimizer_Color_Icon.svg",
             title: 'Z Asset Optimizer (ZAO)',
-            description: 'Intro',
+            description: 'Discover, manage, and optimize mainframe software assets.',
             category: 'Mainframe Solutions',
-            link: 'https://help.hcltechsw.com/zao/welcome/index.html'
+            link: 'https://help.hcl-software.com/zao/welcome/index.html'
         },
         {
             id: 7,
@@ -451,7 +530,7 @@
             title: 'Z Data Tools (ZDT)',
             description: 'Intro',
             category: 'Mainframe Solutions',
-            link: 'https://help.hcltechsw.com/zdt/welcome/index.html'
+            link: 'https://help.hcl-software.com/zdt/welcome/index.html'
         },
         {
             id: 7,
@@ -459,7 +538,7 @@
             title: 'Z Common Components (ZCC)',
             description: 'Intro',
             category: 'Mainframe Solutions',
-            link: 'https://help.hcltechsw.com/zcc/welcome/index.html'
+            link: 'https://help.hcl-software.com/zcc/welcome/index.html'
         },
         {
             id: 7,
@@ -467,7 +546,7 @@
             title: 'Z License Verification (ZLV)',
             description: 'Intro',
             category: 'Mainframe Solutions',
-            link: 'https://help.hcltechsw.com/ZLicenseVerification/welcome/index.html'
+            link: 'https://help.hcl-software.com/ZLicenseVerification/welcome/index.html'
         },
 
     ];
