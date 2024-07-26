@@ -163,9 +163,9 @@
         },
         {
             id: 4,
-            image:"images/",
+            image:"images/DevOps_Plan.png",
             title: 'HCL DevOps Plan',
-            description: 'Intro',
+            description: 'Low code change management software designed for comprehensive change tracking and issue management with custom workflow automation.',
             category: 'Secure DevOps',
             link: 'https://help.hcl-software.com/devops/plan/index.html'
         },

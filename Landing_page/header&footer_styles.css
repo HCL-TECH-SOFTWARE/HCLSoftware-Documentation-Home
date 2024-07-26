@@ -283,7 +283,7 @@ font-family: 'HCLTech Roobert';
 }
 
 .footer-twitter::after {
-  content: url("https://help.hcltechsw.com/images/twitter.png");
+  content: url("https://help.hcl-software.com/images/twitter.png");
   width: 20px;
   height: 20px;
   margin: auto 5px;
