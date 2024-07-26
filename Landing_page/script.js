@@ -167,7 +167,7 @@
             title: 'HCL DevOps Plan',
             description: 'Intro',
             category: 'Secure DevOps',
-            link: 'https://help.hcltechsw.com/devops/plan/index.html'
+            link: 'https://help.hcl-software.com/devops/plan/index.html'
         },
         {
             id: 4,
