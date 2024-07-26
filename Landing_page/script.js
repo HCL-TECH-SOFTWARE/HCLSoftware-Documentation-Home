@@ -41,7 +41,7 @@
         {
             id: 3,
             image:"images/Actian.png",
-            title: 'HCL Actian X',
+            title: 'HCL Actian Ingres (Linux & Windows)',
             description: 'A data analytics platform that transforms your business by simplifying how you connect, manage, and analyze data.',
             category: 'Data, Analytics and Insights',
             link: 'https://docs.actian.com/actianx/index.html#page/Welcome/Welcome_to_Actian_X_Documentation.htm'
@@ -49,8 +49,8 @@
         {
             id: 3,
             image:"images/Actian.png",
-            title: 'HCL Avalanche Cloud Data Platform',
-            description: 'A unified experience for ingesting, transforming, analyzing, and storing data. Flexible deployment options include public cloud, hybrid or on-premises environments.',
+            title: 'HCL Actian Data Platform',
+            description: 'A single, unified data platform for real-time insights. It provides end-to-end integration, data warehouse, and analytics across your entire hybrid environment.',
             category: 'Data, Analytics and Insights',
             link: "https://docs.actian.com/avalanche/index.html#page/Welcome/What's_New_in_Actian_Warehouses.html"
         },
@@ -292,8 +292,8 @@
         {
             id: 3,
             image:"images/Actian.png",
-            title: 'HCL Ingres',
-            description: 'A transactional database that helps you transform faster and has been delivering ground-breaking insights for decades.',
+            title: 'HCL Actian Ingres (Solaris, AIX, HP & VMS)',
+            description: 'A data analytics platform that transforms your business by simplifying how you connect, manage, and analyze data.',
             category: 'Data, Analytics and Insights',
             link: 'https://docs.actian.com/ingres/#page/Welcome/Welcome_to_Ingres_Documentation.htm'
         },
