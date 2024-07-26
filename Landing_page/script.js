@@ -173,7 +173,7 @@
             id: 4,
             image:"images/DevOps_test_black.svg",
             title: 'HCL DevOps Test',
-            description: 'A suite of testing tools for all your testing needs including API testing, performance testing, UI testing, synthetic data generation, and service virtualization.',
+            description: 'A suite of testing tools that offers a comprehensive solution for all your testing needs including API testing, performance testing, UI testing, synthetic data generation, service virtualization and embedded testing.',
             category: 'Secure DevOps',
             link: 'https://help.hcl-software.com/devops/test/index.html'
         },
@@ -253,7 +253,7 @@
             id: 3,
             image:"images/Actian.png",
             title: 'HCL Enterprise Access',
-            description: 'Intro',
+            description: 'A sustainable platform designed to provide access to popular database systems on Windows and UNIX. The tools help developers build portable applications that can be used to access Ingres, Microsoft SQL Server, Oracle, and ODBC hosts.',
             category: 'Data, Analytics and Insights',
             link: 'https://docs.actian.com/entaccess/index.html#page/Welcome/Welcome_to_Enterprise_Access_Documentation.htm'
         },
@@ -285,7 +285,7 @@
             id: 3,
             image:"images/Actian.png",
             title: 'HCL Integration Manager',
-            description: 'Intro',
+            description: 'An elastic cloud-based platform that enables the design, deployment, and management of web-based integrations.',
             category: 'Data, Analytics and Insights',
             link: 'https://docs.actian.com/integrationmanager/#page/Welcome/Welcome_to_Integration_Manager_Documentation.htm'
         },
@@ -309,7 +309,7 @@
             id: 3,
             image:"images/HCL_Link_Color_Icon.svg",
             title: 'HCL Link',
-            description: 'Intro',
+            description: 'It is a powerful, transaction-oriented, data integration solution that enables the development of high-volume, complex transactions without the need for hand-coding.',
             category: 'Data, Analytics and Insights',
             link: 'https://help.hcl-software.com/hcllink/index.html'
         },
