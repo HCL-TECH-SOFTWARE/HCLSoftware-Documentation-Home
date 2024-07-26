@@ -228,7 +228,7 @@
         {
             id: 5,
             image:"images/HCL_Domino_Volt_Color_Icon.svg",
-            title: 'HCL Enterprise Integrator (HEI)',
+            title: 'HCL Enterprise Integrator',
             description: 'Domino add-on product for high-volume data transfers, synchronizing disparate data sources, and providing real-time integration between Domino and back-end data sources.',
             category: 'Digital Solutions',
             link: 'https://help.hcl-software.com/domino_volt/welcome/index.html'
@@ -253,7 +253,7 @@
             id: 3,
             image:"images/Actian.png",
             title: 'HCL Enterprise Access',
-            description: 'A sustainable platform designed to provide access to popular database systems on Windows and UNIX. The tools help developers build portable applications that can be used to access Ingres, Microsoft SQL Server, Oracle, and ODBC hosts.',
+            description: 'A sustainable platform designed to provide access to popular database systems on Windows and UNIX. Developers can build portable applications that are used to access databases and ODBC hosts.',
             category: 'Data, Analytics and Insights',
             link: 'https://docs.actian.com/entaccess/index.html#page/Welcome/Welcome_to_Enterprise_Access_Documentation.htm'
         },
@@ -407,7 +407,7 @@
         {
             id: 5,
             image:"images/Traveler.svg",
-            title: 'HCL Traveler for Microsoft Office (HTMO)',
+            title: 'HCL Traveler for Microsoft Office',
             description: 'Allows users to connect to the Domino mail server to access their mail, calendar, and contacts through the Outlook client.',
             category: 'Digital Solutions',
             link: 'https://help.hcl-software.com/traveler/welcome/index.html'
@@ -505,7 +505,7 @@
         {
             id: 7,
             image:"images/HCL_ZIE_Web_Color_Icon.svg",
-            title: 'HCL Z and I Emulator for Web (ZIEWeb)',
+            title: 'HCL Z and I Emulator for Web',
             description: 'HCL ZIE for Web is a security-rich browser emulator solution that simplifies access to business critical applications & data.',
             category: 'Mainframe Solutions',
             link: 'https://help.hcl-software.com/zie/zieweb/welcome/index.html'
@@ -513,15 +513,15 @@
         {
             id: 7,
             image:"images/HCL_ZIE_Windows_Color_Icon.svg",
-            title: 'HCL Z and I Emulator for Windows (ZIEWin)',
-            description: 'A reliable emulator that is explicitly designed for Windows operating system users to connect with the mainframe or host system. It provides the highest level of reliability, security and performance.',
+            title: 'HCL Z and I Emulator for Windows',
+            description: 'A reliable emulator that is designed for Windows operating system users to connect with the mainframe or host system. It provides reliability, security and performance.',
             category: 'Mainframe Solutions',
             link: 'https://help.hcl-software.com/zie/ziewin/welcome/index.html'
         },
         {
             id: 7,
             image:"images/HCL_Z_Abend_Investigator_Color_Icon.svg",
-            title: 'HCL Z Abend Investigator (ZAI)',
+            title: 'HCL Z Abend Investigator',
             description: 'An analysis tool that efficiently diagnoses root causes of application failures (abends).',
             category: 'Mainframe Solutions',
             link: 'https://help.hcl-software.com/zai/welcome/index.html'
@@ -529,7 +529,7 @@
         {
             id: 7,
             image:"images/HCL_Z_Asset_Optimizer_Color_Icon.svg",
-            title: 'HCL Z Asset Optimizer (ZAO)',
+            title: 'HCL Z Asset Optimizer',
             description: 'Asset management software that discovers, manages, and optimizes mainframe software assets.',
             category: 'Mainframe Solutions',
             link: 'https://help.hcl-software.com/zao/welcome/index.html'
@@ -537,7 +537,7 @@
         {
             id: 7,
             image:"images/HCL_Z_Data_Tools_Color_Icon.svg",
-            title: 'HCL Z Data Tools (ZDT)',
+            title: 'HCL Z Data Tools',
             description: 'An efficient tool that manages data stored on z/OS systems interactively and in batch processing with a simple, intuitive user interface and remote systems support.',
             category: 'Mainframe Solutions',
             link: 'https://help.hcl-software.com/zdt/welcome/index.html'
@@ -546,7 +546,7 @@
         {
             id: 7,
             image:"images/HCL_Mainframe_ZLV.png",
-            title: 'HCL Z License Verification (ZLV)',
+            title: 'HCL Z License Verification',
             description: 'An efficient tool that empowers enterprises to identify software audit exposures quickly. It also creates actionable license verification insights and helps optimize costs.',
             category: 'Mainframe Solutions',
             link: 'https://help.hcl-software.com/ZLicenseVerification/welcome/index.html'
