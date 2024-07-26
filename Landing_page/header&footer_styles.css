@@ -101,7 +101,9 @@ html {
   min-height: 50px;
   background-color: #121212;
   padding: 0 34px;
-  font-family: 'GothamBook';
+  font-family: 'open Sans';
+  font-size: 14px;
+  
 }
 
 .navbar-brand {
@@ -110,12 +112,13 @@ html {
   height: 50px;
   line-height: 50px;
   margin-right: 68px;
+  
 }
 
 .cmdname {
   font-family: Courier;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 #brandName {
@@ -124,7 +127,7 @@ html {
 }
 
 .brandFont {
-font-family: 'HCLTechRoobert-Medium', sans-serif;
+font-family: 'open Sans';
 }
 
 .navbar a {
@@ -145,7 +148,7 @@ font-family: 'HCLTechRoobert-Medium', sans-serif;
 .dropdbtnmenu {
     background-color: #0a0a0a;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     border: none;
     cursor: pointer;
     padding: 4px 24px;
@@ -159,10 +162,10 @@ font-family: 'HCLTechRoobert-Medium', sans-serif;
     background-color: #fcfcfc;
     min-width: 160px;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
-    font-size: 13px;
+    font-size: 12px;
     top: 30px;
     right: 10px;
-    font-family: 'HCLTechRoobert-Medium', sans-serif;
+    font-family: 'open Sans';
     z-index: 9999;
 }
 
@@ -188,13 +191,13 @@ font-family: 'HCLTechRoobert-Medium', sans-serif;
     /* background: linear-gradient(90deg, rgba(104,97,222,1) 1%, rgba(104,97,222,1) 3%, rgba(104,97,222,1) 3%, rgba(104,97,222,1) 3%, rgba(104,97,222,1) 3%, rgba(81,250,240,1) 50%, rgba(71,9,121,0.9893207282913166) 100%);  */
     text-decoration: none;
     width: 100%;
-    height: 150px;
+    height: 180px;
     z-index: 1;
     background-color: #121212;
 }
 
 .img-right {
-  height: 150px;
+  height: 180px;
   float: right; 
  }
 
@@ -255,7 +258,7 @@ font-family: 'HCLTechRoobert-Medium', sans-serif;
   bottom: 0;
   width: 100%;
   font-size: 14px;
-	font-family: 'HCLTech Roobert';
+	font-family: 'open Sans';
   position: fixed;
 }
 
