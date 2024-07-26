@@ -61,6 +61,8 @@
     position: fixed;
     top: 180px;
     border-radius: 6px;
+    transition: top 0.3s;
+
   }
   
   /* Main column */
