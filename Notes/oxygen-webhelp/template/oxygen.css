@@ -191,7 +191,7 @@ a:hover {
      border: 1px solid #46c7ea;
 }
 
-.banner_content{
+.banner_content {
 
 	padding: 3px;
 	max-width: 600px;
@@ -199,12 +199,12 @@ a:hover {
 	display: flex;
 	align-items: center;
 	font-family: sans-serif;
+    margin-left: 20px;
 }
 
 .banner_text {
 	flex-grow: 0;
 	line-height: 1.4;
-
 }
 
 
@@ -321,9 +321,9 @@ a:hover {
  
 .wh_breadcrumb {
     display: inline-block;
-	width: 50%;
     padding-left: 25px;
 }
+
 .wh_breadcrumb ol {
 	color: #000000;
 }
@@ -493,7 +493,7 @@ Example:
 
 .wh_main_page .wh_search_input {
 	
-	margin-top: 10px;
+	margin-top: 12px;
 }
 
 .wh_main_page .after-search {
@@ -571,12 +571,8 @@ Example:
 .wh_publication_toc {
     border-radius: 3px;
     padding:.5em;
-	margin-top: 60px;
+	margin-top: 150px;
 	background-color: #FFFFFF;
-    max-height: 800px;
-    
-   border-right: 5px solid #f2f2f2;
-   border-bottom: 5px solid #f2f2f2;
 }
 
 .wh_publication_toc .active>.topicref a {
@@ -594,12 +590,12 @@ Example:
     text-decoration: underline;
 }
 
-#wh_publication_toc_content {
+/* #wh_publication_toc_content {
 	top: unset;
 	position: unset;
 	display: unset;
 	margin-top: 120px;
-}
+} */
 
 .wh_publication_toc ul li,
 #wh_topic_toc ul li {
@@ -1236,7 +1232,7 @@ html[dir='rtl'] .wh_top_menu ul li:hover>ul {
     padding: 0 !important;
     background: none !important;
     min-width: 300px;
-    /* margin: 0 !important; */
+    /* margin: 0 !important; */  
 }
 
 /*This is for topic page search bar*/
@@ -1253,6 +1249,7 @@ html[dir='rtl'] .wh_top_menu ul li:hover>ul {
     display:flex;
     flex-wrap: nowrap;
 	/* margin-bottom:4%; */
+    padding-bottom: 8px;
 }
 
 .logo {
@@ -1293,7 +1290,6 @@ html[dir='rtl'] .wh_top_menu ul li:hover>ul {
 .after-search {
     padding-left: 10px;
     display: flex;
-    flex-wrap: wrap;
     margin-right: 33px;
     width: 250px;
     flex-wrap: nowrap;
@@ -1301,7 +1297,7 @@ html[dir='rtl'] .wh_top_menu ul li:hover>ul {
     position: relative;
     margin-left: auto;
     /* margin-top: -8px; */
-	padding-bottom: 8px;
+	padding-bottom: 20px;
 }
 
 @media(max-width: 800px) {
@@ -1477,9 +1473,18 @@ html[dir='rtl'] .wh_top_menu ul li:hover>ul {
     }
   }
 /*Disables Giscus feedback app*/
+
+
+.form-group {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
 .disabledbutton {
     pointer-events: none;
     opacity: 0.4;
+    margin-left: 25px;
+    margin-right: 45px;
 }
 
 *[class~="msg/msgExplanation"]:before {
