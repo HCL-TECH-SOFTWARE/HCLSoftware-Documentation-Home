@@ -136,24 +136,33 @@ font-family: 'HCLTech Roobert';
 }
 
 /*Resources dropdown menu*/
+ .dropdnmenu {
+      position: relative;
+      display: inline-block;
+      padding: 2px 22px;
+      margin-left: auto;
+      justify-content: right;   
+  }
 
-.dropdnmenu {
-    position: relative;
-    display: inline-block;
-    padding: 4px 22px;
-    margin-left: auto;
-    justify-content: right;  
-}
+  .dropdbtnmenu {
+      background-color: #121212;
+      color: white;
+      font-size: 14px;
+      border: none;
+      cursor: pointer;
+      padding: 4px 14px;
+      display: block;
+      z-index: 9999;
+      font-family: "HCLTech Roobert";
+  }
 
-.dropdbtnmenu {
-    background-color: #121212;
-    color: white;
-    font-size: 14px;
-    border: none;
-    cursor: pointer;
-    padding: 4px 24px;
+ /* Add these styles to your existing CSS */
+
+/* Ensure the dropdown appears when focused */
+.dropdbtnmenu:focus + .dropdnmenu-content,
+.dropdnmenu-content:focus,
+.dropdnmenu-content:hover {
     display: block;
-    z-index: 9999;
 }
 
 .dropdnmenu-content {
@@ -162,10 +171,10 @@ font-family: 'HCLTech Roobert';
     background-color: #fcfcfc;
     min-width: 160px;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
-    font-size: 12px;
+    font-size: 13px;
     top: 30px;
     right: 10px;
-    font-family: 'open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     z-index: 9999;
 }
 
@@ -178,11 +187,13 @@ font-family: 'HCLTech Roobert';
     align-content: center;
 }
 
-.dropdnmenu-content a:hover {
+.dropdnmenu-content a:hover,
+.dropdnmenu-content a:focus {
     background-color: #dddada;
 }
 
-.dropdnmenu:hover .dropdnmenu-content {
+/* Ensure the dropdown stays open while navigating within it */
+.dropdnmenu:focus-within .dropdnmenu-content {
     display: block;
 }
 
