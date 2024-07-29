@@ -325,7 +325,7 @@
             id: 3,
             image:"images/Actian.png",
             title: 'HCL NoSQL FastObjects',
-            description: 'Intro',
+            description: 'It is an object-oriented database system. It can store and handle data in a lightweight database for optimal performance. The database schema is easy to define, manipulate, and duplicate for objects.',
             category: 'Data, Analytics and Insights',
             link: 'https://esd.actian.com/product/Versant_FastObjects/14.0/docs/NoSQL_FastObjects_14.0_Documentation'
         },
