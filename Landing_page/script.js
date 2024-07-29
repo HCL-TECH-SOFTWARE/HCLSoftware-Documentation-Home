@@ -215,7 +215,7 @@
             title: 'HCL Domino C API',
             description: 'Set of subroutines and data structures that allow you to write programs in C that access Domino applications.',
             category: 'Digital Solutions',
-            link: 'https://help.hcl-software.com/domino_volt/welcome/index.html'
+            link: 'https://help.hcl-software.com/domino/welcome/index.html'
         },
         {
             id: 5,
@@ -223,7 +223,7 @@
             title: 'HCL Domino Designer',
             description: 'Client for rapid application development and administration of Domino.',
             category: 'Digital Solutions',
-            link: 'https://help.hcl-software.com/domino_volt/welcome/index.html'
+            link: 'https://help.hcl-software.com/domino/welcome/index.html'
         },
         {
             id: 5,
@@ -231,7 +231,7 @@
             title: 'HCL Enterprise Integrator',
             description: 'Domino add-on product for high-volume data transfers, synchronizing disparate data sources, and providing real-time integration between Domino and back-end data sources.',
             category: 'Digital Solutions',
-            link: 'https://help.hcl-software.com/domino_volt/welcome/index.html'
+            link: 'https://help.hcl-software.com/domino/welcome/index.html'
         },
         {
             id: 5,
@@ -239,7 +239,7 @@
             title: 'HCL Domino REST API',
             description: 'Contemporary REST API capability for Domino applications, enabling a modern programming experience.',
             category: 'Digital Solutions',
-            link: 'https://help.hcl-software.com/domino_volt/welcome/index.html'
+            link: 'https://help.hcl-software.com/domino/welcome/index.html'
         },
         {
             id: 5,
@@ -247,7 +247,7 @@
             title: 'HCL Domino Connector for SAP Solutions 2.0.2',
             description: 'Add-on product for access to the SAP ERP system, working in conjunction with the HCL Enterprise Integrator and Connector LotusScript Extension classes.',
             category: 'Digital Solutions',
-            link: 'https://help.hcl-software.com/domino_volt/welcome/index.html'
+            link: 'https://help.hcl-software.com/domino/welcome/index.html'
         },
         {
             id: 3,
