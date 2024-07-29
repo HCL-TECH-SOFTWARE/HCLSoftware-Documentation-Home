@@ -146,7 +146,7 @@ font-family: 'HCLTech Roobert';
 }
 
 .dropdbtnmenu {
-    background-color: #0a0a0a;
+    background-color: #121212;
     color: white;
     font-size: 14px;
     border: none;
@@ -165,7 +165,7 @@ font-family: 'HCLTech Roobert';
     font-size: 12px;
     top: 30px;
     right: 10px;
-    font-family: 'open Sans';
+    font-family: 'open Sans', sans-serif;
     z-index: 9999;
 }
 
