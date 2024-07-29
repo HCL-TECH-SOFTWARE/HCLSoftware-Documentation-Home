@@ -593,10 +593,10 @@
                 return (`<div id="cardList" class="col-md-8">
                             <div class="card">
                                 <div class="card-body">
-                                <img class='images' src=${image}></img>
+                                <img class='images' src=${image} alt="${title}"></img>
                                 <h5 class="card-title">${title}</h5>
-                                <p class="card-text">${description}</p>
-                                <a href="${link}" target="_blank" ></a>
+                                <p class="card-text"></p>
+                                <a href="${link}" target="_blank">${description}</a>
                             </div>
                             </div>
                         </div>`)
