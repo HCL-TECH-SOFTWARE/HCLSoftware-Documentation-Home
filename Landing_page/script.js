@@ -173,7 +173,7 @@
             id: 4,
             image:"images/DevOps_test_black.svg",
             title: 'HCL DevOps Test',
-            description: 'A suite of testing tools that offers a comprehensive solution for all your testing needs including API testing, performance testing, UI testing, synthetic data generation, service virtualization and embedded testing.',
+            description: 'A suite of testing products that offers a comprehensive solution for all your testing needs including API testing, performance testing, UI testing, synthetic data generation, service virtualization and embedded testing.',
             category: 'Secure DevOps',
             link: 'https://help.hcl-software.com/devops/test/index.html'
         },
@@ -181,7 +181,7 @@
             id: 4,
             image:"images/DevOps_velocity_black.svg",
             title: 'HCL DevOps Velocity',
-            description: 'A value stream management platform that automates releases through pipeline orchestration with multiple DevOps tools and provides real-time analytics to make strategic decisions.',
+            description: 'A data-driven value stream management platform that automates the delivery and analysis of data so businesses can make faster, more strategic decisions and streamline processes.',
             category: 'Secure DevOps',
             link: 'https://help.hcl-software.com/devops/velocity/index.html'
         },
@@ -439,7 +439,7 @@
         {
             id: 5,
             image:"images/HCL_Discover_Color_Icon.svg",
-            title: 'HCL Unica Discover',
+            title: 'HCL Discover',
             description: 'An enterprise class digital customer experience analytics platform that delivers behavioural insights for your web and mobile web applications.',
             category: 'Commerce and Marketing',
             link: 'https://help.hcl-software.com/UnicaDiscover/UD/index.html'
