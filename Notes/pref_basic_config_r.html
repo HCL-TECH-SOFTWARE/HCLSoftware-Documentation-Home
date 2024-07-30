@@ -1,0 +1,1133 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us" data-whc_version="25.1">
+    <head><link rel="shortcut icon" href="favicon.png"/><link rel="icon" href="favicon.png"/><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="DC.rights.owner" content="(C) Copyright 2024"/><meta name="copyright" content="(C) Copyright 2024"/><meta name="generator" content="DITA-OT"/><meta name="DC.type" content="reference"/><meta name="description" content="In HCL Notes, you can use preferences to change how often Notes will autosave documents, to check subscriptions from your Notes applications, and change default fonts, as well as many other basic preferences."/><meta name="DC.subject" content="Preferences,configuration,Trash,folder,Documents,saving,Autosave,of documents,Applications,changing the folder for,Country Language Services (CLS) files,stored in Notes data directory,notes.ini file,location,Unread documents,finding at startup,unread,Agents,enabling scheduled,Fonts,changing,Previewing,documents,URLs,hotspots from,Backgrounds,adding textured,Setup,mouse,Mouse setup,right-click to close Notes windows,Mouse button,closing windows,Java applets,opening documents including,JavaScript,Cookies,accepting Internet,Internet,accepting cookies from,Printing,background,Background printing,in Notes,Column sorting,Sorting,retaining column,Views,retaining column sorting,Color palettes,for the Web,Palettes,Accelerators,extended keyboard,Keyboard shortcuts,showing extended accelerators,MIME messages,enabling warnings,Unicode,enabling in Notes,Date/Time fields,strict input,MIME messages,changing display of,Language preference,using form's language,vCard files,invoking Notes from,Address box on toolbar,and autocomplete,Autocomplete,in the Address Box on toolbar,Locations,being prompted for on startup,Read-only documents,navigating with Tab,Tab,navigating read-only documents,Accessibility,enabling keyboard navigation,expand Names field contents,print jobs,Graphics,compressing,User IDs,locking"/><meta name="keywords" content="Preferences, configuration, Trash, folder, Documents, saving, Autosave, of documents, Applications, changing the folder for, Country Language Services (CLS) files, stored in Notes data directory, notes.ini file, location, Unread documents, finding at startup, unread, Agents, enabling scheduled, Fonts, changing, Previewing, documents, URLs, hotspots from, Backgrounds, adding textured, Setup, mouse, Mouse setup, right-click to close Notes windows, Mouse button, closing windows, Java applets, opening documents including, JavaScript, Cookies, accepting Internet, Internet, accepting cookies from, Printing, background, Background printing, in Notes, Column sorting, Sorting, retaining column, Views, retaining column sorting, Color palettes, for the Web, Palettes, Accelerators, extended keyboard, Keyboard shortcuts, showing extended accelerators, MIME messages, enabling warnings, Unicode, enabling in Notes, Date/Time fields, strict input, MIME messages, changing display of, Language preference, using form's language, vCard files, invoking Notes from, Address box on toolbar, and autocomplete, Autocomplete, in the Address Box on toolbar, Locations, being prompted for on startup, Read-only documents, navigating with Tab, Tab, navigating read-only documents, Accessibility, enabling keyboard navigation, expand Names field contents, print jobs, Graphics, compressing, User IDs, locking"/><meta name="indexterms" content="Preferences, configuration, Trash, folder, Documents, saving, Autosave, of documents, Applications, changing the folder for, Country Language Services (CLS) files, stored in Notes data directory, notes.ini file, location, Unread documents, finding at startup, Documents, unread, Agents, enabling scheduled, Fonts, changing, Previewing, documents, URLs, hotspots from, Backgrounds, adding textured, Setup, mouse, Mouse setup, right-click to close Notes windows, Mouse button, closing windows, Java applets, opening documents including, JavaScript, opening documents including, Cookies, accepting Internet, Internet, accepting cookies from, Printing, background, Background printing, in Notes, Column sorting, saving, Sorting, retaining column, Views, retaining column sorting, Applications, retaining column sorting, Color palettes, for the Web, Palettes, for the Web, Accelerators, extended keyboard, Keyboard shortcuts, showing extended accelerators, MIME messages, enabling warnings, Unicode, enabling in Notes, Date/Time fields, strict input, MIME messages, changing display of, Language preference, using form's language, vCard files, invoking Notes from, Address box on toolbar, and autocomplete, Autocomplete, in the Address Box on toolbar, Locations, being prompted for on startup, Read-only documents, navigating with Tab, Tab, navigating read-only documents, Accessibility, enabling keyboard navigation, Printing, Printing, expand Names field contents, Previewing, print jobs, Graphics, compressing, User IDs, locking"/><meta name="DC.relation" content="pref_pref_c.html"/><meta name="DC.relation" content="pref_pref_c.html"/><meta name="DC.relation" content="security_toc.html"/><meta name="DC.format" content="HTML5"/><meta name="DC.identifier" content="pref_basic_config_r"/><meta name="DC.language" content="en-us"/>        
+      <title>What options are available for customizing the basic Notes client?</title><!--  Generated with Oxygen version 25.1, build number 2023042410.  --><meta name="wh-path2root" content=""/><meta name="wh-toc-id" content="pref_basic_config_r-d4800e622"/><meta name="wh-source-relpath" content="pref_basic_config_r.dita"/><meta name="wh-out-relpath" content="pref_basic_config_r.html"/>
+
+    <link rel="stylesheet" type="text/css" href="./oxygen-webhelp/app/commons.css?buildId=2023042410"/>
+    <link rel="stylesheet" type="text/css" href="./oxygen-webhelp/app/topic.css?buildId=2023042410"/>
+
+    <script src="./oxygen-webhelp/app/options/properties.js?buildId=20240730091228"></script>
+    <script src="./oxygen-webhelp/app/localization/strings.js?buildId=2023042410"></script>
+    <script src="./oxygen-webhelp/app/search/index/keywords.js?buildId=20240730091228"></script>
+    <script defer="defer" src="./oxygen-webhelp/app/commons.js?buildId=2023042410"></script>
+    <script defer="defer" src="./oxygen-webhelp/app/topic.js?buildId=2023042410"></script>
+<link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/oxygen.css?buildId=2023042410"/><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/><!-- 
+Release Version: v.Q42023  
+-->
+
+
+  <!--To fix Uncaught ReferenceError: $ is not defined in jQuery-->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    
+  
+  
+ <!-- <link rel="stylesheet" type="text/css" href="${oxygen-webhelp-template-dir}/resources/css/custom-hcl.css" /> -->
+
+ <!-- OneTrust Cookies Consent Notice start -->
+    <script type="text/javascript" src="https://cdn.cookielaw.org/consent/99b8d579-c52a-43c9-ab7b-a35e60de7103/OtAutoBlock.js"></script>
+    <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="99b8d579-c52a-43c9-ab7b-a35e60de7103"></script>
+    <script type="text/javascript"><!--
+
+        function OptanonWrapper() { }
+    
+--></script>
+    <!-- OneTrust Cookies Consent Notice end -->
+ 
+    <!-- Global site tag (gtag.js) - Google Analytics start-->
+   
+<script src="https://www.googletagmanager.com/gtag/js?id=UA-169645537-2" class="optanon-category-C0002-C0003-C0004-C0005"></script>
+<script type="text/javascript" class="optanon-category-C0002-C0003-C0004-C0005"><!--
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-169645537-2');
+  gtag('config', 'G-7LF0XY95M1');
+
+--></script>
+
+<!-- Google Tag Manager -->
+<script><!--
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TNNFCCM');
+--></script>
+<!-- End Google Tag Manager -->
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics end-->
+<!--smartCat-->
+    <script id="sc-script" src="https://cdn.smartcat-proxy.com/3c07f7dc8f16449b9e961c35089912a5/script-v1/__translator.js?hash=4875a4cc718c7ca6fb804c818c178bd6"></script>
+<!--smartCat-->
+
+    <script type="module" src="./oxygen-webhelp/template/resources/js/custom-hcl.js"></script>
+    <script type="module" src="./oxygen-webhelp/template/resources/js/constants.js"></script>
+    <script type="module" src="./oxygen-webhelp/template/resources/js/lang.js"></script>
+
+       <script type="module" src="./oxygen-webhelp/template/resources/js/extlinktest.js"></script>
+
+
+    <!-- twitter widget -->
+    <script async="true" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+ 
+ <!-- Version banner close button's function-->
+ <script type="text/javascript"><!--
+
+        function closebtn() {
+          
+            const x = document.getElementById("vrnban");
+            
+            x.addEventListener("click", () => {
+   x.remove();
+   });
+        }
+ 
+--></script> 
+</head>
+
+    <body id="pref_basic_config_r" class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">
+            Jump to main content
+        </a>
+        
+        <!-- 
+Release Version: v.Q42023  
+--><nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="https://www.hcl-software.com/hclsw-home" style="vertical-align: unset;">
+        <img width="150" height="50" src="https://help.hcltechsw.com/assets/images/HCL_Software_Logo_White.svg" alt="HCL Logo" target="_blank" rel="noopener noreferrer"/>
+    </a>
+    <a href="https://help.hcltechsw.com/">
+        <span id="brandName" class="title brandFont" style="text-decoration: underline; text-decoration-color: #0ba5a8; text-underline-offset: 4px; margin-left: 0px;">Product Documentation</span>
+    </a>
+	<div class="verticline"></div>
+<a href="https://support.hcl-software.com">
+        <span id="brandName" class="title brandFont">Support tickets</span>
+    </a>
+	
+	<a href="https://support.hcl-software.com/community">
+        <span id="brandName" class="title brandFont">Community</span>
+    </a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+	
+	
+  <span id="scLangSelectorContainer"></span>
+  <div style="position:absolute;right:270px" id="scLangSelectorContainer"></div>
+	<div id="navbarSupportedContent" class="dropdnmenu justify-content-end brandFont">
+        <button id="rscdropdown" type="button" class="dropdbtnmenu  dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Resources</button>
+        <div id="resourceSupport" class="dropdnmenu-content">
+          <a id="customerSupport" href="https://support.hcl-software.com" target="_blank" rel="noopener noreferrer">Customer Support</a>
+          <a id="learningAcademy" href="https://hclsoftwareu.hcltechsw.com/" target="_blank" rel="noopener noreferrer">HCLSoftware U</a>
+          <a id="communitySupport" href="https://support.hcl-software.com/community" target="_blank" rel="noopener noreferrer">Community Forums</a>
+		   <a id="customerIdea" href="https://www.hcl-software.com/resources/submit-idea" target="_blank" rel="noopener noreferrer">Customer Idea Portal</a>
+        </div>
+    </div>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TNNFCCM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+</nav>
+        
+        
+        <header class="navbar navbar-default wh_header">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    
+                    <div class=" wh_publication_title "><a href="index.html"><span class="title">HCL Notes 12.0 Help</span></a></div>
+                    
+                </div>
+                
+                
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                
+                
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        
+         
+        
+        
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md" aria-label="Tools">
+                    
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol class="d-print-none"><li><span class="home"><a href="https://help.hcl-software.com"><img class="home-icon"/></a></span></li><li><div class="topicref" data-id="fram_elements_of_notes_c"><div class="title"><a href="fram_elements_of_notes_c.html">Elements of Notes®</a><div class="wh-tooltip"><p class="shortdesc">The HCL Notes® user interface is comprised of views menus, toolbars, navigation panes, and a sidebar that you can use for easy access to some frequently used applications.</p></div></div></div></li><li><div class="topicref" data-id="preferences_toc"><div class="title"><a href="preferences_toc.html">Preferences</a><div class="wh-tooltip"><p class="shortdesc">You can customize HCL Notes® so that it runs and displays just the way you want it to using Notes preferences.</p></div></div></div></li><li><div class="topicref" data-id="pref_pref_c"><div class="title"><a href="pref_pref_c.html">How do I customize my Notes Client?</a><div class="wh-tooltip"><p class="shortdesc">You can customize HCL Notes® so that it runs and displays just the way you want it to using Notes preferences. </p></div></div></div></li><li class="active"><div class="topicref" data-id="pref_basic_config_r"><div class="title"><a href="pref_basic_config_r.html">What options are available for customizing the basic Notes® client?</a><div class="wh-tooltip"><p class="shortdesc">In HCL Notes®, you can use preferences to change how often Notes will autosave documents, to check subscriptions from your Notes applications, and change default fonts, as well as many other basic preferences.</p></div></div></div></li></ol></div>
+                    
+                    
+                    
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="Toggle search highlights" title="Toggle search highlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Collapse sections" title="Collapse sections"></button>
+                        
+                        
+                        
+                        
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Print this page" aria-label="Print this page"></button></div>
+                        
+                        <button type="button" id="wh_toc_button" class="custom-toggler navbar-toggler collapsed wh_toggle_button navbar-light" aria-expanded="false" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    
+                </nav>
+            </div>
+            
+            <!-- 
+Release Version: v.Q42023  
+-->
+<div class="wh_logo_search_container">
+<div class="logo">
+<img height="42" width="auto" src="./logo/logo.png"/>
+</div>
+
+<div class="wh_search_input">
+<div class=" wh_search_input navbar-form wh_topic_page_search search " role="form">
+    
+    
+    
+    <form id="searchForm" method="get" role="search" action="search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Search query" required="required"/><button type="submit" class="wh_search_button" aria-label="Search"><span class="search_input_text">Search</span></button></div></form>
+    
+    
+    
+</div>
+</div>
+</div>
+<div class="after-search">
+    <div class="version-container">
+        <select id="versions" class="custom_dropdown" data-toggle="tooltip" title="Select a version">
+        </select>
+    </div>
+    <div class="language-container">
+      <!--  <label class="lang-label" for="languages">Language:</label> -->
+        <select id="languages" class="custom_dropdown" data-toggle="tooltip" title="Select a language">
+        </select>  
+    </div>
+ <!--
+ <div id="pdficon" class="wh_right_tools pdf_link" style="display:none">
+<a target="_blank" href="www" title="PDF document" aria-label="PDF document" class="wh_external_resourse_link">
+<img src="${path(oxygen-webhelp-output-dir)}/oxygen-webhelp/template/resources/images/PDF-SVG-icons_PDF-doc-1.svg" class="svgimg"/>
+</a>
+</div>
+-->
+</div>
+
+
+            
+            
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                        <nav id="wh_publication_toc" class="col-lg-3 col-md-3 col-sm-12 d-md-block d-none d-print-none" aria-label="Table of Contents Container">
+                            <div id="wh_publication_toc_content">
+		                        
+                            	<div class=" wh_publication_toc " data-tooltip-position="right"><span class="expand-button-action-labels"><span id="button-expand-action" role="button" aria-label="Expand"></span><span id="button-collapse-action" role="button" aria-label="Collapse"></span><span id="button-pending-action" role="button" aria-label="Pending"></span></span><ul role="tree" aria-label="Table of Contents"><li role="treeitem"><div data-tocid="framework_toc-d4800e19" class="topicref" data-id="framework_toc" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="framework_toc.html" id="framework_toc-d4800e19-link">Welcome to HCL Notes® Test</a><div class="wh-tooltip"><p class="shortdesc">Welcome to the latest release of HCL Notes®. Notes is a powerful, multifaceted software   that gives you instant access to all the information that is important to you. You can use Notes   to send and receive email and Internet mail, schedule appointments, browse the Web, and use   powerful business applications in your daily work.</p></div></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="concept_mqj_nrd_w2b-d4800e33" class="topicref" data-id="concept_mqj_nrd_w2b" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action concept_mqj_nrd_w2b-d4800e33-link" class="wh-expand-btn"></span><div class="title"><a href="fram_whats_new_12.html" id="concept_mqj_nrd_w2b-d4800e33-link">What's new in HCL Notes® 12?</a><div class="wh-tooltip"><p class="shortdesc">Syed Learn about the many new features and enhancements in HCL Notes® 12. </p></div></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="about_notes-d4800e242" class="topicref" data-id="about_notes" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action about_notes-d4800e242-link" class="wh-expand-btn"></span><div class="title"><a href="about_notes.html" id="about_notes-d4800e242-link">About HCL Notes</a><div class="wh-tooltip"><p class="shortdesc">The following topics provide information about HCL Notes. </p></div></div></div></li><li role="treeitem" aria-expanded="true"><div data-tocid="fram_elements_of_notes_c-d4800e475" class="topicref" data-id="fram_elements_of_notes_c" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action fram_elements_of_notes_c-d4800e475-link" class="wh-expand-btn"></span><div class="title"><a href="fram_elements_of_notes_c.html" id="fram_elements_of_notes_c-d4800e475-link">Elements of Notes®</a><div class="wh-tooltip"><p class="shortdesc">The HCL Notes® user interface is comprised of views menus, toolbars, navigation panes, and a sidebar that you can use for easy access to some frequently used applications.</p></div></div></div><ul role="group" class="navbar-nav nav-list"><li role="treeitem"><div data-tocid="fram_using_open_list_t-d4800e491" class="topicref" data-id="fram_using_open_list_t" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="fram_using_open_list_t.html" id="fram_using_open_list_t-d4800e491-link">Using the Open list</a><div class="wh-tooltip"><p class="shortdesc">Use the <span class="ph uicontrol">Open</span> list to open HCL Notes® applications, documents, bookmarks and bookmark folders. The Open list displays icons and a brief description for each item. </p></div></div></div></li><li role="treeitem"><div data-tocid="fram_toolbars_overview_c-d4800e510" class="topicref" data-id="fram_toolbars_overview_c" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="fram_toolbars_overview_c.html" id="fram_toolbars_overview_c-d4800e510-link">Toolbars</a><div class="wh-tooltip"><p class="shortdesc">Toolbars work with all the applications in your workspace. Some toolbars are context sensitive, which means that they change depending on the task you are performing.</p></div></div></div></li><li role="treeitem"><div data-tocid="fram_using_sidebar_t-d4800e523" class="topicref" data-id="fram_using_sidebar_t" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="fram_using_sidebar_t.html" id="fram_using_sidebar_t-d4800e523-link">Using the sidebar</a><div class="wh-tooltip"><p class="shortdesc">The sidebar provides constant access to your HCL Sametime® Contacts, Calendar, Feed Reader, and Activities. You can change which of these applications displays in your sidebar. However, depending on your organization, you may not have all of these applications in your sidebar.</p></div></div></div></li><li role="treeitem"><div data-tocid="fram_statusbar_info_c-d4800e539" class="topicref" data-id="fram_statusbar_info_c" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="fram_statusbar_info_c.html" id="fram_statusbar_info_c-d4800e539-link">Status bar: current state information</a><div class="wh-tooltip"><p class="shortdesc">The status bar appears at the end of the HCL Notes® main window. As you work in Notes, system messages and features appear in the status bar.</p></div></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="fram_work_with_windowtabs_t-d4800e558" class="topicref" data-id="fram_work_with_windowtabs_t" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action fram_work_with_windowtabs_t-d4800e558-link" class="wh-expand-btn"></span><div class="title"><a href="fram_work_with_windowtabs_t.html" id="fram_work_with_windowtabs_t-d4800e558-link">Working with window tabs</a><div class="wh-tooltip"><p class="shortdesc">Window tabs make it convenient for you to switch from one open document or application to another in HCL Notes®.</p></div></div></div></li><li role="treeitem" aria-expanded="true"><div data-tocid="preferences_toc-d4800e588" class="topicref" data-id="preferences_toc" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action preferences_toc-d4800e588-link" class="wh-expand-btn"></span><div class="title"><a href="preferences_toc.html" id="preferences_toc-d4800e588-link">Preferences</a><div class="wh-tooltip"><p class="shortdesc">You can customize HCL Notes® so that it runs and displays just the way you want it to using Notes preferences.</p></div></div></div><ul role="group" class="navbar-nav nav-list"><li role="treeitem" aria-expanded="true"><div data-tocid="pref_pref_c-d4800e605" class="topicref" data-id="pref_pref_c" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action pref_pref_c-d4800e605-link" class="wh-expand-btn"></span><div class="title"><a href="pref_pref_c.html" id="pref_pref_c-d4800e605-link">How do I customize my Notes Client?</a><div class="wh-tooltip"><p class="shortdesc">You can customize HCL Notes® so that it runs and displays just the way you want it to using Notes preferences. </p></div></div></div><ul role="group" class="navbar-nav nav-list"><li role="treeitem" class="active"><div data-tocid="pref_basic_config_r-d4800e622" class="topicref" data-id="pref_basic_config_r" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="pref_basic_config_r.html" id="pref_basic_config_r-d4800e622-link">What options are available for customizing the basic Notes® client?</a><div class="wh-tooltip"><p class="shortdesc">In HCL Notes®, you can use preferences to change how often Notes will autosave documents, to check subscriptions from your Notes applications, and change default fonts, as well as many other basic preferences.</p></div></div></div></li><li role="treeitem"><div data-tocid="fram_set_window_theme_prefs_t-d4800e645" class="topicref" data-id="fram_set_window_theme_prefs_t" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="fram_set_window_theme_prefs_t.html" id="fram_set_window_theme_prefs_t-d4800e645-link">How can I set preferences for how Notes windows open and Notes window themes?</a><div class="wh-tooltip"><p class="shortdesc">You can set a preference to specify how your HCL Notes® windows open. You can also save the tab order, and specify a windows theme.</p></div></div></div></li><li role="treeitem"><div data-tocid="fram_modify_toolbar_display_t-d4800e659" class="topicref" data-id="fram_modify_toolbar_display_t" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="fram_modify_toolbar_display_t.html" id="fram_modify_toolbar_display_t-d4800e659-link">How can I modify the toolbar display?</a><div class="wh-tooltip"><p class="shortdesc">You can modify the display of your toolbars by hiding them, making additional toolbars visible, adding pop-up text to them, and resizing them.</p></div></div></div></li><li role="treeitem"><div data-tocid="fram_create_display_toolbars_t-d4800e670" class="topicref" data-id="fram_create_display_toolbars_t" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="fram_create_display_toolbars_t.html" id="fram_create_display_toolbars_t-d4800e670-link">How can I display or create toolbars?</a><div class="wh-tooltip"><p class="shortdesc">You can choose which toolbars display. You can also create your own toolbar and populate it with buttons that best suit your work needs.</p></div></div></div></li><li role="treeitem"><div data-tocid="fram_customize_toolbars_t-d4800e681" class="topicref" data-id="fram_customize_toolbars_t" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="fram_customize_toolbars_t.html" id="fram_customize_toolbars_t-d4800e681-link">How can I customize toolbar functionality and buttons?</a><div class="wh-tooltip"><p class="shortdesc">You can customize toolbars by adding and removing buttons. When you create a new toolbar, you use Toolbar Customize preferences to populate the toolbar.</p></div></div></div></li><li role="treeitem"><div data-tocid="pref_set_spell_check_prefs_t-d4800e692" class="topicref" data-id="pref_set_spell_check_prefs_t" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="pref_set_spell_check_prefs_t.html" id="pref_set_spell_check_prefs_t-d4800e692-link">How can I set spell check preferences?</a><div class="wh-tooltip"><p class="shortdesc">You set spelling preferences to specify a default dictionary language and to add any supplemental dictionaries needed. You can also set defaults for how to handle numbers, words comprised of uppercase letters, or words from a language other than the default dictionary language.</p></div></div></div></li><li role="treeitem"><div data-tocid="N10001-d4800e703" class="topicref" data-id="N10001" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="pref_switch_spell_dict_t.html" id="N10001-d4800e703-link">How can I switch to a different spelling dictionary? </a><div class="wh-tooltip"><p class="shortdesc">You can switch language dictionaries when spell checking a document. You must install the language dictionaries from the HCL Notes® CD before you can switch language dictionaries. The language dictionaries are recognized by the file extension DIC, and they are located in your Notes/Data directory.</p></div></div></div></li><li role="treeitem"><div data-tocid="pref_edit_user_dict_t-d4800e717" class="topicref" data-id="pref_edit_user_dict_t" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="pref_edit_user_dict_t.html" id="pref_edit_user_dict_t-d4800e717-link">How can I add, change, or delete words in my user dictionary?</a><div class="wh-tooltip"><p class="shortdesc">It's often helpful to add words to your personal dictionary, known as the user dictionary. These are words that you use commonly and are not found in a standard dictionary.</p></div></div></div></li></ul></li><li role="treeitem"><div data-tocid="task_nkz_kb2_w2b-d4800e728" class="topicref" data-id="task_nkz_kb2_w2b" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="fram_customizing_color_theme.html" id="task_nkz_kb2_w2b-d4800e728-link">How do I customize the Notes color theme?</a><div class="wh-tooltip"><p class="shortdesc">Choose an overall color theme for the Notes interface. Customize colors for specific parts of the interface.</p></div></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="pref_regional_settings_r-d4800e739" class="topicref" data-id="pref_regional_settings_r" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action pref_regional_settings_r-d4800e739-link" class="wh-expand-btn"></span><div class="title"><a href="pref_regional_settings_r.html" id="pref_regional_settings_r-d4800e739-link">How can I set up my Notes client for other languages or regions?</a><div class="wh-tooltip"><p class="shortdesc">You can use regional settings to change your content language, sorting language, interface language, and units of measurement.</p></div></div></div></li><li role="treeitem"><div data-tocid="PreferencesQuickReference-d4800e875" class="topicref" data-id="PreferencesQuickReference" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="pref_quickref_r.html" id="PreferencesQuickReference-d4800e875-link">Preferences - Quick reference</a><div class="wh-tooltip"><p class="shortdesc">This quick reference card is a list of instructions for common tasks and shortcuts for Notes preferences, which you can print and keep at your desk for easy reference.</p></div></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="pref_adv.dita-d4800e886" class="topicref" data-id="pref_adv.dita" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action pref_adv.dita-d4800e886-link" class="wh-expand-btn"></span><div class="title"><a href="pref_adv.html" id="pref_adv.dita-d4800e886-link">Further customizing your Notes client</a><div class="wh-tooltip"><p class="shortdesc">The topics in this section are intended for a more advanced Notes user.</p></div></div></div></li></ul></li></ul></li><li role="treeitem" aria-expanded="false"><div data-tocid="fram_homepage_overveiw_c-d4800e1145" class="topicref" data-id="fram_homepage_overveiw_c" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action fram_homepage_overveiw_c-d4800e1145-link" class="wh-expand-btn"></span><div class="title"><a href="fram_homepage_overveiw_c.html" id="fram_homepage_overveiw_c-d4800e1145-link">Using the Discover page</a><div class="wh-tooltip"><p class="shortdesc">HCL Notes® opens to the Discover page by default, unless you set up Notes to open to an application, such as Mail or Calendar, or to a customized home page. The default Discover page is a central location from which you can find targeted Notes client information more quickly and easily, including new features in the release, introductory material for new users, and helpful hints and tips. There is also a Quick Links tab that allows you to launch your workspace, Mail, Calendar, and other Notes applications you have recently used.</p></div></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="fram_workspace_overview_c-d4800e1367" class="topicref" data-id="fram_workspace_overview_c" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action fram_workspace_overview_c-d4800e1367-link" class="wh-expand-btn"></span><div class="title"><a href="fram_workspace_overview_c.html" id="fram_workspace_overview_c-d4800e1367-link">Using the Notes workspace</a><div class="wh-tooltip"><p class="shortdesc">The HCL Notes® workspace, the legacy user interface for Notes, displays pages containing Notes application icons. </p></div></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="fram_bookmarks_overview_c-d4800e1508" class="topicref" data-id="fram_bookmarks_overview_c" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action fram_bookmarks_overview_c-d4800e1508-link" class="wh-expand-btn"></span><div class="title"><a href="fram_bookmarks_overview_c.html" id="fram_bookmarks_overview_c-d4800e1508-link">Using bookmarks</a><div class="wh-tooltip"><p class="shortdesc">Bookmarks are links that point to HCL Notes® applications, views, documents, or Internet elements, such as Web pages and news groups. Bookmark folders organize your bookmarks. They can contain bookmarks or more folders.</p></div></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="fram_views_overview_c-d4800e1567" class="topicref" data-id="fram_views_overview_c" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action fram_views_overview_c-d4800e1567-link" class="wh-expand-btn"></span><div class="title"><a href="fram_views_overview_c.html" id="fram_views_overview_c-d4800e1567-link">Notes views and folders</a><div class="wh-tooltip"><p class="shortdesc">Views display specific documents with similar criteria. For example, your Mail has an <strong class="ph b">All Documents</strong> view that displays every document contained in the mail application, and a <strong class="ph b">Sent</strong> view that displays only documents that you sent.</p></div></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="prt_printing_overview_c-d4800e1737" class="topicref" data-id="prt_printing_overview_c" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action prt_printing_overview_c-d4800e1737-link" class="wh-expand-btn"></span><div class="title"><a href="prt_printing_overview_c.html" id="prt_printing_overview_c-d4800e1737-link">Printing</a><div class="wh-tooltip"><p class="shortdesc">You print a single document or multiple documents at the same time. You can also print views (lists of documents in an HCL Notes® application) and the framesets found in both Notes and the Web. </p></div></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="fram_adv-d4800e1914" class="topicref" data-id="fram_adv" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action fram_adv-d4800e1914-link" class="wh-expand-btn"></span><div class="title"><a href="fram_adv.html" id="fram_adv-d4800e1914-link">Getting Started - Advanced</a><div class="wh-tooltip"><p class="shortdesc">The topics in this section have been written for more advanced Notes users.</p></div></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="tasks_notes-d4800e2004" class="topicref" data-id="tasks_notes" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tasks_notes-d4800e2004-link" class="wh-expand-btn"></span><div class="title"><a href="tasks_notes.html" id="tasks_notes-d4800e2004-link">Tasks</a><div class="wh-tooltip"><p class="shortdesc">The following topics provide details for common tasks in HCL Notes.</p></div></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="mail_mail-d4800e2077" class="topicref" data-id="mail_mail" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action mail_mail-d4800e2077-link" class="wh-expand-btn"></span><div class="title"><a href="mail_mail.html" id="mail_mail-d4800e2077-link">Mail</a><div class="wh-tooltip"><p class="shortdesc">You can send and answer email, create signatures, and customize the look of your Inbox. You can also do things, like cancel an email sent by mistake or set up out of office notifications.</p></div></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="cal_cal-d4800e2578" class="topicref" data-id="cal_cal" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action cal_cal-d4800e2578-link" class="wh-expand-btn"></span><div class="title"><a href="cal_cal.html" id="cal_cal-d4800e2578-link">Calendar</a><div class="wh-tooltip"><p class="shortdesc">You can schedule meetings, manage your schedule, add other calendars, and more.</p></div></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="tasks_tasks-d4800e3077" class="topicref" data-id="tasks_tasks" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tasks_tasks-d4800e3077-link" class="wh-expand-btn"></span><div class="title"><a href="tasks_tasks.html" id="tasks_tasks-d4800e3077-link">To Do</a><div class="wh-tooltip"><p class="shortdesc">You can keep track of what you need to do, and assign tasks to others.</p></div></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="con_con-d4800e3240" class="topicref" data-id="con_con" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action con_con-d4800e3240-link" class="wh-expand-btn"></span><div class="title"><a href="con_con.html" id="con_con-d4800e3240-link">Contacts</a><div class="wh-tooltip"><p class="shortdesc">You can save information about people, such as title, addresses, birthdays, and more. You can also do things such as create groups to use as mailing lists, or print contacts as labels.</p></div></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="applications_toc-d4800e3606" class="topicref" data-id="applications_toc" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action applications_toc-d4800e3606-link" class="wh-expand-btn"></span><div class="title"><a href="applications_toc.html" id="applications_toc-d4800e3606-link">Notes applications</a><div class="wh-tooltip"><p class="shortdesc">An HCL Notes® application contains information about a particular area of interest, such as the forms and policy documents for a department, or it might contain documents of a similar type, such as email messages. In addition, some companies create "discussion applications," where employees can post responses to particular topics.</p></div></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="blogs_toc-d4800e3812" class="topicref" data-id="blogs_toc" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action blogs_toc-d4800e3812-link" class="wh-expand-btn"></span><div class="title"><a href="blogs_toc.html" id="blogs_toc-d4800e3812-link">Blogs (web logs)</a><div class="wh-tooltip"><p class="shortdesc">You can create your own personal Web logs (blogs) using the Notes® blog template (dominoblog.ntf). After you create a blog application, you can then open it as you would any other Notes® application (NSF) file. From your blog application, you can create and manage content and blog discussions. </p></div></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="locacc_toc-d4800e4277" class="topicref" data-id="locacc_toc" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action locacc_toc-d4800e4277-link" class="wh-expand-btn"></span><div class="title"><a href="locacc_toc.html" id="locacc_toc-d4800e4277-link">Locations and accounts</a><div class="wh-tooltip"><p class="shortdesc">This topic describes connections to servers, ways to connect to servers, and things you should know before setting up a server connection.</p></div></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="agents_toc-d4800e5019" class="topicref" data-id="agents_toc" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action agents_toc-d4800e5019-link" class="wh-expand-btn"></span><div class="title"><a href="agents_toc.html" id="agents_toc-d4800e5019-link">Automating tasks using simple agents</a><div class="wh-tooltip"><p class="shortdesc">You can program Notes® to perform tasks automatically using agents (also known as macros). Agents can help you perform repetitive tasks, such as managing documents and sending memos.</p></div></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="share_toc-d4800e5235" class="topicref" data-id="share_toc" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action share_toc-d4800e5235-link" class="wh-expand-btn"></span><div class="title"><a href="sharing_toc.html" id="share_toc-d4800e5235-link">Sharing information with other applications</a><div class="wh-tooltip"><p class="shortdesc">You can share files and graphics between HCL Notes® and other applications using a number of different techniques.</p></div></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="rep_roam_top-d4800e5836" class="topicref" data-id="rep_roam_top" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action rep_roam_top-d4800e5836-link" class="wh-expand-btn"></span><div class="title"><a href="rep_roam_top.html" id="rep_roam_top-d4800e5836-link">Notes roaming user</a><div class="wh-tooltip"><p class="shortdesc">As a Notes® roaming user, you can log in to and use Notes from any computer in your organization on which Notes is installed, and use your personal data while doing so. Your personal data includes many of your Notes preferences and personal information such as your contacts, bookmarks, notebook, feeds subscriptions, and optionally your Notes workspace. Notes widgets also participate in roaming.</p></div></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="rep_rep-d4800e6008" class="topicref" data-id="rep_rep" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action rep_rep-d4800e6008-link" class="wh-expand-btn"></span><div class="title"><a href="rep_rep.html" id="rep_rep-d4800e6008-link">Replication</a><div class="wh-tooltip"><p class="shortdesc">You can create an offline (local) duplicate of any HCL Notes® application you use. Such a duplicate is called a replica.</p></div></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="search_toc-d4800e6288" class="topicref" data-id="search_toc" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action search_toc-d4800e6288-link" class="wh-expand-btn"></span><div class="title"><a href="search_toc.html" id="search_toc-d4800e6288-link">Search</a><div class="wh-tooltip"><p class="shortdesc">You can use search to find documents, text in a document, applications, and people. You can also set search preferences for type of search query syntax and scope of search.</p></div></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="security_toc-d4800e6558" class="topicref" data-id="security_toc" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action security_toc-d4800e6558-link" class="wh-expand-btn"></span><div class="title"><a href="security_toc.html" id="security_toc-d4800e6558-link">Securing your data</a><div class="wh-tooltip"><p class="shortdesc">HCL Notes® security enables you to protect your workspace and data at all times, so only you and the people you designate have access to your data. </p></div></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="wid_wid_top-d4800e8094" class="topicref" data-id="wid_wid_top" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action wid_wid_top-d4800e8094-link" class="wh-expand-btn"></span><div class="title"><a href="wid_wid_top.html" id="wid_wid_top-d4800e8094-link">Widgets and Live Text</a><div class="wh-tooltip"><p class="shortdesc">Widgets and Live Text enables end users to see and act on Live Text in a document, including mail, using widgets (.XML files) created for their use. Power users and administrators can create and edit widgets, and deploy them to users to engage a Notes® form, view, XPage, document or Composite Application, or third party services such as Web page, feed, or Google Gadget™, or automatically install or update a client plug-in for specific Notes users.</p></div></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="err_errors_parent_r-d4800e9677" class="topicref" data-id="err_errors_parent_r" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action err_errors_parent_r-d4800e9677-link" class="wh-expand-btn"></span><div class="title"><a href="err_errors_parent_r.html" id="err_errors_parent_r-d4800e9677-link">Error messages</a></div></div></li><li role="treeitem"><div data-tocid="booknotices-d4800e11040" class="topicref" data-id="booknotices" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="notices.html" id="booknotices-d4800e11040-link">Notices</a></div></div></li></ul></div>
+		                        
+                            </div>
+                        </nav>
+                    
+                    
+                    <div class="col-lg-9 col-md-9 col-sm-12" id="wh_topic_body">
+                        <button id="wh_close_publication_toc_button" class="close-toc-button d-none" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc" aria-expanded="true">
+                            <span class="close-toc-icon-container">
+                                <span class="close-toc-icon"></span>     
+                            </span>
+                        </button>
+                        
+                        <!-- 
+Release Version: v.Q42023  
+--><div class="feedback">
+   <a href="www.google.com">Feedback</a>
+</div>
+                        <div class=" wh_topic_content body "><main role="main"><article class="- topic/topic       reference/reference topic reference" role="article" aria-labelledby="ariaid-title1">
+<h1 class="- topic/title title topictitle1" id="ariaid-title1">What options are available for customizing the basic <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> client?</h1>
+
+
+<div class="- topic/body reference/refbody body refbody"><p class="- topic/shortdesc shortdesc">In HCL <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span>, you can use preferences to change
+how often <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> will autosave documents, to check
+subscriptions from your <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> applications, and change
+default fonts, as well as many other basic preferences.</p>
+<section class="- topic/section section"><p class="- topic/p p">To set preferences involving basic setup of your HCL <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> client, click <span class="+ topic/ph ui-d/menucascade ph menucascade"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">File</span><abbr title="and then"> &gt; </abbr><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Preferences</span></span> (<em class="+ topic/ph hi-d/i ph i">Notes Basic client users</em>: click <span class="+ topic/ph ui-d/menucascade ph menucascade"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">File</span><abbr title="and then"> &gt; </abbr><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Preferences</span><abbr title="and then"> &gt; </abbr><span class="+ topic/ph ui-d/uicontrol ph uicontrol">User Preferences</span></span>; <em class="+ topic/ph hi-d/i ph i">Macintosh OS X users</em>: click <span class="+ topic/ph ui-d/menucascade ph menucascade"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Notes</span><abbr title="and then"> &gt; </abbr><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Preferences</span></span>), and then click <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Basic Notes Client Configuration</span>.</p><div class="table-container"><table class="- topic/table table frame-all" data-cols="2"><caption class="- topic/title title tablecap" data-caption-side="top" data-is-repeated="true"><span class="table--title-label">Table<span class="table--title-label-number"> 1</span><span class="table--title-label-punctuation">. </span></span><span class="table--title">Startup and shut down, and
+Display sections</span></caption><colgroup><col style="width:50%"/><col style="width:50%"/></colgroup><thead class="- topic/thead thead valign-bottom">
+<tr class="- topic/row rowsep-1">
+<th class="- topic/entry entry align-left colsep-1 rowsep-1" id="pref_basic_config_r__entry__1"><p class="- topic/p p">Setting</p></th>
+<th class="- topic/entry entry align-left colsep-0 rowsep-1" id="pref_basic_config_r__entry__2"><p class="- topic/p p">Description (for check boxes, describes when
+selected)</p></th>
+</tr>
+</thead><tbody class="- topic/tbody tbody">
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__1"><p class="- topic/p p">Empty trash on application close (if not emptied
+at a timed interval)</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__2"><p class="- topic/p p">Controls how often the Trash folder in applications
+other than Mail is emptied.  Use the Mail preference (Basics tab)
+to control emptying the Trash in Mail.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__1"><p class="- topic/p p">AutoSave every <em class="+ topic/ph hi-d/i ph i">x</em> minutes</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__2"><p class="- topic/p p">Automatically saves documents you are working
+on to a local encrypted application so that you can recover your work
+if there is a power outage or system crash. When you send/save or
+discard a document, it is removed from the local application.</p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> The
+application developer controls whether AutoSave is available in an
+application.</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__1"><p class="- topic/p p">Local application folder</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__2"><p class="- topic/p p">Your <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> data
+directory (Macintosh OS X users, Data folder) contains local applications,
+local application templates, your bookmark.nsf file, and Country Language
+Services (.cls) files, which contain information <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> uses to sort documents and import files.</p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> Changes
+to the location of the data directory (Data folder) take effect the
+next time you start <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span>.</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__1"><p class="- topic/p p">Check subscriptions</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__2"><p class="- topic/p p">You use subscriptions to receive real-time updated information from your favorite HCL <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> applications. You
+must enable subscription checking for the subscription feature to work.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__1"><p class="- topic/p p">Scan for unread</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__2"><p class="- topic/p p">Triggers automatic scanning of your startup
+Notes® application for unread documents and the display of those documents
+when you start <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span>.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__1"><p class="- topic/p p">Enable scheduled local agents</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__2"><p class="- topic/p p">Runs scheduled agents when you start <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span>. An examples of a task you
+might create a scheduled agent for is moving certain documents to
+a folder.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-0" headers="pref_basic_config_r__entry__1"><p class="- topic/p p">Default Fonts</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-0" headers="pref_basic_config_r__entry__2"><p class="- topic/p p">You can change which serif, sans serif, monospaced,
+and multilingual fonts are used by default in new <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> documents.</p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> To restore the default
+font settings, click <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Default</span> in the<span class="+ topic/ph ui-d/uicontrol ph uicontrol">Default
+Fonts</span> dialog box and then click <span class="+ topic/ph ui-d/uicontrol ph uicontrol">OK</span>.</div></td>
+</tr>
+</tbody></table></div><div class="table-container"><table class="- topic/table table frame-all" data-cols="2"><caption class="- topic/title title tablecap" data-caption-side="top" data-is-repeated="true"><span class="table--title-label">Table<span class="table--title-label-number"> 2</span><span class="table--title-label-punctuation">. </span></span><span class="table--title">Startup and shut down, and
+Display sections - Notes Basic client</span></caption><colgroup><col style="width:50%"/><col style="width:50%"/></colgroup><thead class="- topic/thead thead valign-bottom">
+<tr class="- topic/row rowsep-1">
+<th class="- topic/entry entry align-left colsep-1 rowsep-1" id="pref_basic_config_r__entry__17"><p class="- topic/p p">Setting</p></th>
+<th class="- topic/entry entry align-left colsep-0 rowsep-1" id="pref_basic_config_r__entry__18"><p class="- topic/p p">Description (for check boxes, describes when
+selected)</p></th>
+</tr>
+</thead><tbody class="- topic/tbody tbody">
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__17"><p class="- topic/p p">Empty trash on application close (if not emptied
+at a timed interval)</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__18"><p class="- topic/p p">Controls how often the Trash folder in applications
+other than Mail is emptied.  Use the Mail preference (Basics tab)
+to control emptying the Trash in Mail.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__17"><p class="- topic/p p">AutoSave every <em class="+ topic/ph hi-d/i ph i">x</em> minutes</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__18"><p class="- topic/p p">Automatically saves documents you are working
+on to a local encrypted application so that you can recover your work
+if there is a power outage or system crash. When you send/save or
+discard a document, it is removed from the local application.</p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> The
+application developer controls whether AutoSave is available in an
+application.</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__17"><p class="- topic/p p">Save window state on exit</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__18"><p class="- topic/p p">Each time you close <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span>, saves whatever window tabs you happen
+to have open for the next session. If you want to see a specific set
+of  window tabs every time you use <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span>,
+use <span class="+ topic/ph ui-d/menucascade ph menucascade"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">File</span><abbr title="and then"> &gt; </abbr><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Save Window
+State</span></span> instead.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__17"><p class="- topic/p p">Local application folder</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__18"><p class="- topic/p p">Your <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> data
+directory (Macintosh OS X users, Data folder) contains local applications,
+local application templates, your bookmark.nsf file, and Country Language
+Services (.cls) files, which contain information <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> uses to sort documents and import files.</p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> Changes
+to the location of the data directory (Data folder) take effect the
+next time you start <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span>.</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__17"><p class="- topic/p p">Check subscriptions</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__18"><p class="- topic/p p">You use subscriptions to receive real-time updated information from your favorite HCL <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> applications. You must enable subscription checking for
+the subscription feature to work.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__17"><p class="- topic/p p">Scan for unread</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__18"><p class="- topic/p p">Triggers automatic scanning of your startup <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> application for unread documents
+and the display of those documents when you start <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span>.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__17"><p class="- topic/p p">Enable scheduled local agents</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__18"><p class="- topic/p p">Runs scheduled agents when you start <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span>. An examples of a task you
+might create a scheduled agent for is moving certain documents to
+a folder.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__17"><p class="- topic/p p">Default Fonts</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__18"><p class="- topic/p p">You can change which serif, sans serif, monospaced,
+and multilingual fonts are used by default in new <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> documents.</p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> To restore the default
+font settings, click <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Default</span> in the<span class="+ topic/ph ui-d/uicontrol ph uicontrol">Default
+Fonts</span> dialog box and then click <span class="+ topic/ph ui-d/uicontrol ph uicontrol">OK</span>.</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__17"><p class="- topic/p p">Icon color scheme</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__18"><p class="- topic/p p">Changes the color scheme of the icons on the
+Bookmark bar.  Clicking the System color makes Bookmark icons coordinate
+with the color settings you select in your operating system control
+panel.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-0" headers="pref_basic_config_r__entry__17"><p class="- topic/p p">Bookmark icon size</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-0" headers="pref_basic_config_r__entry__18"><p class="- topic/p p">Changes the size of the icons on the Bookmark
+bar and within bookmark folders, whether to show icons at all in bookmark
+folders.</p></td>
+</tr>
+</tbody></table></div><div class="table-container"><table class="- topic/table table frame-all" data-cols="2"><caption class="- topic/title title tablecap" data-caption-side="top" data-is-repeated="true"><span class="table--title-label">Table<span class="table--title-label-number"> 3</span><span class="table--title-label-punctuation">. </span></span><span class="table--title">Additional
+options checklist</span></caption><colgroup><col style="width:50%"/><col style="width:50%"/></colgroup><thead class="- topic/thead thead valign-bottom">
+<tr class="- topic/row rowsep-1">
+<th class="- topic/entry entry align-left colsep-1 rowsep-1" id="pref_basic_config_r__entry__39"><p class="- topic/p p">Setting</p></th>
+<th class="- topic/entry entry align-left colsep-0 rowsep-1" id="pref_basic_config_r__entry__40"><p class="- topic/p p">Description for when selected</p></th>
+</tr>
+</thead><tbody class="- topic/tbody tbody">
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Mark documents read when opened in preview pane</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">Previewing a document marks it as read.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Make Internet URLs (http://...) Into Hotspots</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">Changes URLs into clickable hotspots when you
+save or send the document.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Textured Workspace</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">Adds textured background to your workspace.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Right double-click closes window</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">Right double-clicking the mouse button closes
+the current <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> window.</p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> This
+setting is not available on the Macintosh.</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Enable <span class="- topic/tm tm">Java<span class="- topic/tmmark tmmark ">™</span></span> applets</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">Supports the running of <span class="- topic/tm tm">Java<span class="- topic/tmmark tmmark ">™</span></span> applets when opening pages in Web browsers. </p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> This
+setting is not available on the Macintosh.</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Enable <span class="- topic/tm tm">JavaScript<span class="- topic/tmmark tmmark ">™</span></span></p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">Supports the running of <span class="- topic/tm tm">JavaScript<span class="- topic/tmmark tmmark ">™</span></span> when opening pages
+in Web browsers.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Enable <span class="- topic/tm tm">Java<span class="- topic/tmmark tmmark ">™</span></span> access
+from <span class="- topic/tm tm">JavaScript<span class="- topic/tmmark tmmark ">™</span></span></p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">Allows you to run LiveConnect from Netscape,
+if the applet is configured to include the CORBA back-end classes.</p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> This
+setting corresponds to the notes.ini setting EnableLiveConnect(=1).</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Enable <span class="- topic/tm tm">JavaScript<span class="- topic/tmmark tmmark ">™</span></span> error dialogs</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">Displays error messages in a dialog box when
+there is a problem in the <span class="- topic/tm tm">JavaScript<span class="- topic/tmmark tmmark ">™</span></span>, requiring you or whoever is
+reading the document that contains the applet to dismiss the dialog
+box. If this option is not selected, <span class="- topic/tm tm">JavaScript<span class="- topic/tmmark tmmark ">™</span></span> errors appear only in the status
+bar. </p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> This setting corresponds to the notes.ini setting EnableJavaScriptErrorDialogs(=1).</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Accept Cookies</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">Cookies will be used to store URL login data
+and to let a website know that you have been to that website before.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Process print requests as a background task</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">Printing occurs in the background so you can
+continue working while during intensive printing jobs.</p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> For
+Macintosh OS X, background printing is always on. For more information,
+refer to your Macintosh OS Help.</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Disable View updates as a background task</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">Views will update in the foreground. Depending
+on the size of the view, this could interrupt your work.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Retain View column sorting</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">Applies to <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> applications
+that allow you to change the column sorting (by clicking an arrow
+in a column heading). For example, this is helpful if you always want
+your mail view sorted with latest messages at the beginning, or your
+contacts sorted by Business.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Enable MS Office 97 Send to <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span></p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">Causes all mail Send To commands in Microsoft®
+Office applications to start <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> mail
+and send the file as an attachment in a mail memo. Appears if you
+have <span class="- topic/tm tm">Microsoft<span class="- topic/tmmark tmmark ">™</span></span> Office 97,
+or certain other <span class="- topic/tm tm">Microsoft<span class="- topic/tmmark tmmark ">™</span></span> applications
+such as Visual Basic, installed. Not necessary for later releases
+of <span class="- topic/tm tm">Microsoft<span class="- topic/tmmark tmmark ">™</span></span> Office.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Use Web palette</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">Uses the Web color palette (256 colors that
+most computers can display). </p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Show extended accelerators</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">You can use keyboard accelerators (<span class="- topic/tm tm">Microsoft<span class="- topic/tmmark tmmark ">™</span></span> Windows® ALT+keys) to access
+on-screen elements such as the window tabs and action bars. </p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> This
+setting is not available on the Macintosh.</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Enable MIME save warning</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p"><span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> will
+tell you when data you want to send over the Internet cannot be converted
+to MIME format.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Enable Unicode display</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p"> Allows you to see special characters that aren't
+found on your default keyboard. You may need additional Unicode-based
+fonts installed on your <span class="- topic/tm tm">Microsoft<span class="- topic/tmmark tmmark ">™</span></span> <span class="- topic/tm tm">Windows<span class="- topic/tmmark tmmark ">™</span></span> operating system. <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> comes with five different
+Monotype WorldType fonts to install directly from the CD-ROM. </p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> If
+not enabled, <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> attempts
+to display text using the native character set of your machine<em class="+ topic/ph hi-d/i ph i">.</em></div><p class="- topic/p p"><em class="+ topic/ph hi-d/i ph i">Macintosh
+users:</em> You can use Unicode, but only using characters from your
+native character set. English Macintosh systems do not support the
+use of Unicode.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Launch the CORBA (DIIOP) server on Preview in
+web browser</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">Intended for HCL
+<span class="- topic/tm tm">Domino<span class="- topic/tmmark tmmark ">®</span></span> Designer users who preview their designs through the
+<span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> client. When a designer previews any element of a <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> application (.nsf component) in a Web browser, <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> launches a limited version of the <span class="- topic/tm tm">Domino<span class="- topic/tmmark tmmark ">®</span></span> server to serve the web page resulting from the element. If the
+element (for example, a <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> form) contains a <span class="- topic/tm tm">Java<span class="- topic/tmmark tmmark ">™</span></span> applet created with the <span class="- topic/tm tm">Java<span class="- topic/tmmark tmmark ">™</span></span>
+<span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> classes, this setting allows <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> to launch, in addition, a limited version of a CORBA (DIIOP) server to
+support the applet's classes. </p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> This setting is not available
+on the Macintosh.</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Standard dialog boxes</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">You see standard operating system dialog boxes
+rather than dialog boxes with a custom <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> appearance. </p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> This
+setting is not available on the Macintosh.</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Strict Date/Time Input</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p"><span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> will
+not attempt to correct or change the format of values you enter in
+date or time fields. Keeping this setting enabled ensures greater
+accuracy in most cases.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Show in-line MIME images as attachments</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">Images you receive within the text of a MIME
+message appear as attachments.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Disable embedded browser for MIME mail</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">Uses your system browser to display MIME mail.
+This provides better rendering of your mail when compared with the <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> default browser, but does
+not provide as accurate printing of the mail header. Use of the system
+browser might also result in security issues in some cases.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">When text language is unspecified use the form's</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">Applies to multilingual applications: any text
+of an unspecified language automatically becomes the language specified
+for the form that was used to create the document. </p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> You must
+have the <span class="- topic/tm tm">Domino<span class="- topic/tmmark tmmark ">®</span></span> Designer
+client to specify a document's language.</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Invoke <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> on
+vCard files</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p"> Invokes <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> when
+you double-click a vCard (.vcf) file. If <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> is not running, the double-click will
+start it and open to the My Contacts view in your Contacts. If <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> is running, the double-click
+opens Contacts or switches to its window tab if it's already open.
+Once in Contacts, the Contacts in the vCard File dialog box opens
+with the specified file displayed, so you can add contacts from the
+file to your Contacts.</p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> This setting is not available on the
+Macintosh.</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Use inline autocomplete in the address bar</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">A URL will be completed as you type characters
+in the Address box on the toolbar, based on entries you have previously
+entered. Typing a single letter displays a listing of all your URLs
+that begin with that letter.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Prompt for location on startup</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">When you start <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> you
+will be prompted for a location. </p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Use Tab to navigate Read-Only Documents</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">Lets you use TAB to move from object to object
+(for example, linked text, hotspots, document links and so on) in
+a read-only document. However, you can no longer use TAB, while reading
+a document, to navigate to the next document in the view. </p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> You
+must restart <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> for this
+setting to take effect.</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Use Accessibility Keyboard navigation</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">Disables the up and down arrows and lets you
+use TAB to move from field to field in a document that is in edit
+mode. When TAB is a keystroke in a field, such as an editable rich-text
+field, pressing a directional arrow moves you to the next field.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Enable persistent breakpoints in Script debugger</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">For <span class="- topic/tm tm">Domino<span class="- topic/tmmark tmmark ">®</span></span> designers
+who are writing Script in an application. Saves all breakpoints set
+in Script, thus making them available the next time the script is
+debugged. </p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> This setting is not available on the Macintosh.</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Enable Icon Popup Help in View</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">Enables popup help when you hover over icons
+in mail, calendar, and to do views and folders.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Expand Names field contents when printing</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">When printing memos or Calendar entries, prints
+the contents of the entire <span class="+ topic/ph ui-d/uicontrol ph uicontrol">To:</span> or <span class="+ topic/ph ui-d/uicontrol ph uicontrol">cc:</span> fields,
+as opposed to the default limit of three lines.</p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Print
+Preview</span> will display the actual number of lines that will
+be printed in the <span class="+ topic/ph ui-d/uicontrol ph uicontrol">To</span> or <span class="+ topic/ph ui-d/uicontrol ph uicontrol">CC</span> fields.</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Start Print Preview On <span class="- topic/tm tm">Current<span class="- topic/tmmark tmmark ">®</span></span> Page</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">Your preview always begins on the current page
+when you choose print preview.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Use <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> (not
+Web) query syntax in the view search bar</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">Multiple terms in a search query will find documents
+where those terms appear in the exact order entered in the Search
+field (as if they were enclosed in quotation marks), rather than find
+documents that contain those terms regardless of order.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Treat shortcuts as files when selecting in file
+dialogs</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">Applies to creating and saving attachments.
+Shortcut (.lnk) files you select in the Create Attachment dialog box
+will attach as the full files they reference rather than as shortcuts
+(links). Shortcuts chosen as the destination location when saving
+attachments will be treated like full files, in which case the shortcuts
+are overwritten by the file being saved (rather than  the file being
+saved overwriting the file location that the shortcut points to).</p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> This
+setting applies only to <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> clients
+running on <span class="- topic/tm tm">Windows<span class="- topic/tmmark tmmark ">™</span></span> operating
+systems.</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Disable type-ahead for
+all name fields and use the <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> Basic
+type-ahead</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">When you add a recipient's
+name in mail, the type-ahead feature you that helps you complete the
+name will be the one used in <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> 7
+and earlier.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Compress images pasted into documents</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">Automatically compresses images pasted into
+documents. Bitmap (.bmp)  images that are <em class="+ topic/ph hi-d/i ph i">imported</em> into a <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> document are compressed;
+bitmap images that are <em class="+ topic/ph hi-d/i ph i">pasted</em> into a <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> document are converted to a .gif or .jpg
+format.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Do not prompt when marking all documents read
+or unread</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">You will not be asked whether you want to proceed
+when you choose to mark all <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> documents
+as read or unread.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Do not prompt when exiting </p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">You will not be asked whether you really want
+to exit before you close the <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span>,
+Administrator, or Designer client. </p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Do not prompt when closing a document with edited
+attachments</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">When you close a <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> document
+after editing an attachment to that document, you will not be reminded
+to go back and save the changes to the attachment.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Do not prompt when forwarding a document with
+edited attachments</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">When you forward a <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> document after editing an attachment
+to that document, you will not be reminded to go back and save the
+changes to the attachment.</p></td>
+</tr>
+<tr class="- topic/row">
+<td class="- topic/entry entry align-left colsep-1 rowsep-0" headers="pref_basic_config_r__entry__39"><p class="- topic/p p">Show check marks in margin for selected documents</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-0" headers="pref_basic_config_r__entry__40"><p class="- topic/p p">Uses the selection method in releases prior
+to <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> 8.0, which includes
+a check mark in the margin to indicate which documents have been selected.
+Click and hold the pointer device in this margin to select multiple
+documents.</p></td>
+</tr>
+</tbody></table></div><div class="table-container"><table class="- topic/table table frame-all" data-cols="2"><caption class="- topic/title title tablecap" data-caption-side="top" data-is-repeated="true"><span class="table--title-label">Table<span class="table--title-label-number"> 4</span><span class="table--title-label-punctuation">. </span></span><span class="table--title">Additional options checklist - Notes Basic client</span></caption><colgroup><col style="width:50%"/><col style="width:50%"/></colgroup><thead class="- topic/thead thead valign-bottom">
+<tr class="- topic/row rowsep-1">
+<th class="- topic/entry entry align-left colsep-1 rowsep-1" id="pref_basic_config_r__entry__123"><p class="- topic/p p">Setting</p></th>
+<th class="- topic/entry entry align-left colsep-0 rowsep-1" id="pref_basic_config_r__entry__124"><p class="- topic/p p">Description for when selected</p></th>
+</tr>
+</thead><tbody class="- topic/tbody tbody">
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Mark documents read when opened in preview pane</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">Previewing a document marks it as read.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Make Internet URLs (http://...) Into Hotspots</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">Changes URLs into clickable hotspots when you
+save or send the document.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Textured Workspace</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">Adds textured background to your workspace.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Right double-click closes window</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">Double-clicking the right mouse button closes
+the current <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> window.</p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> This
+setting is not available on the Macintosh.</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Enable <span class="- topic/tm tm">Java<span class="- topic/tmmark tmmark ">™</span></span> applets</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">Supports the running of <span class="- topic/tm tm">Java<span class="- topic/tmmark tmmark ">™</span></span> applets when opening pages in Web browsers. </p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> This
+setting is not available on the Macintosh.</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Enable <span class="- topic/tm tm">JavaScript<span class="- topic/tmmark tmmark ">™</span></span></p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">Supports the running of <span class="- topic/tm tm">JavaScript<span class="- topic/tmmark tmmark ">™</span></span> when opening pages
+in Web browsers.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Enable <span class="- topic/tm tm">Java<span class="- topic/tmmark tmmark ">™</span></span> access
+from <span class="- topic/tm tm">JavaScript<span class="- topic/tmmark tmmark ">™</span></span></p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">Allows you to run LiveConnect from Netscape,
+if the applet is configured to include the CORBA back-end classes.</p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> This
+setting corresponds to the notes.ini setting EnableLiveConnect(=1).</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Enable <span class="- topic/tm tm">JavaScript<span class="- topic/tmmark tmmark ">™</span></span> error dialogs</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">Displays error messages in a dialog box when
+there is a problem in the <span class="- topic/tm tm">JavaScript<span class="- topic/tmmark tmmark ">™</span></span>, requiring you or whoever is
+reading the document that contains the applet to dismiss the dialog
+box. If this option is not selected, <span class="- topic/tm tm">JavaScript<span class="- topic/tmmark tmmark ">™</span></span> errors appear only in the status
+bar. </p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> This setting corresponds to the notes.ini setting EnableJavaScriptErrorDialogs(=1).</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Accept Cookies</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">Cookies will be used to store URL login data
+and to let a website know that you have been to that website before.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Process print requests as a background task</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">Printing occurs in the background so you can
+continue working while during intensive printing jobs.</p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> For
+Macintosh OS X, background printing is always on. For more information,
+refer to your Macintosh OS Help.</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Disable View updates as a background task</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">Views will update in the foreground. Depending
+on the size of the view, this could interrupt your work.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Retain View column sorting</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">Applies to <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> applications
+that allow you to change the column sorting (by clicking an arrow
+in a column heading). For example, this is helpful if you always want
+your mail view sorted with latest messages at the beginning of the
+list, or your contacts sorted by Business.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">To dither images when your system uses 256 colors</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">When your computer's display is set to a resolution
+of 256 colors, <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> improves
+the appearance of images by dithering them (interpreting groups of
+pixels so that they can appear smoother). </p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> This setting does
+not appear in the list if your system is set to use more colors than
+256. This setting is not available on the Macintosh.</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Enable MS Office 97 Send to <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span></p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">Causes all mail Send To commands in Microsoft®
+Office applications to start <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> mail
+and send the file as an attachment in a mail memo. Appears if you
+have <span class="- topic/tm tm">Microsoft<span class="- topic/tmmark tmmark ">™</span></span> Office 97,
+or certain other <span class="- topic/tm tm">Microsoft<span class="- topic/tmmark tmmark ">™</span></span> applications
+such as Visual Basic, installed. Not necessary for later releases
+of <span class="- topic/tm tm">Microsoft<span class="- topic/tmmark tmmark ">™</span></span> Office.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Use Web palette</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">Uses the Web color palette (256 colors that
+most computers can display). </p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Show extended accelerators</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">You can use keyboard accelerators (<span class="- topic/tm tm">Microsoft<span class="- topic/tmmark tmmark ">™</span></span> Windows® ALT+keys) to access
+on-screen elements such as the window tabs and action bars. </p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> This
+setting is not available on the Macintosh.</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Enable MIME save warning</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p"><span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> will
+tell you when data you want to send over the Internet cannot be converted
+to MIME format.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Enable Unicode display</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p"> Allows you to see special characters that aren't
+found on your default keyboard. You may need additional Unicode-based
+fonts installed on your <span class="- topic/tm tm">Microsoft<span class="- topic/tmmark tmmark ">™</span></span> <span class="- topic/tm tm">Windows<span class="- topic/tmmark tmmark ">™</span></span> operating system. <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> comes with five different
+Monotype WorldType fonts to install directly from the CD-ROM. </p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> If
+not enabled, <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> attempts
+to display text using the native character set of your machine<em class="+ topic/ph hi-d/i ph i">.</em></div><p class="- topic/p p"><em class="+ topic/ph hi-d/i ph i">Macintosh
+users:</em> You can use Unicode, but only using characters from your
+native character set. English Macintosh systems do not support the
+use of Unicode.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Display Window Menu</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">The Window menu appears between the Actions
+and Help menus. Use this menu to switch to any open window, or choose <span class="- topic/tm tm">Windows<span class="- topic/tmmark tmmark ">™</span></span> to manage your open windows.</p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> This
+setting is not available on the Macintosh.</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Launch the CORBA (DIIOP) server on Preview in
+web browser</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">Intended for HCL <span class="- topic/tm tm">Domino<span class="- topic/tmmark tmmark ">®</span></span> Designer users who preview their
+designs through the <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> client. When a designer previews
+any element of a <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> application (.nsf component) in a Web
+browser, <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> launches a limited version of the <span class="- topic/tm tm">Domino<span class="- topic/tmmark tmmark ">®</span></span> server to serve the web page resulting from the element.
+If the element (for example, a <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> form) contains a <span class="- topic/tm tm">Java<span class="- topic/tmmark tmmark ">™</span></span> applet created with the <span class="- topic/tm tm">Java<span class="- topic/tmmark tmmark ">™</span></span>
+<span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> classes, this setting allows <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> to launch, in addition, a limited version of a CORBA (DIIOP) server to
+support the applet's classes. </p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> This setting is not available
+on the Macintosh.</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Standard dialog boxes</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">You see standard operating system dialog boxes
+rather than dialog boxes with a custom <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> appearance. </p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> This
+setting is not available on the Macintosh.</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Strict Date/Time Input</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p"><span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> will
+not attempt to correct or change the format of values you enter in
+date or time fields. Keeping this setting enabled ensures greater
+accuracy in most cases.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Show in-line MIME images as attachments</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">Images you receive within the text of a MIME
+message appear as attachments.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Disable embedded browser for MIME mail</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">Uses your system browser to display MIME mail.
+This provides better rendering of your mail when compared with the <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> default browser, but does
+not provide as accurate printing of the mail header. Use of the system
+browser might also result in security issues in come cases.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">When text language is unspecified use the form's</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">Applies to multilingual applications: any text
+of an unspecified language automatically becomes the language specified
+for the form that was used to create the document. </p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> You must
+have the <span class="- topic/tm tm">Domino<span class="- topic/tmmark tmmark ">®</span></span> Designer
+client to specify a document's language.</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Invoke <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> on
+vCard files</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p"> Invokes <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> when
+you double-click a vCard (.vcf) file. If <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> is not running, the double-click will
+start it and open to the My Contacts view in your Contacts. If <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> is running, the double-click
+opens Contacts or switches to its window tab if it's already open.
+Once in Contacts, the Contacts in the vCard File dialog box opens
+with the specified file displayed, so you can add contacts from the
+file to your Contacts.</p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> This setting is not available on the
+Macintosh.</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Use inline autocomplete in the address bar</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">A URL will be completed as you type characters
+in the Address box on the toolbar, based on entries you have previously
+entered. Typing a single letter displays a listing of all your URLs
+that begin with that letter.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Prompt for location on startup</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">When you start <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> you
+will be prompted for a location. </p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Use Tab to navigate Read-Only Documents</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">Lets you use TAB to move from object to object
+(for example, linked text, hotspots, document links and so on) in
+a read-only document. However, you can no longer use TAB, while reading
+a document, to navigate to the next document in the view. </p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> You
+must restart <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> for this
+setting to take effect.</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Use Accessibility Keyboard navigation</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">Disables the up and down arrows and lets you
+use TAB to move from field to field in a document that is in edit
+mode. When TAB is a keystroke in a field, such as an editable rich-text
+field, pressing a directional arrow moves you to the next field.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Enable persistent breakpoints in Script debugger</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">For <span class="- topic/tm tm">Domino<span class="- topic/tmmark tmmark ">®</span></span> designers
+who are writing Script in an application. Saves all breakpoints set
+in Script, thus making them available the next time the script is
+debugged. </p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> This setting is not available on the Macintosh.</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Use System Color</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">Sets <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> user
+interface colors to match, where possible, colors in the scheme specified
+using  the <span class="- topic/tm tm">Microsoft<span class="- topic/tmmark tmmark ">™</span></span> <span class="- topic/tm tm">Windows<span class="- topic/tmmark tmmark ">™</span></span> <span class="+ topic/ph ui-d/menucascade ph menucascade"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Control
+Panel</span><abbr title="and then"> &gt; </abbr><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Display</span><abbr title="and then"> &gt; </abbr><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Appearance</span></span> menu sequence. </p><p class="- topic/p p">Because the <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> user interface may actually display more
+colors than are part of the scheme, schemes other than high contrast
+schemes may decrease the legibility of elements in <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span>.</p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> This setting is not available
+on the Macintosh.</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Enable Icon Popup Help in View</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">Enables popup help when you hover over icons
+in mail, calendar, and to do views and folders.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Expand Names field contents when printing</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">When printing memos or Calendar entries, prints
+the contents of the entire <span class="+ topic/ph ui-d/uicontrol ph uicontrol">To:</span> or <span class="+ topic/ph ui-d/uicontrol ph uicontrol">cc:</span> fields,
+as opposed to the default limit of three lines.</p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Print
+Preview</span> will display the actual number of lines that will
+be printed in the <span class="+ topic/ph ui-d/uicontrol ph uicontrol">To</span> or <span class="+ topic/ph ui-d/uicontrol ph uicontrol">CC</span> fields.</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Start Print Preview On <span class="- topic/tm tm">Current<span class="- topic/tmmark tmmark ">®</span></span> Page</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">Your preview always begins on the current page
+when you choose print preview.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Use <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> (not
+Web) query syntax in the view search bar</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">Multiple terms in a search query will find documents
+where those terms appear in the exact order entered in the Search
+field (as if they were enclosed in quotation marks), rather than find
+documents that contain those terms regardless of order.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Treat shortcuts as files when selecting in file
+dialogs</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">Applies to creating and saving attachments.
+Shortcut (.lnk) files you select in the Create Attachment dialog box
+will attach as the full files they reference rather than as shortcuts
+(links). Shortcuts chosen as the destination location when saving
+attachments will be treated like full files, in which case the shortcuts
+are overwritten by the file being saved (rather than  the file being
+saved overwriting the file location that the shortcut points to).</p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> This
+setting applies only to <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> clients
+running on <span class="- topic/tm tm">Windows<span class="- topic/tmmark tmmark ">™</span></span> operating
+systems.</div></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Compress images pasted into documents</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">Automatically compresses images pasted into
+documents. Bitmap (.bmp)  images that are <em class="+ topic/ph hi-d/i ph i">imported</em> into a <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> document are compressed;
+bitmap images that are <em class="+ topic/ph hi-d/i ph i">pasted</em> into a <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> document are converted to a .gif or .jpg
+format.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Do not prompt when marking all documents read
+or unread</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">You will not be asked whether you want to proceed
+when you choose to mark all <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> documents
+as read or unread.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Do not prompt when closing all currently open
+window tabs</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">You will not be asked whether you want to continue
+when you click the menu command to close all window tabs. </p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Do not prompt when exiting </p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">You will not be asked whether you really want
+to exit before you close the <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span>,
+Administrator, or Designer client. </p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Do not prompt when closing a document with edited
+attachments</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">When you close a <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> document
+after editing an attachment to that document, you will not be reminded
+to go back and save the changes to the attachment.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-0" headers="pref_basic_config_r__entry__123"><p class="- topic/p p">Do not prompt when forwarding a document with
+edited attachments</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-0" headers="pref_basic_config_r__entry__124"><p class="- topic/p p">When you forward a <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> document after editing an attachment
+to that document, you will not be reminded to go back and save the
+changes to the attachment.</p></td>
+</tr>
+</tbody></table></div><div class="table-container"><table class="- topic/table table frame-all" data-cols="2"><caption class="- topic/title title tablecap" data-caption-side="top" data-is-repeated="true"><span class="table--title-label">Table<span class="table--title-label-number"> 5</span><span class="table--title-label-punctuation">. </span></span><span class="table--title">Fields following
+Additional options checklist</span></caption><colgroup><col style="width:50%"/><col style="width:50%"/></colgroup><thead class="- topic/thead thead valign-bottom">
+<tr class="- topic/row rowsep-1">
+<th class="- topic/entry entry align-left colsep-1 rowsep-1" id="pref_basic_config_r__entry__211"><p class="- topic/p p">Setting</p></th>
+<th class="- topic/entry entry align-left colsep-0 rowsep-1" id="pref_basic_config_r__entry__212"><p class="- topic/p p">Description for when selected</p></th>
+</tr>
+</thead><tbody class="- topic/tbody tbody">
+<tr class="- topic/row">
+<td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="pref_basic_config_r__entry__211"><p class="- topic/p p">Show check marks in margin
+for selected documents</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="pref_basic_config_r__entry__212"><p class="- topic/p p">Allows you to select documents
+by clicking or dragging the cursor in the column margin of the list
+of documents; selected documents have a check mark in the column margin
+of their titles.</p></td>
+</tr>
+<tr class="- topic/row rowsep-1">
+<td class="- topic/entry entry align-left colsep-1 rowsep-0" headers="pref_basic_config_r__entry__211"><p class="- topic/p p">Automatically lock my <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> ID after 90 minutes (<em class="+ topic/ph hi-d/i ph i">Notes
+Basic client users:</em> Logout (and lock <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> display) if you haven't used <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> for 90 minutes</p></td>
+<td class="- topic/entry entry align-left colsep-0 rowsep-0" headers="pref_basic_config_r__entry__212"><p class="- topic/p p">Allows <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> to lock your User ID after a specified
+time period of inactivity. If you step away from your computer, just
+make sure that the page you leave up is not sensitive, and be confident
+that your data is secure.</p><div class="- topic/note note note note_note"><span class="note__title">Note:</span> To unlock your User ID, press Enter
+and then type your password in the password prompt. Once you enter
+your password, your <span class="- topic/tm tm">Notes<span class="- topic/tmmark tmmark ">®</span></span> display
+becomes unlocked.</div></td>
+</tr>
+</tbody></table></div></section>
+</div>
+
+
+</article></main></div>
+                        
+                        
+                        <div class=" wh_related_links d-print-none "><nav aria-label="Related Links" role="navigation" class="- topic/related-links related-links"><div class="- topic/linklist linklist relinfo" xml:lang="en-us" lang="en-us"><strong>Related information</strong><ul class="linklist related_link"><li class="linklist"><a class="- topic/link link navheader_parent_path" href="pref_pref_c.html" title="You can customize HCL Notes so that it runs and displays just the way you want it to using Notes preferences.">Preferences</a></li><li class="linklist"><a class="- topic/link link navheader_parent_path" href="security_toc.html" title="HCL Notes® security enables you to protect your workspace and data at all times, so only you and the people you designate have access to your data.">Securing your data</a></li></ul></div></nav></div>
+                        
+                        
+        <meta charset="UTF-8"/>
+  <!--To fix Uncaught ReferenceError: $ is not defined in jQuery-->
+  <script defer="defer" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    
+
+    <!--  * Release Version: v.Q42023  *-->
+
+
+            <div class="form-group">
+                <legend id="ratingCommentLabel"></legend>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="1" id="rateCheck"/>
+                    <label class="form-check-label" for="rateCheck" id="rateCheckLabel">
+                        
+                    </label>
+                    <label class="form-check-label" id="rateCheckNoteLabel">
+                        
+                    </label>
+     <label class="form-check-label" id="rateCheckNotePrivacy">
+                        
+                    </label>
+                </div>
+
+            </div>
+<div id="giscfdbk" class="disabledbutton">
+
+<script defer="defer" src="https://giscus.app/client.js" data-repo="hCL-TECH-SOFTWARE/hCLSoftware-Documentation-Home" data-repo-id="R_kgDOKLDvsw" data-category="Q&amp;A" data-category-id="DIC_kwDOKLDvs84CZZk9" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="https://opensource.hcltechsw.com/HCLSoftware-Documentation-Home/giscus.css" data-lang="en" crossorigin="anonymous" async="async"><!--
+
+
+--></script>
+</div>
+
+
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+            
+        </div> 
+        <footer class="navbar navbar-default wh_footer">
+  <div class=" footer-container mx-auto ">
+    <!-- 
+Release Version: v.Q42023  
+--><div class="footer brandFont">
+	<div class="footer-left">
+		<ul class="nav share-content">
+			<li class="nav-item">
+                <a id="footerMailLink" class="nav-link footer-mail" style="color:white;" target="_blank" rel="noopener noreferrer" href="#" onclick="gtag('event', 'EmailShare', {'event_category': 'share', 'event_label':'labelemail'});" title="Share by Email">Share: Email</a>
+			</li>
+            <li>
+                <a id="footerTwitterLink" class="nav-link footer-twitter" href="https://twitter.com/intent/tweet" style="color:white;" onclick="gtag('event', 'TwitterShare', {'event_category': 'share', 'event_label':'labeltweet'});" title="Share by Twitter">Twitter</a>
+            </li>
+		</ul>
+	</div>
+    <div class="footer-right">
+        <ul class="nav legal-content">
+            <li class="nav-item">
+                <a id="disclaimerLabel" class="nav-link footer-launch" style="color:white;" target="_blank" rel="noopener noreferrer" href="https://www.hcl-software.com/legal/disclaimer">Disclaimer</a>
+            </li>
+            <li class="nav-item">
+                <a id="privacyLabel" class="nav-link footer-launch" style="color:white;" target="_blank" rel="noopener noreferrer" href="https://www.hcl-software.com/legal/privacy">Privacy</a>
+            </li>
+            <li class="nav-item">
+                <a id="termsLabel" class="nav-link footer-launch" style="color:white;" target="_blank" rel="noopener noreferrer" href="https://www.hcl-software.com/legal/terms-use">Terms of use</a>
+            </li>
+            <li class="nav-item">
+                <a id="cookieLabel" class="nav-link footer-launch ot-sdk-show-settings" style="color:white;" href="#">Cookie Preferences</a>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</footer>
+        
+        <div id="go2top" class="d-print-none">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <div id="modal_img_container"></div>
+            <div id="caption"></div>
+        </div>
+        
+        
+        
+    </body>
+</html>
