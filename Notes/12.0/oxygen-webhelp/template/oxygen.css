@@ -1240,7 +1240,7 @@ html[dir='rtl'] .wh_top_menu ul li:hover>ul {
 
 .custom_dropdown {
 	border: none;
-	width: 75px;
+	width: 90px;
 	color: #0ba5a8;
 }
 
@@ -1280,6 +1280,10 @@ html[dir='rtl'] .wh_top_menu ul li:hover>ul {
 .logo {
     
     left: 1%;
+}
+
+.wh_main_page .logo {
+	top: 80px;
 }
 
 /* .logo_breadcrumb { */
