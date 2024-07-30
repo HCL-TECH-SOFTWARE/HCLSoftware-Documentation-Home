@@ -1,1 +1,0 @@
-oxy_webhelp_navlinks = {"wid_create_recognizer_t-d4800e9038":{"topics":[{"title":"What are some sample recognizer Java regular expressions?","href":"wid_recog_regex_c.html","attributes":{"data-id":"wid_recog_regex_c"},"menu":{"hasChildren":false},"tocID":"wid_recog_regex_c-d4800e9064","topics":[]}]}};
