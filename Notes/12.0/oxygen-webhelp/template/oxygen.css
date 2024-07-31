@@ -844,40 +844,36 @@ code {
 }
 
 .searchresult li a {
-    color: #007A87;
+    color:#346ec5;
 }
-
 .searchresult .shortdesclink {
     margin: .3em .5em 0 0;
 }
-
-.wh_search_expression {
-    font-weight: bold;
+.wh_search_expression{
+    font-weight:bold;
 }
 
 /* Search relative path */
+
 .searchresult li .relativePath a {
     color: #006621;
 }
 
-/*--------- Search results breadcrumb ----------*/
-.search-breadcrumb li a {
-	background: #FFFFFF;
-	color: #007A87;
-}
+/--------- Search results breadcrumb ----------/
 
+.search-breadcrumb li a {
+    background: #ECF2F9;
+}
 .search-breadcrumb li .title:before,
 .search-breadcrumb li .title:after {
-	border-color: #FFFFFF;
+    border-color: #ECF2F9;
 }
-
 .search-breadcrumb li .title:before {
     border-left-color: transparent;
 }
-
 .search-breadcrumb li .title:after {
     border-color: transparent;
-	 border-left-color: #FFFFFF;
+    border-left-color: #ECF2F9;
 }
 
 .wh_main_page_toc a {
