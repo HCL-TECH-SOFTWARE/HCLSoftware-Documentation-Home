@@ -173,7 +173,7 @@
             id: 4,
             image:"images/DevOps_test_black.svg",
             title: 'HCL DevOps Test',
-            description: 'A suite of testing products that offers a comprehensive solution for all your testing needs including API testing, performance testing, UI testing, synthetic data generation, service virtualization and embedded testing.',
+            description: 'A suite of testing products that offers a comprehensive solution to perform API, embedded, performance, and UI testing along with service virtualization and synthetic data generation.',
             category: 'Secure DevOps',
             link: 'https://help.hcl-software.com/devops/test/index.html'
         },
