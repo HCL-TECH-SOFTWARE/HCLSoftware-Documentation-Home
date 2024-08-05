@@ -14,8 +14,8 @@
  * Release Version: v.Q42023                                        *
  ********************************************************************
  */
-export const LNG_IDX = 4;
-export const VER_IDX = 3;
+export const LNG_IDX = 3;
+export const VER_IDX = 2;
 export const LND_IDX = 1;
 export const LANGUAGE = "Language";
 export const VERSION = "Version";
@@ -27,15 +27,15 @@ export const CHANGE_LANG = "en"; //Mention the language you want to generate the
 export const URLPATH_VARY = "";
 export const openSourceDomain = ""; /*Mention base URL path with product name, only for open source portal*/
 
-export const LATEST_VERSION = "Version 12"; //Mention the latest version name from the VERSION_LIST.
+export const LATEST_VERSION = "Version 7 CR7"; //Mention the latest version name from the VERSION_LIST.
 
 //Change Product Name to your actual product name. ex: Digital Experience
 //Keep the latest version always at first, after "0" : "product Name".
 export const VERSION_LIST = {
-    "0" : "HCL Notes",
-    "12.0" : "Version 12",
-	"11.0": "Version 11"
-	
+    "0" : "Version",
+    "v7" : "Version 7 CR7",
+	"v6": "Version 6 CR6 EOS",
+	"v5": "Version 5 CR5"
 	//"v55": "Version 5.5 CR3"
 }
 
