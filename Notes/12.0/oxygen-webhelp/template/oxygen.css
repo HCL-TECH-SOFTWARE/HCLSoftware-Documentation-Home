@@ -481,11 +481,11 @@ Example:
  * 
  */
 .wh_search_input {
-    display: block;
-    margin: 0;
-    position: relative;
-    padding: 15px 0;
-    /* border-bottom: 1px solid #dee5e7; */
+    padding: 0 !important;
+    background: none !important;
+    min-width: 300px;
+    /* margin: 0 !important; */
+    margin-right:30px;
 }
 
 .wh_search_results {
