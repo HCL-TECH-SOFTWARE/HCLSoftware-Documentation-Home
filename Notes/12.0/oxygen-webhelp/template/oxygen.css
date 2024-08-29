@@ -55,6 +55,8 @@
 html,
 body {
     min-width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
@@ -614,6 +616,16 @@ Example:
     padding-right: 0px !important;
 }
 
+.container-fluid {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    max-width: 100% !important;
+}
+
+#wh_topic_container, .wh_content_area {
+    flex-grow: 0 !important;
+}
+
 .row {
 	margin-right: 0 !important;
 }
@@ -640,8 +652,8 @@ Example:
 	background-color: #FFFFFF;
     height: 550px;
     overflow-y: scroll !important;
-    position: fixed;
-    width: 20%;
+   /*  position: fixed;
+    width: 20%; */
 }
 
 .margin-reduced {
