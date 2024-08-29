@@ -622,9 +622,6 @@ Example:
     max-width: 100% !important;
 }
 
-#wh_topic_container, .wh_content_area {
-    flex-grow: 0 !important;
-}
 
 .row {
 	margin-right: 0 !important;
