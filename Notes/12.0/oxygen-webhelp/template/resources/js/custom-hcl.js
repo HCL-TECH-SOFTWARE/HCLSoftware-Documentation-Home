@@ -49,6 +49,8 @@ $(function(){
 	closebtn();
 	closeEoSbtn();
     publication_toc();
+    getCookie();
+    setCookie();
 });
 
  function initLabels(){
@@ -423,16 +425,45 @@ function insertTags() {
 
 //Close button function for the latest version banner		
 function closebtn() {
-          
-           const x = document.getElementById("btnbaner");
-            if(x != null) {
-				x.addEventListener("click", () => {
-				   var y = document.getElementById('vrnban');
-					y.remove();
-				});
-				
-			}
+    const x = document.getElementById("btnbaner");
+    if (x != null) {
+        x.addEventListener("click", () => {
+            var y = document.getElementById('vrnban');
+            y.remove();
+            setCookie("bannerClosed", "true", 1); // Set cookie to expire in 1 day
+        });
+    }
 }
+
+// Check if the banner was closed in the current session
+if (getCookie("bannerClosed") === "true") {
+    var banner = document.getElementById('vrnban');
+    if (banner != null) {
+        banner.style.display = 'none';
+    }
+}
+
+function setCookie(name, value, days) {
+    let expires = "";
+    if (days) {
+        let date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "") + expires + "; path=/";
+}
+
+function getCookie(name) {
+    let nameEQ = name + "=";
+    let ca = document.cookie.split(';');
+    for (let i = 0; i < ca.length; i++) {
+        let c = ca[i];
+        while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+        if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+    }
+    return null;
+}
+
 /*This function is for reducing the space above the left side TOC when the banner closes*/
 function publication_toc() {
 
@@ -441,6 +472,8 @@ function publication_toc() {
         document.querySelector('.wh_publication_toc').classList.toggle('margin-reduced');
     })
 }
+
+
 		
 //Hide and show the dropdown menu of resources
 /*function dropdown_click() {
