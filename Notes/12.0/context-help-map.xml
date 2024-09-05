@@ -1,0 +1,1121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="framework_toc" path="framework_toc.html"/>
+   <appContext helpID="concept_mqj_nrd_w2b" path="fram_whats_new_12.html"/>
+   <appContext helpID="search_improvements12" path="search_improvements12.html"/>
+   <appContext helpID="mail_improvements12" path="mail_improvements12.html"/>
+   <appContext helpID="enable_shared_mail_internet_address"
+               path="wn_enable_shared_mail_internet_address.html"/>
+   <appContext helpID="wn_select_alt_from" path="wn_select_alt_from.html"/>
+   <appContext helpID="wn_send_mail_names" path="wn_send_mail_names.html"/>
+   <appContext helpID="wn_default_inbox_settings"
+               path="wn_default_inbox_settings.html"/>
+   <appContext helpID="wn_importing" path="wn_importing.html"/>
+   <appContext helpID="wn_swiftfile" path="wn_swiftfile.html"/>
+   <appContext helpID="wn_override_default_sign" path="wn_override_default_sign.html"/>
+   <appContext helpID="wn_html_rendering" path="wn_html_rendering.html"/>
+   <appContext helpID="calendar_improvements12" path="calendar_improvements12.html"/>
+   <appContext helpID="whatsnew_new_look" path="whatsnew_new_look.html"/>
+   <appContext helpID="install_improvements" path="install_improvements.html"/>
+   <appContext helpID="performance_improvements" path="performance_improvements.html"/>
+   <appContext helpID="additional_improvements12"
+               path="additional_improvements12.html"/>
+   <appContext helpID="copy_formatting" path="wn_copy_formatting.html"/>
+   <appContext helpID="right_click_support" path="wn_right_click_support.html"/>
+   <appContext helpID="wn_workspace_text_color" path="wn_workspace_text_color.html"/>
+   <appContext helpID="workspace_collapse" path="workspace_collapse.html"/>
+   <appContext helpID="components_not_included" path="components_not_included.html"/>
+   <appContext helpID="about_notes" path="about_notes.html"/>
+   <appContext helpID="acc_essibility_c" path="acc_essibility_c.html"/>
+   <appContext helpID="acc_shortcuts_stand_c" path="acc_shortcuts_stand_c.html"/>
+   <appContext helpID="acc_sho_general_r" path="acc_sho_general_r.html"/>
+   <appContext helpID="acc_sho_app_r" path="acc_sho_app_r.html"/>
+   <appContext helpID="acc_sho_props_r" path="acc_sho_props_r.html"/>
+   <appContext helpID="acc_sho_edit_r" path="acc_sho_edit_r.html"/>
+   <appContext helpID="N10001" path="acc_sho_move_r.html"/>
+   <appContext helpID="N10001" path="acc_sho_text_r.html"/>
+   <appContext helpID="acc_shortcuts_mac_c" path="acc_shortcuts_mac_c.html"/>
+   <appContext helpID="acc_sho_app_mac_r" path="acc_sho_app_mac_r.html"/>
+   <appContext helpID="acc_sho_edit_mac_r" path="acc_sho_edit_mac_r.html"/>
+   <appContext helpID="N10001" path="acc_sho_move_mac_r.html"/>
+   <appContext helpID="acc_sho_text_mac_r" path="acc_sho_text_mac_r.html"/>
+   <appContext helpID="acc_unicode_t" path="acc_unicode_t.html"/>
+   <appContext helpID="acc_spec_characters_r" path="acc_spec_characters_r.html"/>
+   <appContext helpID="fram_gettinghelp_t" path="fram_gettinghelp_t.html"/>
+   <appContext helpID="fram_elements_of_notes_c" path="fram_elements_of_notes_c.html"/>
+   <appContext helpID="fram_using_open_list_t" path="fram_using_open_list_t.html"/>
+   <appContext helpID="fram_toolbars_overview_c" path="fram_toolbars_overview_c.html"/>
+   <appContext helpID="fram_using_sidebar_t" path="fram_using_sidebar_t.html"/>
+   <appContext helpID="fram_statusbar_info_c" path="fram_statusbar_info_c.html"/>
+   <appContext helpID="fram_work_with_windowtabs_t"
+               path="fram_work_with_windowtabs_t.html"/>
+   <appContext helpID="fram_work_with_group_wintab_t"
+               path="fram_work_with_group_wintab_t.html"/>
+   <appContext helpID="preferences_toc" path="preferences_toc.html"/>
+   <appContext helpID="pref_pref_c" path="pref_pref_c.html"/>
+   <appContext helpID="pref_basic_config_r" path="pref_basic_config_r.html"/>
+   <appContext helpID="fram_set_window_theme_prefs_t"
+               path="fram_set_window_theme_prefs_t.html"/>
+   <appContext helpID="fram_modify_toolbar_display_t"
+               path="fram_modify_toolbar_display_t.html"/>
+   <appContext helpID="fram_create_display_toolbars_t"
+               path="fram_create_display_toolbars_t.html"/>
+   <appContext helpID="fram_customize_toolbars_t"
+               path="fram_customize_toolbars_t.html"/>
+   <appContext helpID="pref_set_spell_check_prefs_t"
+               path="pref_set_spell_check_prefs_t.html"/>
+   <appContext helpID="N10001" path="pref_switch_spell_dict_t.html"/>
+   <appContext helpID="pref_edit_user_dict_t" path="pref_edit_user_dict_t.html"/>
+   <appContext helpID="task_nkz_kb2_w2b" path="fram_customizing_color_theme.html"/>
+   <appContext helpID="pref_regional_settings_r" path="pref_regional_settings_r.html"/>
+   <appContext helpID="howcanichoosearegionalprofilefornotes"
+               path="pref_choose_reg_profile.html"/>
+   <appContext helpID="N10001" path="pref_text_cursor_bidirectional_t.html"/>
+   <appContext helpID="pref_ch_how_translate_chars_t"
+               path="pref_ch_how_translate_chars_t.html"/>
+   <appContext helpID="pref_ch_unit_measure_t" path="pref_ch_unit_measure_t.html"/>
+   <appContext helpID="pref_choose_cont_lang_t" path="pref_choose_cont_lang_t.html"/>
+   <appContext helpID="pref_choose_ui_lang_t" path="pref_choose_ui_lang_t.html"/>
+   <appContext helpID="pref_sort_in_language_t" path="pref_sort_in_language_t.html"/>
+   <appContext helpID="pref_use_alternate_name_t"
+               path="pref_use_alternate_name_t.html"/>
+   <appContext helpID="pref_ch_dir_cal_displays_t"
+               path="pref_ch_dir_cal_displays_t.html"/>
+   <appContext helpID="pref_ch_day_cal_starts_t" path="pref_ch_day_cal_starts_t.html"/>
+   <appContext helpID="PreferencesQuickReference" path="pref_quickref_r.html"/>
+   <appContext helpID="pref_adv.dita" path="pref_adv.html"/>
+   <appContext helpID="pref_enable_java_debug_t" path="pref_enable_java_debug_t.html"/>
+   <appContext helpID="pref_details_java_javascript_r"
+               path="pref_details_java_javascript_r.html"/>
+   <appContext helpID="pref_notes_ports_pref_r" path="pref_notes_ports_pref_r.html"/>
+   <appContext helpID="pref_compress_net_data_t" path="pref_compress_net_data_t.html"/>
+   <appContext helpID="pref_config_port_t" path="pref_config_port_t.html"/>
+   <appContext helpID="howcanirenameaport" path="pref_rename_port.html"/>
+   <appContext helpID="pref_delete_port_t" path="pref_delete_port_t.html"/>
+   <appContext helpID="pref_enable_port_t" path="pref_enable_port_t.html"/>
+   <appContext helpID="pref_encrypt_data_thru_port_t"
+               path="pref_encrypt_data_thru_port_t.html"/>
+   <appContext helpID="pref_reorder_port_t" path="pref_reorder_port_t.html"/>
+   <appContext helpID="pref_show_port_status_t" path="pref_show_port_status_t.html"/>
+   <appContext helpID="pref_trace_connection_t" path="pref_trace_connection_t.html"/>
+   <appContext helpID="pref_log_pref_t" path="pref_log_pref_t.html"/>
+   <appContext helpID="pref_rep_pref_r" path="pref_rep_pref_r.html"/>
+   <appContext helpID="pref_rep_defaults_all_apps_r"
+               path="pref_rep_defaults_all_apps_r.html"/>
+   <appContext helpID="fram_homepage_overveiw_c" path="fram_homepage_overveiw_c.html"/>
+   <appContext helpID="fram_change_homepage_t" path="fram_change_homepage_t.html"/>
+   <appContext helpID="fram_return_to_firsttime_setup_t"
+               path="fram_return_to_firsttime_setup_t.html"/>
+   <appContext helpID="fram_create_homepage_t" path="fram_create_homepage_t.html"/>
+   <appContext helpID="fram_delete_homepage_t" path="fram_delete_homepage_t.html"/>
+   <appContext helpID="fram_customize_homepage_c"
+               path="fram_customize_homepage_c.html"/>
+   <appContext helpID="fram_refresh_homepage_t" path="fram_refresh_homepage_t.html"/>
+   <appContext helpID="N10001" path="fram_change_homep_content_temp_t.html"/>
+   <appContext helpID="fram_change_homep_content_perm_t"
+               path="fram_change_homep_content_perm_t.html"/>
+   <appContext helpID="fram_edit_homepage_t" path="fram_edit_homepage_t.html"/>
+   <appContext helpID="fram_display_tips_t" path="fram_display_tips_t.html"/>
+   <appContext helpID="fram_set_notebk_from_homepage_t"
+               path="fram_set_notebk_from_homepage_t.html"/>
+   <appContext helpID="fram_using_workplace_c" path="fram_using_workplace_c.html"/>
+   <appContext helpID="fram_editing_workplace_c" path="fram_editing_workplace_c.html"/>
+   <appContext helpID="fram_workspace_overview_c"
+               path="fram_workspace_overview_c.html"/>
+   <appContext helpID="fram_create_workspace_t" path="fram_create_workspace_t.html"/>
+   <appContext helpID="fram_name_workspace_page_t"
+               path="fram_name_workspace_page_t.html"/>
+   <appContext helpID="task_nls_rxd_w2b" path="fram_change_workspace_background.html"/>
+   <appContext helpID="fram_delete_workspace_page_t"
+               path="fram_delete_workspace_page_t.html"/>
+   <appContext helpID="fram_switch_workspace_page_t"
+               path="fram_switch_workspace_page_t.html"/>
+   <appContext helpID="fram_change_workspace_color_t"
+               path="fram_change_workspace_color_t.html"/>
+   <appContext helpID="fram_compact_workspace_file_t"
+               path="fram_compact_workspace_file_t.html"/>
+   <appContext helpID="change_workspace_text_color"
+               path="change_workspace_text_color.html"/>
+   <appContext helpID="fram_bookmarks_overview_c"
+               path="fram_bookmarks_overview_c.html"/>
+   <appContext helpID="fram_creating_bookmarks_t"
+               path="fram_creating_bookmarks_t.html"/>
+   <appContext helpID="fram_set_bookmark_as_home_t"
+               path="fram_set_bookmark_as_home_t.html"/>
+   <appContext helpID="fram_work_with_bookmarks_t"
+               path="fram_work_with_bookmarks_t.html"/>
+   <appContext helpID="fram_views_overview_c" path="fram_views_overview_c.html"/>
+   <appContext helpID="fram_types_of_views_r" path="fram_types_of_views_r.html"/>
+   <appContext helpID="fram_create_view_t" path="fram_create_view_t.html"/>
+   <appContext helpID="fram_work_with_views_t" path="fram_work_with_views_t.html"/>
+   <appContext helpID="fram_custom_columns_in_view_t"
+               path="fram_custom_columns_in_view_t.html"/>
+   <appContext helpID="fram_manage_with_categories_c"
+               path="fram_manage_with_categories_c.html"/>
+   <appContext helpID="fram_create_folder_t" path="fram_create_folder_t.html"/>
+   <appContext helpID="fram_add_doc_to_folder_t" path="fram_add_doc_to_folder_t.html"/>
+   <appContext helpID="fram_remove_doc_from_folder_t"
+               path="fram_remove_doc_from_folder_t.html"/>
+   <appContext helpID="fram_move_folder_or_view_t"
+               path="fram_move_folder_or_view_t.html"/>
+   <appContext helpID="fram_rename_folder_t" path="fram_rename_folder_t.html"/>
+   <appContext helpID="prt_printing_overview_c" path="prt_printing_overview_c.html"/>
+   <appContext helpID="prt_print_documents_t" path="prt_print_documents_t.html"/>
+   <appContext helpID="prt_print_to_a_file_t" path="prt_print_to_a_file_t.html"/>
+   <appContext helpID="prt_preview_print_job_t" path="prt_preview_print_job_t.html"/>
+   <appContext helpID="prt_print_an_attachment_t"
+               path="prt_print_an_attachment_t.html"/>
+   <appContext helpID="prt_print_a_frameset_t" path="prt_print_a_frameset_t.html"/>
+   <appContext helpID="prt_setup_page_for_print_t"
+               path="prt_setup_page_for_print_t.html"/>
+   <appContext helpID="prt_select_printer_t" path="prt_select_printer_t.html"/>
+   <appContext helpID="prt_print_a_view_t" path="prt_print_a_view_t.html"/>
+   <appContext helpID="prt_doc_style_options_r" path="prt_doc_style_options_r.html"/>
+   <appContext helpID="prt_create_header_footer_t"
+               path="prt_create_header_footer_t.html"/>
+   <appContext helpID="fram_adv" path="fram_adv.html"/>
+   <appContext helpID="fram_limits_of_notes_r" path="fram_limits_of_notes_r.html"/>
+   <appContext helpID="fram_use_smart_upgrade_t" path="fram_use_smart_upgrade_t.html"/>
+   <appContext helpID="fram_upgrade_mailfile_design_c"
+               path="fram_upgrade_mailfile_design_c.html"/>
+   <appContext helpID="fram_view_advanced_menus_t"
+               path="fram_view_advanced_menus_t.html"/>
+   <appContext helpID="tasks_notes" path="tasks_notes.html"/>
+   <appContext helpID="trm_create_teamroom_t" path="trm_create_teamroom_t.html"/>
+   <appContext helpID="trm_set_up_teamroom_t" path="trm_set_up_teamroom_t.html"/>
+   <appContext helpID="trm_maintain_teamroom_t" path="trm_maintain_teamroom_t.html"/>
+   <appContext helpID="trm_create_team_milest_event_t"
+               path="trm_create_team_milest_event_t.html"/>
+   <appContext helpID="trm_archive_teamroom_docs_c"
+               path="trm_archive_teamroom_docs_c.html"/>
+   <appContext helpID="mail_mail" path="mail_mail.html"/>
+   <appContext helpID="mail_get_started.dita" path="mail_get_started.html"/>
+   <appContext helpID="mail_recent_contacts_t" path="mail_recent_contacts_t.html"/>
+   <appContext helpID="con_vcard_c.dita" path="con_vcard_c.html"/>
+   <appContext helpID="n830_refcard" path="mail_quickref_r.html"/>
+   <appContext helpID="mail_settings" path="mail_settings.html"/>
+   <appContext helpID="mail_add_per_sig" path="mail_add_sig_t.html"/>
+   <appContext helpID="mail_preview_t" path="mail_preview_t.html"/>
+   <appContext helpID="mail_mark_preview_read_t.dita"
+               path="mail_mark_preview_read_t.html"/>
+   <appContext helpID="mail_conversations_t" path="mail_conversations_t.html"/>
+   <appContext helpID="mail_chg_recent_con_settings_t"
+               path="mail_chg_recent_con_settings_t.html"/>
+   <appContext helpID="mail_default_font_t.dita" path="mail_default_font_t.html"/>
+   <appContext helpID="mail_inbox_clean" path="mail_inbox_clean.html"/>
+   <appContext helpID="mail_junk_t" path="mail_junk_t.html"/>
+   <appContext helpID="mail_quota_c" path="mail_quota_c.html"/>
+   <appContext helpID="cal_autoprocess_t" path="cal_autoprocess_t.html"/>
+   <appContext helpID="mail_access" path="mail_access.html"/>
+   <appContext helpID="mail_access_t" path="mail_access_t.html"/>
+   <appContext helpID="mail_shortcut_t" path="mail_shortcut_t.html"/>
+   <appContext helpID="mail_other" path="mail_other.html"/>
+   <appContext helpID="N10001" path="mail_sender_colors_t.html"/>
+   <appContext helpID="N10001" path="mail_ooo_t.html"/>
+   <appContext helpID="mail_stationery_t" path="mail_stationery_t.html"/>
+   <appContext helpID="doc_create_sections_t" path="mail_create_sections_t.html"/>
+   <appContext helpID="mail_tables_t" path="mail_tables_t.html"/>
+   <appContext helpID="mail_create_fr_caltask_t" path="mail_create_fr_caltask_t.html"/>
+   <appContext helpID="task_utl_fxk_55" path="mail_display_stylename.html"/>
+   <appContext helpID="mail_troubleshooting" path="mail_troubleshooting.html"/>
+   <appContext helpID="mail_recall_t" path="mail_recall_t.html"/>
+   <appContext helpID="mail_remove_recent_contact_t"
+               path="mail_remove_recent_contact_t.html"/>
+   <appContext helpID="mail_locked_c" path="mail_locked_c.html"/>
+   <appContext helpID="doc_spell_check_multilang_t"
+               path="mail_spell_check_multi_t.html"/>
+   <appContext helpID="mail_adv" path="mail_adv.html"/>
+   <appContext helpID="mail_blacklilsts_c" path="mail_blacklists_c.html"/>
+   <appContext helpID="mail_rules_t" path="mail_rules_t.html"/>
+   <appContext helpID="mail_archive_t" path="mail_archive_t.html"/>
+   <appContext helpID="mail_deletesent_t" path="mail_track_t.html"/>
+   <appContext helpID="mail_deletesent_t" path="mail_track_t.html"/>
+   <appContext helpID="mail_upgrade_design_t" path="mail_upgrade_design_t.html"/>
+   <appContext helpID="select_alternate_from" path="select_alternate_from.html"/>
+   <appContext helpID="swift_file_intro" path="swift_file_intro.html"/>
+   <appContext helpID="install_configure_swift_file"
+               path="install_configure_swift_file.html"/>
+   <appContext helpID="using_swift_file" path="using_swift_file.html"/>
+   <appContext helpID="swift_file_limitations" path="swift_file_limitations.html"/>
+   <appContext helpID="cal_cal" path="cal_cal.html"/>
+   <appContext helpID="cal_getstarted" path="cal_getstarted.html"/>
+   <appContext helpID="cal_entry_types_r" path="cal_entry_types_r.html"/>
+   <appContext helpID="N10001" path="cal_add_cal_t.html"/>
+   <appContext helpID="cal_categories_c" path="cal_categories_c.html"/>
+   <appContext helpID="n830_refcard" path="cal_quickref_r.html"/>
+   <appContext helpID="cal_workwithmeetings" path="cal_workwithmeetings.html"/>
+   <appContext helpID="task_q1t_nxl_w2b" path="cal_attendees_invite_others.html"/>
+   <appContext helpID="cal_findfreetime_t" path="cal_findfreetime_t.html"/>
+   <appContext helpID="caltd_prefs_freetime_t" path="cal_set_freetime_t.html"/>
+   <appContext helpID="cal_repeat.dita" path="cal_repeat_t.html"/>
+   <appContext helpID="cal_res_roomres_t" path="cal_res_roomres_t.html"/>
+   <appContext helpID="cal_repeat.dita" path="cal_online_mtg_t.html"/>
+   <appContext helpID="cal_personalizesettings.dita" path="cal_settings.html"/>
+   <appContext helpID="preview_pane" path="cal_preview_t.html"/>
+   <appContext helpID="cal_regional_prefs_t" path="cal_regional_prefs_t.html"/>
+   <appContext helpID="caltd_prefs_set_alarm_t" path="cal_set_alarms_t.html"/>
+   <appContext helpID="cal_show_placeholder" path="cal_show_placeholder_t.html"/>
+   <appContext helpID="cal_autoprocess_t" path="cal_autoprocess_t.html"/>
+   <appContext helpID="cal_access.dita" path="cal_access.html"/>
+   <appContext helpID="cal_who_view_schedule_t" path="cal_who_view_schedule_t.html"/>
+   <appContext helpID="pref_delegate_mailcaltodocon_t" path="cal_access_t.html"/>
+   <appContext helpID="cal_open_others_t" path="cal_open_others_t.html"/>
+   <appContext helpID="pref_cr_shortcuts_others_mail_t" path="cal_shortcut_t.html"/>
+   <appContext helpID="cal_show_placeholder" path="cal_forward_t.html"/>
+   <appContext helpID="cal_other.dita" path="cal_other.html"/>
+   <appContext helpID="cal_show_placeholder" path="cal_create_fr_mailtask_t.html"/>
+   <appContext helpID="cal_add_holidays_t" path="cal_add_holidays_t.html"/>
+   <appContext helpID="caltd_prefs_rooms_res_r" path="cal_preferred_rooms_t.html"/>
+   <appContext helpID="cal_preferred_concall.dita" path="cal_preferred_concall_t.html"/>
+   <appContext helpID="caltd_delete_entry_t" path="cal_cleanup_t.html"/>
+   <appContext helpID="cal_print_t" path="cal_print_t.html"/>
+   <appContext helpID="cal_troubleshooting.dita" path="cal_troubleshooting.html"/>
+   <appContext helpID="cal_make_mtg_repeat.dita" path="cal_make_mtg_repeat_t.html"/>
+   <appContext helpID="cal_accept_declined.dita" path="cal_accept_declined_t.html"/>
+   <appContext helpID="cal_dst_c" path="cal_wrongtime_c.html"/>
+   <appContext helpID="cal_adv" path="cal_adv.html"/>
+   <appContext helpID="cal_chg_repeat_mtg_t" path="cal_chg_repeat_mtg_t.html"/>
+   <appContext helpID="task_m3y_g3m_w2b" path="cal_team_cal.html"/>
+   <appContext helpID="cal_create_groupcal_t" path="cal_create_groupcal_t.html"/>
+   <appContext helpID="cal_imp_cal_t" path="cal_impexp_t.html"/>
+   <appContext helpID="cal_cust_view_t" path="cal_cust_view_t.html"/>
+   <appContext helpID="tasks_tasks" path="tasks_tasks.html"/>
+   <appContext helpID="tasks_getstarted" path="tasks_getstarted.html"/>
+   <appContext helpID="tasks_assigntoothers_t" path="tasks_assigntoothers_t.html"/>
+   <appContext helpID="tasks_repeating_t" path="tasks_repeating_t.html"/>
+   <appContext helpID="tasks_categories_c" path="tasks_categories_c.html"/>
+   <appContext helpID="n830_refcard" path="tasks_quickref_r.html"/>
+   <appContext helpID="tasks_settings" path="tasks_settings.html"/>
+   <appContext helpID="tasks_preview_t" path="tasks_preview_t.html"/>
+   <appContext helpID="tasks_set_alarm" path="tasks_set_alarm_t.html"/>
+   <appContext helpID="tasks_view_by_t" path="tasks_sort_t.html"/>
+   <appContext helpID="tasks_display_overdue_t" path="tasks_display_on_cal_t.html"/>
+   <appContext helpID="tasks_delegation" path="tasks_access.html"/>
+   <appContext helpID="tasks_access_t" path="tasks_access_t.html"/>
+   <appContext helpID="tasks_shortcut_t" path="tasks_shortcut_t.html"/>
+   <appContext helpID="con_con" path="con_con.html"/>
+   <appContext helpID="con_getstarted.dita" path="con_getstarted.html"/>
+   <appContext helpID="domino_directory_c.dita" path="con_directory_c.html"/>
+   <appContext helpID="con_vcard_c.dita" path="con_vcard_c.html"/>
+   <appContext helpID="con_recent_contacts_t.dita" path="con_recent_contacts_t.html"/>
+   <appContext helpID="con_categories_c" path="con_categories_c.html"/>
+   <appContext helpID="con_view_collab_history_t"
+               path="con_view_collab_history_t.html"/>
+   <appContext helpID="n830_refcard" path="con_quickref_r.html"/>
+   <appContext helpID="con_settings_c.dita" path="con_settings.html"/>
+   <appContext helpID="con_preview_t" path="con_preview_t.html"/>
+   <appContext helpID="con_view_businesscard_t.dita"
+               path="con_view_business_card_t.html"/>
+   <appContext helpID="con_chg_recent_con_settings_t"
+               path="con_chg_recent_con_settings_t.html"/>
+   <appContext helpID="con_access.dita" path="con_access.html"/>
+   <appContext helpID="con_access_t" path="con_access_t.html"/>
+   <appContext helpID="con_open_others_contacts_t" path="con_open_others_t.html"/>
+   <appContext helpID="con_shortcut_t" path="con_shortcut_t.html"/>
+   <appContext helpID="con_other.dita" path="con_other.html"/>
+   <appContext helpID="con_syncrhonize_contacts_t" path="con_synchronize_t.html"/>
+   <appContext helpID="N10001" path="con_add_fr_mail_mtg_task_t.html"/>
+   <appContext helpID="con_send_group_entry_t" path="con_send_con_group_t.html"/>
+   <appContext helpID="con_create_group_from_mail_t"
+               path="con_create_group_fr_mail_t.html"/>
+   <appContext helpID="con_show_hide_names_t" path="con_show_hide_names_t.html"/>
+   <appContext helpID="con_print_contact_or_group_t" path="con_printing_t.html"/>
+   <appContext helpID="con_import_contacts_t" path="con_import_contacts_t.html"/>
+   <appContext helpID="con_export_contacts_t" path="con_export_t.html"/>
+   <appContext helpID="con_troubleshooting" path="con_troubleshooting.html"/>
+   <appContext helpID="con_remove_recent_contact_t.dita"
+               path="con_remove_recent_contact_t.html"/>
+   <appContext helpID="con_no_chats_t.dita" path="con_no_chats_t.html"/>
+   <appContext helpID="con_no_company_birthday_t.dita"
+               path="con_no_company_birthday_t.html"/>
+   <appContext helpID="applications_toc" path="applications_toc.html"/>
+   <appContext helpID="app_notes_applications_c" path="app_notes_applications_c.html"/>
+   <appContext helpID="app_content_r" path="app_content_r.html"/>
+   <appContext helpID="app_open_a_notesapp_t" path="app_open_a_notesapp_t.html"/>
+   <appContext helpID="app_bookmark_a_notesapp_t"
+               path="app_bookmark_a_notesapp_t.html"/>
+   <appContext helpID="app_find_server" path="app_find_server_info_t.html"/>
+   <appContext helpID="app_create_url_to_comp_app_t"
+               path="app_create_url_to_comp_app_t.html"/>
+   <appContext helpID="app_compact_a_notesapp_t" path="app_compact_a_notesapp_t.html"/>
+   <appContext helpID="ApplicationsQuickReference" path="app_quickref_r.html"/>
+   <appContext helpID="app_adv.dita" path="app_adv.html"/>
+   <appContext helpID="app_important_files_to_backup_r"
+               path="app_important_files_to_backup_r.html"/>
+   <appContext helpID="app_use_xpage_apps" path="app_use_xpage_apps_t.html"/>
+   <appContext helpID="app_subscribing_to_notesapps_t"
+               path="app_subscribing_to_notesapps_t.html"/>
+   <appContext helpID="app_create_subscription" path="app_create_subscription_t.html"/>
+   <appContext helpID="app_update_subscription" path="app_update_subscription_t.html"/>
+   <appContext helpID="app_display_subscription_homepage"
+               path="app_display_subscription_homepage_t.html"/>
+   <appContext helpID="app_set_subscription_info"
+               path="app_set_subscription_info_r.html"/>
+   <appContext helpID="blogs_toc" path="blogs_toc.html"/>
+   <appContext helpID="blog_basic.dita" path="blog_basic.html"/>
+   <appContext helpID="bl_view_posts_t" path="bl_view_posts_t.html"/>
+   <appContext helpID="bl_create_post_t" path="bl_create_post_t.html"/>
+   <appContext helpID="bl_create_comment_t" path="bl_create_comment_t.html"/>
+   <appContext helpID="bl_upload_files_t" path="bl_upload_files_t.html"/>
+   <appContext helpID="bl_manage_discussion_t" path="bl_manage_discussion_t.html"/>
+   <appContext helpID="bl_ban_comments_and_spam_t"
+               path="bl_ban_comments_and_spam_t.html"/>
+   <appContext helpID="BlogQuickReference" path="blog_quickref_r.html"/>
+   <appContext helpID="blog_adv.dita" path="blog_adv.html"/>
+   <appContext helpID="bl_create_blog_t" path="bl_create_blog_t.html"/>
+   <appContext helpID="bl_secure_blog_app_c" path="bl_secure_blog_app_c.html"/>
+   <appContext helpID="bl_manage_resources_c" path="bl_manage_resources_c.html"/>
+   <appContext helpID="bl_manage_import_image_t" path="bl_manage_import_image_t.html"/>
+   <appContext helpID="bl_manage_view_image_t" path="bl_manage_view_image_t.html"/>
+   <appContext helpID="bl_manage_create_image_catagory_t"
+               path="bl_manage_create_image_catagory_t.html"/>
+   <appContext helpID="bl_manage_preview_imported_image_t"
+               path="bl_manage_preview_imported_image_t.html"/>
+   <appContext helpID="bl_manage_import_stylesheet_t"
+               path="bl_manage_import_stylesheet_t.html"/>
+   <appContext helpID="bl_manage_import_javascript_t"
+               path="bl_manage_import_javascript_t.html"/>
+   <appContext helpID="bl_manage_upload_attachment_t"
+               path="bl_manage_upload_attachment_t.html"/>
+   <appContext helpID="bl_manage_create_webpage_t"
+               path="bl_manage_create_webpage_t.html"/>
+   <appContext helpID="bl_create_stylesheet_t" path="bl_create_stylesheet_t.html"/>
+   <appContext helpID="bl_create_javascript_t" path="bl_create_javascript_t.html"/>
+   <appContext helpID="bl_types_of_html_templates_r"
+               path="bl_types_of_html_templates_r.html"/>
+   <appContext helpID="bl_create_html_template_t"
+               path="bl_create_html_template_t.html"/>
+   <appContext helpID="bl_configure_blogs_c" path="bl_configure_blogs_c.html"/>
+   <appContext helpID="bl_add_links_t" path="bl_add_links_t.html"/>
+   <appContext helpID="bl_add_link_categ_t" path="bl_add_link_categ_t.html"/>
+   <appContext helpID="bl_create_content_categ_t"
+               path="bl_create_content_categ_t.html"/>
+   <appContext helpID="bl_refresh_doc_security_t"
+               path="bl_refresh_doc_security_t.html"/>
+   <appContext helpID="bl_create_user_profile_t" path="bl_create_user_profile_t.html"/>
+   <appContext helpID="bl_create_security_group_t"
+               path="bl_create_security_group_t.html"/>
+   <appContext helpID="bl_create_web_client_t" path="bl_create_web_client_t.html"/>
+   <appContext helpID="bl_create_config_doc_t" path="bl_create_config_doc_t.html"/>
+   <appContext helpID="bl_delete_config_doc_t" path="bl_delete_config_doc_t.html"/>
+   <appContext helpID="bl_use_setup_wizards_t" path="bl_use_setup_wizards_t.html"/>
+   <appContext helpID="bl_naming_content_t" path="bl_naming_content_t.html"/>
+   <appContext helpID="bl_verify_agent_info_t" path="bl_verify_agent_info_t.html"/>
+   <appContext helpID="bl_view_ip_info_t" path="bl_view_ip_info_t.html"/>
+   <appContext helpID="bl_rss_feed_support_r" path="bl_rss_feed_support_r.html"/>
+   <appContext helpID="bl_dif_categories_tags_r" path="bl_dif_categories_tags_r.html"/>
+   <appContext helpID="locacc_toc" path="locacc_toc.html"/>
+   <appContext helpID="locacc_locs_accs_c" path="locacc_locs_accs_c.html"/>
+   <appContext helpID="N10001"
+               path="H_ABOUT_USING_MICROSOFT_MAIL_PROGRAMS_WITH_NOTES_MIDTOPIC_294230924829325464.html"/>
+   <appContext helpID="locacc_wizard_notes_mail_t"
+               path="locacc_wizard_notes_mail_t.html"/>
+   <appContext helpID="locacc_wizard_ph_notes_mail_t"
+               path="locacc_wizard_ph_notes_mail_t.html"/>
+   <appContext helpID="locacc_wizard_inet_mail_c"
+               path="locacc_wizard_inet_mail_c.html"/>
+   <appContext helpID="locacc_wizard_inet_mail_t"
+               path="locacc_wizard_inet_mail_t.html"/>
+   <appContext helpID="locacc_wizard_ph_inet_mail_t"
+               path="locacc_wizard_ph_inet_mail_t.html"/>
+   <appContext helpID="locacc_acc_inet_mail_via_con_t"
+               path="locacc_acc_inet_mail_via_con_t.html"/>
+   <appContext helpID="locacc_acc_nntp_via_con_t"
+               path="locacc_acc_nntp_via_con_t.html"/>
+   <appContext helpID="locacc_loc_switch_t" path="locacc_loc_switch_t.html"/>
+   <appContext helpID="N10001" path="locacc_loc_switch_userid_t.html"/>
+   <appContext helpID="locacc_outgoing_mailbox_c"
+               path="locacc_outgoing_mailbox_c.html"/>
+   <appContext helpID="N10001" path="locacc_change_ph_time_info_t.html"/>
+   <appContext helpID="locacc_travel_with_notes_c"
+               path="locacc_travel_with_notes_c.html"/>
+   <appContext helpID="PreferencesQuickReference" path="locacc_quickref_r.html"/>
+   <appContext helpID="pref_basic.dita" path="locacc_prefs.html"/>
+   <appContext helpID="locacc_loc_manual_c" path="locacc_loc_manual_c.html"/>
+   <appContext helpID="locacc_loc_network_notes_t"
+               path="locacc_loc_network_notes_t.html"/>
+   <appContext helpID="locacc_loc_inet_mail_manl_t"
+               path="locacc_loc_inet_mail_manl_t.html"/>
+   <appContext helpID="locacc_loc_mail_settings_r"
+               path="locacc_loc_mail_settings_r.html"/>
+   <appContext helpID="locacc_net_dialup_loc_conn_t"
+               path="locacc_net_dialup_loc_conn_t.html"/>
+   <appContext helpID="locacc_direct_dialup_loc_conn_t"
+               path="locacc_direct_dialup_loc_conn_t.html"/>
+   <appContext helpID="locacc_loc_phone_settings_r"
+               path="locacc_loc_phone_settings_r.html"/>
+   <appContext helpID="accts_create_policy_pref_c"
+               path="accts_create_policy_pref_c.html"/>
+   <appContext helpID="pref_accounts_c" path="pref_accounts_c.html"/>
+   <appContext helpID="accts_create_acct_prefs_t"
+               path="accts_create_acct_prefs_t.html"/>
+   <appContext helpID="accts_edit_t" path="accts_edit_t.html"/>
+   <appContext helpID="accts_delete_acct_prefs_t"
+               path="accts_delete_acct_prefs_t.html"/>
+   <appContext helpID="accts_chg_password_t" path="accts_chg_password_t.html"/>
+   <appContext helpID="locacc_create_edit_conn_t"
+               path="locacc_create_edit_conn_t.html"/>
+   <appContext helpID="locacc_set_up_modem_t" path="locacc_set_up_modem_t.html"/>
+   <appContext helpID="locacc_call_server_t" path="locacc_call_server_t.html"/>
+   <appContext helpID="locacc_passthru_hunt_groups_c"
+               path="locacc_passthru_hunt_groups_c.html"/>
+   <appContext helpID="N1004B" path="locacc_passthru_specify_default_server_t.html"/>
+   <appContext helpID="N10074"
+               path="locacc_passthru_create_server_conn_doc_automatically_t.html"/>
+   <appContext helpID="N10096"
+               path="locacc_passthru_create_server_conn_doc_manually_t.html"/>
+   <appContext helpID="locacc_loc_sec_servers_r" path="locacc_loc_sec_servers_r.html"/>
+   <appContext helpID="locacc_del_loc_acc_conn_t"
+               path="locacc_del_loc_acc_conn_t.html"/>
+   <appContext helpID="pref_adv.dita" path="locacc_adv.html"/>
+   <appContext helpID="locacc_adv_edit_conn_manl_r"
+               path="locacc_adv_edit_conn_manl_r.html"/>
+   <appContext helpID="locacc_loc_adv_settings_r"
+               path="locacc_loc_adv_settings_r.html"/>
+   <appContext helpID="locacc_enable_java_applets_t"
+               path="locacc_enable_java_applets_t.html"/>
+   <appContext helpID="rep_share_computer_t" path="rep_share_computer_t.html"/>
+   <appContext helpID="locacc_adv_ssl_settings_r"
+               path="locacc_adv_ssl_settings_r.html"/>
+   <appContext helpID="locacc_adv_web_and_log_r" path="locacc_adv_web_and_log_r.html"/>
+   <appContext helpID="locacc_adv_mime_settings_r"
+               path="locacc_adv_mime_settings_r.html"/>
+   <appContext helpID="mail_browser_mail_t" path="mail_browser_mail_t.html"/>
+   <appContext helpID="agents_toc" path="agents_toc.html"/>
+   <appContext helpID="agt_automate_task_using_agent_c"
+               path="agt_automate_task_using_agent_c.html"/>
+   <appContext helpID="agt_create_agent_t" path="agt_create_agent_t.html"/>
+   <appContext helpID="agt_rules_for_agent_names_r"
+               path="agt_rules_for_agent_names_r.html"/>
+   <appContext helpID="agt_manage_agent_t" path="agt_manage_agent_t.html"/>
+   <appContext helpID="agt_view_agent_list_t" path="agt_view_agent_list_t.html"/>
+   <appContext helpID="agt_samples" path="agt_samples.html"/>
+   <appContext helpID="agt_samp_agent_replyto_mail_t"
+               path="agt_samp_agent_replyto_mail_t.html"/>
+   <appContext helpID="agt_samp_agent_forward_mail_t"
+               path="agt_samp_agent_forward_mail_t.html"/>
+   <appContext helpID="agt_samp_agent_send_docs_t"
+               path="agt_samp_agent_send_docs_t.html"/>
+   <appContext helpID="agt_samp_agent_change_status_t"
+               path="agt_samp_agent_change_status_t.html"/>
+   <appContext helpID="agt_samp_agent_delete_docs_t"
+               path="agt_samp_agent_delete_docs_t.html"/>
+   <appContext helpID="agt_adv" path="agt_adv.html"/>
+   <appContext helpID="agt_doc_select_conditions_r"
+               path="agt_doc_select_conditions_r.html"/>
+   <appContext helpID="agt_simple_agent_actions_r"
+               path="agt_simple_agent_actions_r.html"/>
+   <appContext helpID="agt_agent_security_r" path="agt_agent_security_r.html"/>
+   <appContext helpID="agt_trigger_agent_on_event_t"
+               path="agt_trigger_agent_on_event_t.html"/>
+   <appContext helpID="agt_trigger_agent_on_schedule_t"
+               path="agt_trigger_agent_on_schedule_t.html"/>
+   <appContext helpID="agt_more_addr_options_dialog_r"
+               path="agt_more_addr_options_dialog_r.html"/>
+   <appContext helpID="share_toc" path="sharing_toc.html"/>
+   <appContext helpID="sh_basic.dita" path="sh_basic.html"/>
+   <appContext helpID="sh_copy_appdata_to_notesdoc_t"
+               path="sh_copy_appdata_to_notesdoc_t.html"/>
+   <appContext helpID="sh_object_link_embed_defined_c"
+               path="sh_object_link_embed_defined_c.html"/>
+   <appContext helpID="SharingQuickReference" path="sh_quickref_r.html"/>
+   <appContext helpID="sh_working.dita" path="sh_working.html"/>
+   <appContext helpID="sh_import_export_data_c" path="sh_import_export_data_c.html"/>
+   <appContext helpID="sh_features_notes_translates_r"
+               path="sh_features_notes_translates_r.html"/>
+   <appContext helpID="sh_import_files_into_docs_c"
+               path="sh_import_files_into_docs_c.html"/>
+   <appContext helpID="sh_import_text_files_to_doc_t"
+               path="sh_import_text_files_to_doc_t.html"/>
+   <appContext helpID="N1003A" path="sh_import_rich_text_file_t.html"/>
+   <appContext helpID="N1005D" path="sh_import_acsii_text_file_t.html"/>
+   <appContext helpID="N1008E" path="sh_import_word_proc_file_t.html"/>
+   <appContext helpID="sh_import_html_file_to_doc_t"
+               path="sh_import_html_file_to_doc_t.html"/>
+   <appContext helpID="sh_import_graphic_file_to_doc_t"
+               path="sh_import_graphic_file_to_doc_t.html"/>
+   <appContext helpID="sh_import_spreadsheet_to_doc_t"
+               path="sh_import_spreadsheet_to_doc_t.html"/>
+   <appContext helpID="sh_export_docs_to_file_t" path="sh_export_docs_to_file_t.html"/>
+   <appContext helpID="sh_export_graphic_to_graphic_t"
+               path="sh_export_graphic_to_graphic_t.html"/>
+   <appContext helpID="sh_adv.dita" path="sh_adv.html"/>
+   <appContext helpID="sh_object_link_embed_r" path="sh_object_link_embed_r.html"/>
+   <appContext helpID="sh_embed_data_in_doc_c" path="sh_embed_data_in_doc_c.html"/>
+   <appContext helpID="N10061" path="sh_embed_part_file_in_doc_t.html"/>
+   <appContext helpID="N1009C" path="sh_embed_entire_file_in_doc_t.html"/>
+   <appContext helpID="N100D4" path="sh_embed_new_data_in_doc_t.html"/>
+   <appContext helpID="N10113"
+               path="sh_embed_drag_drop_data_other_app_to_notes_t.html"/>
+   <appContext helpID="N1012D" path="sh_embed_expand_embedded_obj_t.html"/>
+   <appContext helpID="N1014E" path="sh_embed_edit_embedded_obj_t.html"/>
+   <appContext helpID="N101A5" path="sh_embed_copy_embedded_obj_or_pic_t.html"/>
+   <appContext helpID="sh_create_manage_links_c" path="sh_create_manage_links_c.html"/>
+   <appContext helpID="N10059" path="sh_create_manage_link_to_other_app_t.html"/>
+   <appContext helpID="N10084"
+               path="sh_create_manage_link_to_other_app_drag_drop_t.html"/>
+   <appContext helpID="N10098"
+               path="sh_create_manage_link_to_notes_doc_view_app_t.html"/>
+   <appContext helpID="N100DE" path="sh_create_manage_link_to_embedded_obj_t.html"/>
+   <appContext helpID="N10109" path="sh_create_manage_update_link_manually_t.html"/>
+   <appContext helpID="N1012D"
+               path="sh_create_manage_update_link_automatically_t.html"/>
+   <appContext helpID="N1014A" path="sh_create_manage_break_link_t.html"/>
+   <appContext helpID="N10171" path="sh_create_manage_edit_link_t.html"/>
+   <appContext helpID="N10192" path="sh_create_manage_copy_link_or_pic_of_link_t.html"/>
+   <appContext helpID="N101C9" path="sh_create_manage_change_display_of_link_t.html"/>
+   <appContext helpID="sh_object_link_ole_defined_c"
+               path="sh_object_link_ole_defined_c.html"/>
+   <appContext helpID="sh_object_link_ocx_defined_c"
+               path="sh_object_link_ocx_defined_c.html"/>
+   <appContext helpID="N10001" path="sh_trblshoot_oleobj_activex_r.html"/>
+   <appContext helpID="sh_export_doc_to_structedfile_t"
+               path="sh_export_doc_to_structedfile_t.html"/>
+   <appContext helpID="sh_export_doc_to_tabularfile_t"
+               path="sh_export_doc_to_tabularfile_t.html"/>
+   <appContext helpID="sh_export_doc_to_csv_t" path="sh_export_doc_to_csv_t.html"/>
+   <appContext helpID="sh_import_structed_text_to_view_t"
+               path="sh_import_structed_text_to_view_t.html"/>
+   <appContext helpID="sh_import_tabulartext_to_view_t"
+               path="sh_import_tabulartext_to_view_t.html"/>
+   <appContext helpID="sh_modify_oleobj_activex_t"
+               path="sh_modify_oleobj_activex_t.html"/>
+   <appContext helpID="rep_roam_top" path="rep_roam_top.html"/>
+   <appContext helpID="rep_set_up_as_roaming_t" path="rep_set_up_as_roaming_t.html"/>
+   <appContext helpID="rep_roaming_user_info_r" path="rep_roaming_user_info_r.html"/>
+   <appContext helpID="rep_how_roaming_t" path="rep_how_roaming_t.html"/>
+   <appContext helpID="rep_set_up_as_roaming_t" path="rep_config_as_roaming_t.html"/>
+   <appContext helpID="rep_config_workspace_roaming_"
+               path="rep_config_workspace_roaming_t.html"/>
+   <appContext helpID="pref_roaming_file_server_r"
+               path="pref_roaming_file_server_r.html"/>
+   <appContext helpID="rep_roam_adv" path="rep_roam_adv.html"/>
+   <appContext helpID="rep_roaming_onthefly_t" path="rep_roaming_onthefly_t.html"/>
+   <appContext helpID="rep_rep" path="rep_rep.html"/>
+   <appContext helpID="rep_using_notes_offline_c"
+               path="rep_using_notes_offline_c.html"/>
+   <appContext helpID="rep_create_replica_local_t"
+               path="rep_create_replica_local_t.html"/>
+   <appContext helpID="rep_create_replica_on_server_t"
+               path="rep_create_replica_on_server_t.html"/>
+   <appContext helpID="replicationquickreference" path="rep_quickref_r.html"/>
+   <appContext helpID="rep_rep_page_c" path="rep_rep_page_c.html"/>
+   <appContext helpID="rep_schedule_rep_for_loc_t"
+               path="rep_schedule_rep_for_loc_t.html"/>
+   <appContext helpID="rep_replicas_in_bookmarks_t"
+               path="rep_replicas_in_bookmarks_t.html"/>
+   <appContext helpID="rep_save_conflicts_t" path="rep_save_conflicts_t.html"/>
+   <appContext helpID="rep_adv" path="rep_adv.html"/>
+   <appContext helpID="rep_replica_ids_c" path="rep_replica_ids_c.html"/>
+   <appContext helpID="rep_app_options_basic_t" path="rep_app_options_basic_t.html"/>
+   <appContext helpID="rep_app_options_other_t" path="rep_app_options_other_t.html"/>
+   <appContext helpID="pref_rep_defaults_all_apps_r"
+               path="pref_rep_defaults_all_apps_r.html"/>
+   <appContext helpID="rep_show_clear_rep_info_t"
+               path="rep_show_clear_rep_info_t.html"/>
+   <appContext helpID="rep_app_options_save_space_t"
+               path="rep_app_options_save_space_t.html"/>
+   <appContext helpID="rep_app_options_sent_t" path="rep_app_options_sent_t.html"/>
+   <appContext helpID="N10001" path="rep_app_options_adv_t.html"/>
+   <appContext helpID="search_toc" path="search_toc.html"/>
+   <appContext helpID="sch_basic.dita" path="sch_basic.html"/>
+   <appContext helpID="sch_info_c" path="sch_info_c.html"/>
+   <appContext helpID="sch_tips_c" path="sch_tips_c.html"/>
+   <appContext helpID="SearchQuickReference" path="sch_quickref_r.html"/>
+   <appContext helpID="sch_work.dita" path="sch_work.html"/>
+   <appContext helpID="sch_docs_c" path="sch_docs_c.html"/>
+   <appContext helpID="sch_save_query_t" path="sch_save_query_t.html"/>
+   <appContext helpID="sch_mail_t" path="sch_mail_t.html"/>
+   <appContext helpID="sch_cal_t" path="sch_cal_t.html"/>
+   <appContext helpID="sch_internet_t" path="sch_internet_t.html"/>
+   <appContext helpID="sch_find_email_addr_t" path="sch_find_email_addr_t.html"/>
+   <appContext helpID="sch_sch_site_c" path="sch_sch_site_c.html"/>
+   <appContext helpID="sch_conxns_over_t" path="sch_conxns_over_t.html"/>
+   <appContext helpID="sch_adv.dita" path="sch_adv.html"/>
+   <appContext helpID="sch_create_index_t" path="sch_create_index_t.html"/>
+   <appContext helpID="sch_add_cond_t" path="sch_add_cond_t.html"/>
+   <appContext helpID="sch_refine_query_r" path="sch_refine_query_r.html"/>
+   <appContext helpID="sch_ds_apps_t" path="sch_ds_apps_t.html"/>
+   <appContext helpID="N10001" path="sch_change_app_catalog_t.html"/>
+   <appContext helpID="sch_ds_c" path="sch_ds_c.html"/>
+   <appContext helpID="security_toc" path="security_toc.html"/>
+   <appContext helpID="sec_id_store_c" path="sec_id_store_c.html"/>
+   <appContext helpID="sec_id_locking_t" path="sec_id_locking_t.html"/>
+   <appContext helpID="sec_id_switch_t" path="sec_id_switch_t.html"/>
+   <appContext helpID="sec_id_recov_t" path="sec_id_recov_t.html"/>
+   <appContext helpID="sec_pass_chg_c" path="sec_pass_chg_c.html"/>
+   <appContext helpID="sec_pass_otherapps_t" path="sec_pass_otherapps_t.html"/>
+   <appContext helpID="sec_pass_syncweb_t" path="sec_pass_syncweb_t.html"/>
+   <appContext helpID="sec_pass_syncwind_t" path="sec_pass_syncwind_t.html"/>
+   <appContext helpID="sec_pass_check_t" path="sec_pass_check_t.html"/>
+   <appContext helpID="sec_pass_encryp_t" path="sec_pass_encryp_t.html"/>
+   <appContext helpID="sec_basics_c" path="sec_basics_c.html"/>
+   <appContext helpID="sec_pass_compromised_c" path="sec_pass_compromised_c.html"/>
+   <appContext helpID="sec_nsl_desc_t" path="sec_nsl_desc_t.html"/>
+   <appContext helpID="sec_nsl_enable_t" path="sec_nsl_enable_t.html"/>
+   <appContext helpID="sec_nsl_disable_t" path="sec_nsl_disable_t.html"/>
+   <appContext helpID="sec_nsl_copyid_t" path="sec_nsl_copyid_t.html"/>
+   <appContext helpID="N10001" path="sec_nsl_stolenid_t.html"/>
+   <appContext helpID="sec_id_locking_t" path="sec_id_locking_t.html"/>
+   <appContext helpID="sec_smartcard_t" path="sec_smartcard_t.html"/>
+   <appContext helpID="sec_newname_t" path="sec_newname_t.html"/>
+   <appContext helpID="sec_notesinetnames_c" path="sec_notesinetnames_c.html"/>
+   <appContext helpID="sec_mailingadmin_c" path="sec_mailingadmin_c.html"/>
+   <appContext helpID="sec_cert_c" path="sec_cert_c.html"/>
+   <appContext helpID="sec_cert_renew_t" path="sec_cert_renew_t.html"/>
+   <appContext helpID="sec_cert_inter_t" path="sec_cert_inter_t.html"/>
+   <appContext helpID="N10001" path="sec_cert_inter_imp_t.html"/>
+   <appContext helpID="sec_cert_del_t" path="sec_cert_del_t.html"/>
+   <appContext helpID="sec_cert_trust_find_t" path="sec_cert_trust_find_t.html"/>
+   <appContext helpID="sec_cert_trust_send_t" path="sec_cert_trust_send_t.html"/>
+   <appContext helpID="sec_cert_int_retrieve_t" path="sec_cert_int_retrieve_t.html"/>
+   <appContext helpID="sec_acl_t" path="sec_acl_t.html"/>
+   <appContext helpID="sec_acl_level_t" path="sec_acl_level_t.html"/>
+   <appContext helpID="sec_acl_priv_c" path="sec_acl_priv_c.html"/>
+   <appContext helpID="sec_acl_useradd_t" path="sec_acl_useradd_t.html"/>
+   <appContext helpID="sec_acl_userrename_t" path="sec_acl_userrename_t.html"/>
+   <appContext helpID="sec_acl_userremove_t" path="sec_acl_userremove_t.html"/>
+   <appContext helpID="sec_addaclecl_t" path="sec_addaclecl_t.html"/>
+   <appContext helpID="sec_acl_roles_t" path="sec_acl_roles_t.html"/>
+   <appContext helpID="sec_acl_history_t" path="sec_acl_history_t.html"/>
+   <appContext helpID="sec_acl_adv_t" path="sec_acl_adv_t.html"/>
+   <appContext helpID="sec_acl_dbadminserver_t" path="sec_acl_dbadminserver_t.html"/>
+   <appContext helpID="sec_acl_consistent_c" path="sec_acl_consistent_c.html"/>
+   <appContext helpID="sec_acl_maxnandpass_c" path="sec_acl_maxnandpass_c.html"/>
+   <appContext helpID="N10001" path="sec_acl_effecaccess_t.html"/>
+   <appContext helpID="sec_acl_usertype_t" path="sec_acl_usertype_t.html"/>
+   <appContext helpID="sec_groupsroles_c" path="sec_groupsroles_c.html"/>
+   <appContext helpID="sec_encryp_db_t" path="sec_encryp_db_t.html"/>
+   <appContext helpID="sec_encryp_db_c" path="sec_encryp_db_c.html"/>
+   <appContext helpID="N10001" path="sec_docaccess_t.html"/>
+   <appContext helpID="sec_encryp_doc_t" path="sec_encryp_doc_t.html"/>
+   <appContext helpID="sec_encryp_doc_accdel_t" path="sec_encryp_doc_accdel_t.html"/>
+   <appContext helpID="sec_encryp_doc_exp_t" path="sec_encryp_doc_exp_t.html"/>
+   <appContext helpID="sec_encryp_doc_imp_t" path="sec_encryp_doc_imp_t.html"/>
+   <appContext helpID="sec_keys_advdetails_c" path="sec_keys_advdetails_c.html"/>
+   <appContext helpID="sec_keys_c" path="sec_keys_c.html"/>
+   <appContext helpID="sec_keys_mail_t" path="sec_keys_mail_t.html"/>
+   <appContext helpID="sec_mail_c" path="sec_mail_c.html"/>
+   <appContext helpID="sec_mail_encrypfail_c" path="sec_mail_encrypfail_c.html"/>
+   <appContext helpID="sec_mail_smime_sign_c" path="sec_mail_smime_sign_c.html"/>
+   <appContext helpID="N10001" path="sec_editloc_inetmail_c.html"/>
+   <appContext helpID="sec_editloc_inetmailadd_c"
+               path="sec_editloc_inetmailadd_c.html"/>
+   <appContext helpID="sec_mail_incoming_c" path="sec_mail_incoming_c.html"/>
+   <appContext helpID="N10001" path="sec_cert_encryp_smime_c.html"/>
+   <appContext helpID="sec_cert_smime_c" path="sec_cert_smime_c.html"/>
+   <appContext helpID="sec_cert_dualinternet_t" path="sec_cert_dualinternet_t.html"/>
+   <appContext helpID="sec_cert_signing_c" path="sec_cert_signing_c.html"/>
+   <appContext helpID="sec_mail_inetoptions_c" path="sec_mail_inetoptions_c.html"/>
+   <appContext helpID="sec_keys_new_t" path="sec_keys_new_t.html"/>
+   <appContext helpID="sec_keys_mail_t" path="sec_pub_cert_t.html"/>
+   <appContext helpID="sec_cert_idfile_c" path="sec_cert_idfile_c.html"/>
+   <appContext helpID="sec_id_mergcert_c" path="sec_id_mergcert_c.html"/>
+   <appContext helpID="sec_cert_examine_c" path="sec_cert_examine_c.html"/>
+   <appContext helpID="N10001" path="sec_cert_authorities_c.html"/>
+   <appContext helpID="sec_cert_requestcert_c" path="sec_cert_requestcert_c.html"/>
+   <appContext helpID="sec_cert_ondemand_c" path="sec_cert_ondemand_c.html"/>
+   <appContext helpID="sec_cert_requestcross_c" path="sec_cert_requestcross_c.html"/>
+   <appContext helpID="N10001" path="sec_cert_homeserver_t.html"/>
+   <appContext helpID="sec_cert_advdetails_c" path="sec_cert_advdetails_c.html"/>
+   <appContext helpID="sec_cert_trustdetails_c" path="sec_cert_trustdetails_c.html"/>
+   <appContext helpID="sec_cert_peopleserv_c" path="sec_cert_peopleserv_c.html"/>
+   <appContext helpID="sec_keys_delpend_t" path="sec_keys_delpend_t.html"/>
+   <appContext helpID="sec_id_safecopy_t" path="sec_id_safecopy_t.html"/>
+   <appContext helpID="sec_id_removemedia_t" path="sec_id_removemedia_t.html"/>
+   <appContext helpID="sec_keys_rollover_t" path="sec_keys_rollover_t.html"/>
+   <appContext helpID="sec_ecl_t" path="sec_ecl_t.html"/>
+   <appContext helpID="sec_ecl_options_c" path="sec_ecl_options_c.html"/>
+   <appContext helpID="sec_ecl_vieweffective_t" path="sec_ecl_vieweffective_t.html"/>
+   <appContext helpID="sec_ecl_alert_c" path="sec_ecl_alert_c.html"/>
+   <appContext helpID="sec_mail_pop3_c" path="sec_mail_pop3_c.html"/>
+   <appContext helpID="sec_signedplugins_c" path="sec_signedplugins_c.html"/>
+   <appContext helpID="wid_wid_top" path="wid_wid_top.html"/>
+   <appContext helpID="wid_app_overview_c" path="wid_app_overview_c.html"/>
+   <appContext helpID="N10001" path="wid_default_outofbox_c.html"/>
+   <appContext helpID="wid_prefs_widgets_t" path="wid_prefs_widgets_t.html"/>
+   <appContext helpID="wid_prefs_live_text_t" path="wid_prefs_live_text_t.html"/>
+   <appContext helpID="wid_end_user_c" path="wid_end_user_c.html"/>
+   <appContext helpID="wid_control_live_text_t" path="wid_control_live_text_t.html"/>
+   <appContext helpID="wid_acting_on_livetext_c" path="wid_acting_on_livetext_c.html"/>
+   <appContext helpID="wid_create_use_dash_t" path="wid_create_use_dash_t.html"/>
+   <appContext helpID="wid_use_creds_t" path="wid_use_creds_t.html"/>
+   <appContext helpID="wid_use_sidebar_toolbar_t"
+               path="wid_use_sidebar_toolbar_t.html"/>
+   <appContext helpID="wid_add_comp_sidebar_t" path="wid_add_comp_sidebar_t.html"/>
+   <appContext helpID="wid_acting_on_widgets_t" path="wid_acting_on_widgets_t.html"/>
+   <appContext helpID="wid_install_gadget_email_t"
+               path="wid_install_gadget_email_t.html"/>
+   <appContext helpID="wid_power_user_c" path="wid_power_user_c.html"/>
+   <appContext helpID="wid_create_widget_process_c"
+               path="wid_create_widget_process_c.html"/>
+   <appContext helpID="wid_require_auth_create_t"
+               path="wid_require_auth_create_t.html"/>
+   <appContext helpID="wid_create_wiring_action_t"
+               path="wid_create_wiring_action_t.html"/>
+   <appContext helpID="wid_using_widgets_c" path="wid_using_widgets_c.html"/>
+   <appContext helpID="wid_create_widget_notes_t"
+               path="wid_create_widget_notes_t.html"/>
+   <appContext helpID="wid_create_widget_xpages_t"
+               path="wid_create_widget_xpages_t.html"/>
+   <appContext helpID="wid_create_widget_notes_view_t"
+               path="wid_create_widget_notes_view_t.html"/>
+   <appContext helpID="wid_create_widget_web_t" path="wid_create_widget_web_t.html"/>
+   <appContext helpID="wid_create_widget_google_t"
+               path="wid_create_widget_google_t.html"/>
+   <appContext helpID="wid_google_intnl_c" path="wid_google_intnl_c.html"/>
+   <appContext helpID="wid_create_widget_feeds_t"
+               path="wid_create_widget_feeds_t.html"/>
+   <appContext helpID="wid_create_widget_feat_plugin_t"
+               path="wid_create_widget_feat_plugin_t.html"/>
+   <appContext helpID="wid_create_widget_compapp_t"
+               path="wid_create_widget_compapp_t.html"/>
+   <appContext helpID="wid_catalog_overview_c" path="wid_catalog_overview_c.html"/>
+   <appContext helpID="wid_catalog_overview_new_c"
+               path="wid_catalog_overview_new_c.html"/>
+   <appContext helpID="wid_browse_cat_t" path="wid_browse_cat_t.html"/>
+   <appContext helpID="wid_create_category_cat_t"
+               path="wid_create_category_cat_t.html"/>
+   <appContext helpID="wid_update_from_catalog_t"
+               path="wid_update_from_catalog_t.html"/>
+   <appContext helpID="wid_create_content_type_t"
+               path="wid_create_content_type_t.html"/>
+   <appContext helpID="wid_change_pub_t" path="wid_config_content_type_t.html"/>
+   <appContext helpID="wid_create_recognizer_t" path="wid_create_recognizer_t.html"/>
+   <appContext helpID="wid_recog_regex_c" path="wid_recog_regex_c.html"/>
+   <appContext helpID="wid_create_filter_props_t"
+               path="wid_create_filter_props_t.html"/>
+   <appContext helpID="N10001" path="wid_wid_mgmnt_view_c.html"/>
+   <appContext helpID="wid_act_comp_mgmnt_c" path="wid_act_comp_mgmnt_c.html"/>
+   <appContext helpID="N10001" path="wid_act_content_type_mgmnt_t.html"/>
+   <appContext helpID="wid_act_rec_mgmnt_t" path="wid_act_rec_mgmnt_t.html"/>
+   <appContext helpID="wid_import_widget_t" path="wid_import_widget_t.html"/>
+   <appContext helpID="wid_export_widget_t" path="wid_export_widget_t.html"/>
+   <appContext helpID="wid_recognize_all_content_t"
+               path="wid_recognize_all_content_t.html"/>
+   <appContext helpID="wid_act_mywidgets_c" path="wid_act_mywidgets_c.html"/>
+   <appContext helpID="wid_publish_to_catalog_t" path="wid_publish_to_catalog_t.html"/>
+   <appContext helpID="wid_assign_category_t" path="wid_assign_category_t.html"/>
+   <appContext helpID="wid_change_pub_t" path="wid_change_pub_t.html"/>
+   <appContext helpID="wid_delete_widget_t" path="wid_delete_widget_t.html"/>
+   <appContext helpID="wid_set_change_comp_props_t"
+               path="wid_set_change_comp_props_t.html"/>
+   <appContext helpID="wid_share_widget_email_t" path="wid_share_widget_email_t.html"/>
+   <appContext helpID="wid_open_in_t" path="wid_open_in_t.html"/>
+   <appContext helpID="wid_open_gadget_in_dash_t"
+               path="wid_open_gadget_in_dash_t.html"/>
+   <appContext helpID="wid_advusers_c" path="wid_advusers_c.html"/>
+   <appContext helpID="wid_adv852_reusesidebarpanel_t"
+               path="wid_adv852_reusesidebarpanel_t.html"/>
+   <appContext helpID="wid_adv852_hidethumbnail_t"
+               path="wid_adv852_hidethumbnail_t.html"/>
+   <appContext helpID="wid_adv852_defdblclick_t" path="wid_adv852_defdblclick_t.html"/>
+   <appContext helpID="wid_adv852_custwidaction_t"
+               path="wid_adv852_custwidaction_t.html"/>
+   <appContext helpID="wid_adv852_instfromzip_t" path="wid_adv852_instfromzip_t.html"/>
+   <appContext helpID="err_errors_parent_r" path="err_errors_parent_r.html"/>
+   <appContext helpID="err_acl_must_contain_manager_r"
+               path="err_acl_must_contain_manager_r.html"/>
+   <appContext helpID="err_a_copy_of_message_sent_r"
+               path="err_a_copy_of_message_sent_r.html"/>
+   <appContext helpID="err_contacts_doesnt_have_view_r"
+               path="err_contacts_doesnt_have_view_r.html"/>
+   <appContext helpID="err_java_applet_attempt_exec_r"
+               path="err_java_applet_attempt_exec_r.html"/>
+   <appContext helpID="err_javascript_err_encountered_r"
+               path="err_javascript_err_encountered_r.html"/>
+   <appContext helpID="err_allow_admins_keep_loc_sets_r"
+               path="err_allow_admins_keep_loc_sets_r.html"/>
+   <appContext helpID="err_occurred_trying_to_open_r"
+               path="err_occurred_trying_to_open_r.html"/>
+   <appContext helpID="N10001" path="err_another_copy_of_doc_saved_r.html"/>
+   <appContext helpID="N10001" path="err_archive_prohibit_by_admin_r.html"/>
+   <appContext helpID="N10001" path="err_are_you_sure_remove_bkmk_r.html"/>
+   <appContext helpID="err_attach_modified_corrupt_r"
+               path="err_attach_modified_corrupt_r.html"/>
+   <appContext helpID="err_attempting_switch_folders_r"
+               path="err_attempting_switch_folders_r.html"/>
+   <appContext helpID="err_attempting_switch_navigs_r"
+               path="err_attempting_switch_navigs_r.html"/>
+   <appContext helpID="err_attempting_switch_views_r"
+               path="err_attempting_switch_views_r.html"/>
+   <appContext helpID="err_before_use_mail_replicate_r"
+               path="err_before_use_mail_replicate_r.html"/>
+   <appContext helpID="err_cannot_convert_text_number_r"
+               path="err_cannot_convert_text_number_r.html"/>
+   <appContext helpID="err_cannot_execute_specd_commd_r"
+               path="err_cannot_execute_specd_commd_r.html"/>
+   <appContext helpID="err_cannot_delete_rows_cols_r"
+               path="err_cannot_delete_rows_cols_r.html"/>
+   <appContext helpID="err_cannot_locate_default_form_r"
+               path="err_cannot_locate_default_form_r.html"/>
+   <appContext helpID="err_cannot_locate_domain_for_r"
+               path="err_cannot_locate_domain_for_r.html"/>
+   <appContext helpID="err_cannot_locate_form_r" path="err_cannot_locate_form_r.html"/>
+   <appContext helpID="err_cannot_save_bitmap_to_disk_r"
+               path="err_cannot_save_bitmap_to_disk_r.html"/>
+   <appContext helpID="err_cannot_write_or_create_file_r"
+               path="err_cannot_write_or_create_file_r.html"/>
+   <appContext helpID="err_cannot_write_to_file_r"
+               path="err_cannot_write_to_file_r.html"/>
+   <appContext helpID="err_changes_to_doc_not_saved_r"
+               path="err_changes_to_doc_not_saved_r.html"/>
+   <appContext helpID="err_could_not_open_id_file_r"
+               path="err_could_not_open_id_file_r.html"/>
+   <appContext helpID="err_app_being_compacted_r"
+               path="err_app_being_compacted_r.html"/>
+   <appContext helpID="err_app_not_fully_initialized_r"
+               path="err_app_not_fully_initialized_r.html"/>
+   <appContext helpID="err_app_object_deleted_r" path="err_app_object_deleted_r.html"/>
+   <appContext helpID="err_app_nsf_grown_too_large_r"
+               path="err_app_nsf_grown_too_large_r.html"/>
+   <appContext helpID="err_dde_serv_not_acknowledging_r"
+               path="err_dde_serv_not_acknowledging_r.html"/>
+   <appContext helpID="err_designer_error_messages_r"
+               path="err_designer_error_messages_r.html"/>
+   <appContext helpID="err_do_you_want_to_delete_docs_r"
+               path="err_do_you_want_to_delete_docs_r.html"/>
+   <appContext helpID="err_do_you_want_to_save_doc_r"
+               path="err_do_you_want_to_save_doc_r.html"/>
+   <appContext helpID="err_do_you_want_to_save_chngs_r"
+               path="err_do_you_want_to_save_chngs_r.html"/>
+   <appContext helpID="err_do_you_want_to_save_msg_r"
+               path="err_do_you_want_to_save_msg_r.html"/>
+   <appContext helpID="err_doc_has_been_deleted_r"
+               path="err_doc_has_been_deleted_r.html"/>
+   <appContext helpID="err_encoded_data_checksum_r"
+               path="err_encoded_data_checksum_r.html"/>
+   <appContext helpID="err_entry_not_found_index_r"
+               path="err_entry_not_found_index_r.html"/>
+   <appContext helpID="err_err_accessing_user_dict_r"
+               path="err_err_accessing_user_dict_r.html"/>
+   <appContext helpID="err_err_create_temp_file_r"
+               path="err_err_create_temp_file_r.html"/>
+   <appContext helpID="err_err_open_charset_transl_r"
+               path="err_err_open_charset_transl_r.html"/>
+   <appContext helpID="err_err_open_dictionary_file_r"
+               path="err_err_open_dictionary_file_r.html"/>
+   <appContext helpID="err_err_reading_config_data_r"
+               path="err_err_reading_config_data_r.html"/>
+   <appContext helpID="err_file_cannot_be_created_r"
+               path="err_file_cannot_be_created_r.html"/>
+   <appContext helpID="err_file_does_not_exist_r"
+               path="err_file_does_not_exist_r.html"/>
+   <appContext helpID="err_filename_must_be_relat_r"
+               path="err_filename_must_be_relat_r.html"/>
+   <appContext helpID="err_file_obj_truncated_r" path="err_file_obj_truncated_r.html"/>
+   <appContext helpID="err_full_text_err_from_topic_r"
+               path="err_full_text_err_from_topic_r.html"/>
+   <appContext helpID="err_groups_cannot_be_nested_r"
+               path="err_groups_cannot_be_nested_r.html"/>
+   <appContext helpID="err_help_datab_cannot_be_loc_r"
+               path="err_help_datab_cannot_be_loc_r.html"/>
+   <appContext helpID="err_help_doc_cannot_be_loc_r"
+               path="err_help_doc_cannot_be_loc_r.html"/>
+   <appContext helpID="err_help_view_cannot_be_loc_r"
+               path="err_help_view_cannot_be_loc_r.html"/>
+   <appContext helpID="err_id_file_cannot_be_create_r"
+               path="err_id_file_cannot_be_create_r.html"/>
+   <appContext helpID="err_if_chnge_name_lose_certs_r"
+               path="err_if_chnge_name_lose_certs_r.html"/>
+   <appContext helpID="err_illegal_use_cert_id_r"
+               path="err_illegal_use_cert_id_r.html"/>
+   <appContext helpID="err_inappropriate_unary_use_r"
+               path="err_inappropriate_unary_use_r.html"/>
+   <appContext helpID="err_incorrect_data_type_op_r"
+               path="err_incorrect_data_type_op_r.html"/>
+   <appContext helpID="err_insuf_mem_indexpool_full_r"
+               path="err_insuf_mem_indexpool_full_r.html"/>
+   <appContext helpID="err_insuf_mem_nsfpool_full_r"
+               path="err_insuf_mem_nsfpool_full_r.html"/>
+   <appContext helpID="err_insuf_netw_adapt_inc_max_r"
+               path="err_insuf_netw_adapt_inc_max_r.html"/>
+   <appContext helpID="err_insuf_netw_adapt_inc_res_r"
+               path="err_insuf_netw_adapt_inc_res_r.html"/>
+   <appContext helpID="err_internal_netw_sw_prob_r"
+               path="err_internal_netw_sw_prob_r.html"/>
+   <appContext helpID="err_invalid_char_in_filename_r"
+               path="err_invalid_char_in_filename_r.html"/>
+   <appContext helpID="err_invalid_encoded_data_r"
+               path="err_invalid_encoded_data_r.html"/>
+   <appContext helpID="err_invalid_nonexist_doc_r"
+               path="err_invalid_nonexist_doc_r.html"/>
+   <appContext helpID="err_links_to_objtype_no_suppt_r"
+               path="err_links_to_objtype_no_suppt_r.html"/>
+   <appContext helpID="err_mail_success_submit_r"
+               path="err_mail_success_submit_r.html"/>
+   <appContext helpID="err_max_num_memory_segs_r"
+               path="err_max_num_memory_segs_r.html"/>
+   <appContext helpID="err_netbios_not_loaded_t" path="err_netbios_not_loaded_t.html"/>
+   <appContext helpID="err_network_adapt_not_loaded_r"
+               path="err_network_adapt_not_loaded_r.html"/>
+   <appContext helpID="err_network_name_in_use_r"
+               path="err_network_name_in_use_r.html"/>
+   <appContext helpID="err_network_op_not_complete_r"
+               path="err_network_op_not_complete_r.html"/>
+   <appContext helpID="err_no_address_bk_found_r"
+               path="err_no_address_bk_found_r.html"/>
+   <appContext helpID="err_no_doc_in_that_direct_r"
+               path="err_no_doc_in_that_direct_r.html"/>
+   <appContext helpID="err_no_doc_selected_r" path="err_no_doc_selected_r.html"/>
+   <appContext helpID="err_no_help_about_avail_r"
+               path="err_no_help_about_avail_r.html"/>
+   <appContext helpID="err_no_help_using_avail_r"
+               path="err_no_help_using_avail_r.html"/>
+   <appContext helpID="err_no_names_found_r" path="err_no_names_found_r.html"/>
+   <appContext helpID="err_no_old_objs_registered_r"
+               path="err_no_old_objs_registered_r.html"/>
+   <appContext helpID="err_no_printer_currently_sel_r"
+               path="err_no_printer_currently_sel_r.html"/>
+   <appContext helpID="err_none_of_the_sel_databs_r"
+               path="err_none_of_the_sel_databs_r.html"/>
+   <appContext helpID="err_no_sendto_field_r" path="err_no_sendto_field_r.html"/>
+   <appContext helpID="err_obj_fail_to_respond_r"
+               path="err_obj_fail_to_respond_r.html"/>
+   <appContext helpID="err_obj_request_not_complete_r"
+               path="err_obj_request_not_complete_r.html"/>
+   <appContext helpID="err_obj_serv_failed_create_r"
+               path="err_obj_serv_failed_create_r.html"/>
+   <appContext helpID="err_ole_no_create_storage_r"
+               path="err_ole_no_create_storage_r.html"/>
+   <appContext helpID="err_only_envir_default_field_r"
+               path="err_only_envir_default_field_r.html"/>
+   <appContext helpID="err_only_text_can_be_pasted_r"
+               path="err_only_text_can_be_pasted_r.html"/>
+   <appContext helpID="err_opening_more_windows_r"
+               path="err_opening_more_windows_r.html"/>
+   <appContext helpID="err_permant_del_datab_onserv_r"
+               path="err_permant_del_datab_onserv_r.html"/>
+   <appContext helpID="err_permant_del_datab_local_r"
+               path="err_permant_del_datab_local_r.html"/>
+   <appContext helpID="err_please_place_cursor_r"
+               path="err_please_place_cursor_r.html"/>
+   <appContext helpID="err_query_not_understood_r"
+               path="err_query_not_understood_r.html"/>
+   <appContext helpID="err_remote_pathname_r" path="err_remote_pathname_r.html"/>
+   <appContext helpID="err_remote_sys_no_longer_resp_r"
+               path="err_remote_sys_no_longer_resp_r.html"/>
+   <appContext helpID="err_remote_sys_not_respond_r"
+               path="err_remote_sys_not_respond_r.html"/>
+   <appContext helpID="err_remove_select_items_r"
+               path="err_remove_select_items_r.html"/>
+   <appContext helpID="err_remove_app_del_priv_views_r"
+               path="err_remove_app_del_priv_views_r.html"/>
+   <appContext helpID="err_replace_des_changes_views_r"
+               path="err_replace_des_changes_views_r.html"/>
+   <appContext helpID="err_replication_not_permitted_r"
+               path="err_replication_not_permitted_r.html"/>
+   <appContext helpID="err_select_font_inconsistent_r"
+               path="err_select_font_inconsistent_r.html"/>
+   <appContext helpID="err_server_err_insuf_memory_r"
+               path="err_server_err_insuf_memory_r.html"/>
+   <appContext helpID="err_server_err_signa_invalid_r"
+               path="err_server_err_signa_invalid_r.html"/>
+   <appContext helpID="err_some_prefs_not_effect_r"
+               path="err_some_prefs_not_effect_r.html"/>
+   <appContext helpID="err_app_to_open_doc_not_fnd_r"
+               path="err_app_to_open_doc_not_fnd_r.html"/>
+   <appContext helpID="err_need_designer_access_r"
+               path="err_need_designer_access_r.html"/>
+   <appContext helpID="err_acl_full_r" path="err_acl_full_r.html"/>
+   <appContext helpID="err_certs_not_yours_no_merge_r"
+               path="err_certs_not_yours_no_merge_r.html"/>
+   <appContext helpID="err_app_cannot_be_read_r" path="err_app_cannot_be_read_r.html"/>
+   <appContext helpID="err_doclink_app_not_located_r"
+               path="err_doclink_app_not_located_r.html"/>
+   <appContext helpID="err_exec_program_lib_no_found_r"
+               path="err_exec_program_lib_no_found_r.html"/>
+   <appContext helpID="err_first_categorized_column_r"
+               path="err_first_categorized_column_r.html"/>
+   <appContext helpID="err_id_file_is_safe_copy_r"
+               path="err_id_file_is_safe_copy_r.html"/>
+   <appContext helpID="err_id_file_locked_r" path="err_id_file_locked_r.html"/>
+   <appContext helpID="err_linked_doc_not_in_view_r"
+               path="err_linked_doc_not_in_view_r.html"/>
+   <appContext helpID="err_max_space_exceeded_r" path="err_max_space_exceeded_r.html"/>
+   <appContext helpID="err_dom_serv_not_known_host_r"
+               path="err_dom_serv_not_known_host_r.html"/>
+   <appContext helpID="err_notesini_not_found_r" path="err_notesini_not_found_r.html"/>
+   <appContext helpID="err_obj_app_no_support_format_r"
+               path="err_obj_app_no_support_format_r.html"/>
+   <appContext helpID="err_remote_serv_not_known_host_r"
+               path="err_remote_serv_not_known_host_r.html"/>
+   <appContext helpID="err_remote_tcpip_not_dom_serv_r"
+               path="err_remote_tcpip_not_dom_serv_r.html"/>
+   <appContext helpID="err_serv_no_support_passthru_r"
+               path="err_serv_no_support_passthru_r.html"/>
+   <appContext helpID="err_id_corrupt_or_not_id_file_r"
+               path="err_id_corrupt_or_not_id_file_r.html"/>
+   <appContext helpID="err_no_enabled_archive_sets_r"
+               path="err_no_enabled_archive_sets_r.html"/>
+   <appContext helpID="err_no_libraries_in_bookmarks_r"
+               path="err_no_libraries_in_bookmarks_r.html"/>
+   <appContext helpID="err_app_cannot_be_read_2_r"
+               path="err_app_cannot_be_read_2_r.html"/>
+   <appContext helpID="err_doc_cannot_be_displayed_r"
+               path="err_doc_cannot_be_displayed_r.html"/>
+   <appContext helpID="err_doc_data_may_compromise_r"
+               path="err_doc_data_may_compromise_r.html"/>
+   <appContext helpID="err_doc_links_external_obj_r"
+               path="err_doc_links_external_obj_r.html"/>
+   <appContext helpID="err_doc_is_read_only_r" path="err_doc_is_read_only_r.html"/>
+   <appContext helpID="err_name_not_in_dir_r" path="err_name_not_in_dir_r.html"/>
+   <appContext helpID="err_op_cannot_be_undone_r"
+               path="err_op_cannot_be_undone_r.html"/>
+   <appContext helpID="err_op_delete_workspace_pg_r"
+               path="err_op_delete_workspace_pg_r.html"/>
+   <appContext helpID="err_op_not_support_id_version_r"
+               path="err_op_not_support_id_version_r.html"/>
+   <appContext helpID="err_bookmark_corrupt_r" path="err_bookmark_corrupt_r.html"/>
+   <appContext helpID="err_create_graphic_copy_to_r"
+               path="err_create_graphic_copy_to_r.html"/>
+   <appContext helpID="err_unable_find_path_server_r"
+               path="err_unable_find_path_server_r.html"/>
+   <appContext helpID="err_unable_find_server_port_r"
+               path="err_unable_find_server_port_r.html"/>
+   <appContext helpID="err_unable_interp_time_date_r"
+               path="err_unable_interp_time_date_r.html"/>
+   <appContext helpID="err_unable_load_desktop6ndk_r"
+               path="err_unable_load_desktop6ndk_r.html"/>
+   <appContext helpID="err_unable_open_name_add_r"
+               path="err_unable_open_name_add_r.html"/>
+   <appContext helpID="err_unrecognized_chars_r" path="err_unrecognized_chars_r.html"/>
+   <appContext helpID="err_unable_create_location_r"
+               path="err_unable_create_location_r.html"/>
+   <appContext helpID="err_unable_establish_connex_r"
+               path="err_unable_establish_connex_r.html"/>
+   <appContext helpID="err_no_certificates_in_common_r"
+               path="err_no_certificates_in_common_r.html"/>
+   <appContext helpID="err_no_access_database_r" path="err_no_access_database_r.html"/>
+   <appContext helpID="err_not_authorized_create_new_r"
+               path="err_not_authorized_create_new_r.html"/>
+   <appContext helpID="err_not_authorized_delete_r"
+               path="err_not_authorized_delete_r.html"/>
+   <appContext helpID="err_not_authorized_perform_op_r"
+               path="err_not_authorized_perform_op_r.html"/>
+   <appContext helpID="err_not_authorized_use_server_r"
+               path="err_not_authorized_use_server_r.html"/>
+   <appContext helpID="err_no_text_selected_r" path="err_no_text_selected_r.html"/>
+   <appContext helpID="err_cannot_open_app_r" path="err_cannot_open_app_r.html"/>
+   <appContext helpID="err_no_mailfile_specified_r"
+               path="err_no_mailfile_specified_r.html"/>
+   <appContext helpID="err_no_mail_server_specified_r"
+               path="err_no_mail_server_specified_r.html"/>
+   <appContext helpID="err_outgoing_mail_pending_r"
+               path="err_outgoing_mail_pending_r.html"/>
+   <appContext helpID="err_add_mail_file_to_notes_r"
+               path="err_add_mail_file_to_notes_r.html"/>
+   <appContext helpID="err_change_to_list_of_addr_bk_r"
+               path="err_change_to_list_of_addr_bk_r.html"/>
+   <appContext helpID="err_app_priveleges_changed_r"
+               path="err_app_priveleges_changed_r.html"/>
+   <appContext helpID="err_id_file_corrupted_r" path="err_id_file_corrupted_r.html"/>
+   <appContext helpID="err_id_not_certified_r" path="err_id_not_certified_r.html"/>
+   <appContext helpID="err_name_listed_with_diff_id_r"
+               path="err_name_listed_with_diff_id_r.html"/>
+   <appContext helpID="err_request_to_compact_r" path="err_request_to_compact_r.html"/>
+   <appContext helpID="err_file_already_exists_r"
+               path="err_file_already_exists_r.html"/>
+   <appContext helpID="err_name_not_found_r" path="err_name_not_found_r.html"/>
+   <appContext helpID="booknotices" path="notices.html"/>
+</map>
