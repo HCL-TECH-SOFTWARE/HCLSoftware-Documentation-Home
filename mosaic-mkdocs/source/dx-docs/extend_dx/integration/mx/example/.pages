@@ -1,0 +1,5 @@
+nav:
+  - index.md
+  - integrate_mx_data_to_dx.md
+  - integrate_dx_api_mx.md
+  - integrate_mx_portlet_to_dx.md

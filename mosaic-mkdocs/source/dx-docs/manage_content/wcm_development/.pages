@@ -1,0 +1,8 @@
+title: Extend Web Content Manager
+nav:
+    - index.md 
+    - HCL Web Content Manager API: wcm_dev_api
+    - wcm_custom_plugin
+    - REST service for Web Content Manager: wcm_rest
+    - REST service for Web Content Manager: wcm_rest_v2
+    - ...
