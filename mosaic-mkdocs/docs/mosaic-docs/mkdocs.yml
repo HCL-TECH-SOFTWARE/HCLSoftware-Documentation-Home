@@ -1,0 +1,97 @@
+#Project Information
+site_name: HCL Leap 9.3.12 Help Center
+site_description: >
+  A next-gen documentation site for HCL Leap.
+site_url: https://opensource.hcltechsw.com/leap-doc/latest/
+use_directory_urls: false
+docs_dir: 9.3.12
+site_dir: docs/9.3.12
+exclude_docs: |
+  dleap_*
+
+not_in_nav: |
+  ref_send_email.md
+  ovr_ckeditor_details.md
+
+# Theme Configuration
+theme:
+  name: material
+  logo: assets/CNX_logo.png
+  favicon: assets/favicon.png
+  language: en
+  features:
+    - content.code.select
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.top
+    - navigation.instant
+    - search.highlight
+    - search.share
+    - search.suggest
+  custom_dir: theme_overrides/
+  icon:
+    repo: fontawesome/brands/github
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+# Static files
+  static_templates:
+    - 404.html
+
+# Markdown Extensions
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - toc:
+      title: On this page
+ # - pymdownx.emoji:
+  #    emoji_index: !!python/name:material.extensions.emoji.twemoji
+   #   emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+#  analytics: 
+#    provider: custom
+#    property: UA-169645537-2
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/HCL-TECH-SOFTWARE
+  version:
+    provider: mike
+  isLeap: true
+  isDominoLeap: false 
+  fullProductName: HCL Leap
+  shortProductName: Leap 
+  oldDocsUrl: https://help.hcl-software.com/Leap/9.3.4/index.html
+  oldDocsVersionStr: Leap 9.3.4
+  deployUrl: in_overview.md
+  currentVersion: 9.3.12
+  msEntraName: Microsoft Entra ID
+  leap_flavor: leap
+  context: apps
+  apiContext: apps-basic
+  
+
+# Repository
+repo_url: https://github.com/HCL-TECH-SOFTWARE/leap-doc
+repo_name: hcl-software/leap-doc
+edit_uri: edit/main/docs
+
+# Customization
+extra_css:
+  - assets/stylesheets/style.css
+
+plugins:
+  - section-index
+  - search
+  - macros
+  
+ #Table of contents 
+nav:
+# HCL Connections Documentation
+      - Introducing HCL Mosaic: index.md
+# What's New
+      - What&apos;s New&quest;: whatsnew.md   
